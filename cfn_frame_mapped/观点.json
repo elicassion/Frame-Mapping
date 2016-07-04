@@ -1,0 +1,212 @@
+{
+    "fdInfo": {
+        "eName": "Opinion", 
+        "cName": "观点", 
+        "des": "一个认知者对某现象持有某一观点。"
+    }, 
+    "frameId": 12, 
+    "lexElmt": [
+        {
+            "word": "当", 
+            "POS": "v"
+        }, 
+        {
+            "word": "道", 
+            "POS": "v"
+        }, 
+        {
+            "word": "观点", 
+            "POS": "n"
+        }, 
+        {
+            "word": "呼吁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坚持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看法", 
+            "POS": "n"
+        }, 
+        {
+            "word": "力持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "认为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "信念", 
+            "POS": "n"
+        }, 
+        {
+            "word": "信条", 
+            "POS": "n"
+        }, 
+        {
+            "word": "以为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "意见", 
+            "POS": "n"
+        }, 
+        {
+            "word": "执", 
+            "POS": "v"
+        }, 
+        {
+            "word": "主张", 
+            "POS": "n"
+        }, 
+        {
+            "word": "主张", 
+            "POS": "v"
+        }, 
+        {
+            "word": "作如是观", 
+            "POS": "i"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "认知者", 
+            "isCore": false, 
+            "def": "认知者是提出观点的人。"
+        }, 
+        {
+            "abbrName": "opi", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "观点", 
+            "isCore": false, 
+            "def": "认知者的想法，这种想法不一定被接受，并且它一般是基于认知者的立场提出的。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "认知者在观点中所考虑的对象。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "坚定性", 
+            "isCore": false, 
+            "def": "认知者持有某一观点的坚定程度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "所考虑的观点所属的范畴。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "认知者的观点所依赖的事件或事物状态。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "描述认知者如何持有某一观点，这种描述不属于更具体一些的框架元素；是一个杂类，那些无法归入其他元素的外围成分，只要是对事件本身的描述，都属于该元素。 "
+        }, 
+        {
+            "abbrName": "role", 
+            "eName": "Role", 
+            "isMapped": true, 
+            "cName": "身份", 
+            "isCore": false, 
+            "def": "表示认知者或思考对象的身份或所属范畴。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "isMapped": true, 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "认知者的观点所涉及的事物，注意在这个框架中，由\"对/对于\"引导的介词短语表示的是现象，不是关涉，典型的关涉是由\"关于\"、\"就\"（如\"就这个问题\"）等引导的介词短语。"
+        }, 
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Cognizer is the person whose Opinion is in question. \n\nMy take is that Johnson will not actually make it to the last round .\nEveryone is entitled to their opinion ."
+        }, 
+        {
+            "abbrName": "opi", 
+            "eName": "Opinion", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Cognizer's way of thinking, which is not necessarily generally accepted, and which is generally dependent on the Cognizer's point of view.\n\nMy take is that it is a version of the Macbeth story - what happens when people\nbecome violent but cannot quite handle it.\nSvetlana knew that it was Sergei's view that the Berlin crises were merely a charade which it was necessary for both sides to enact and re-enact every few years.\nHer child-like portrayal only manages to live up to the other characters' view of her as the deranged little sister.\n"
+        }, 
+        {
+            "abbrName": "evi", 
+            "eName": "Evidence", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The events or states-of-affairs that form the basis for the Cognizer's Opinion.\n\nFrom what I've seen so far, my opinion is that it won't really matter.\n"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Constancy", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The level of firmness with which the Cognizer holds an opinion.  It refers to the amount of convincing that they would need to change their mind.\n\nI really think that you should reconsider. "
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The aspects of the Opinion (and its Topic, if any) which are under consideration.\n\nWe seemed to have two quite different moral views about this situation.\nNoone could take seriously Dr. Furst's ill-advised medical opinion that Terry was still alive."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Time at which the Cognizer has the Opinion. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Circumstances", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. "
+        }
+    ]
+}

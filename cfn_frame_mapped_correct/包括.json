@@ -1,0 +1,164 @@
+{
+    "fdInfo": {
+        "eName": "Inclusion", 
+        "cName": "包括", 
+        "des": "部分包含在整体中，部分指集合体的一部分或简单实体的一个组成部分。"
+    }, 
+    "frameId": 30, 
+    "lexElmt": [
+        {
+            "word": "包", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包含", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包举", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包括", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包罗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包孕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "包蕴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "分为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "富含", 
+            "POS": "v"
+        }, 
+        {
+            "word": "构成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "含", 
+            "POS": "v"
+        }, 
+        {
+            "word": "含有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "涵盖", 
+            "POS": "v"
+        }, 
+        {
+            "word": "容纳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "涉及", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蕴含", 
+            "POS": "v"
+        }, 
+        {
+            "word": "组成", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "par", 
+            "eName": "Part", 
+            "isMapped": true, 
+            "cName": "部分", 
+            "isCore": true, 
+            "def": "组成整体的成分或某一部分。"
+        }, 
+        {
+            "abbrName": "tot", 
+            "eName": "Total", 
+            "isMapped": true, 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "以一个集合或单位的形式出现的复杂的实体，部分以成分或组成部分的形式隶属于这个整体。"
+        }, 
+        {
+            "abbrName": "con_set", 
+            "eName": "Contrast_set", 
+            "isMapped": true, 
+            "cName": "对比集", 
+            "isCore": false, 
+            "def": "此框架元素指的是整体中包含的其他要素。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "此框架元素确定整体包含部分的频率"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "此框架元素指的是某些暗示的（未表达出的）导致整体包含部分的原因。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "此框架元素指的是整体的下一级，这一级中包含着部分"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Manner", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Any description of the inclusion event which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). "
+        }, 
+        {
+            "abbrName": "tim", 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Time at which the Total includes the Part.\n\nLast year the recognized departments included the Russian and East European Institute, and the Office of International Programs."
+        }, 
+        {
+            "abbrName": "pla", 
+            "eName": "Place", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The location at which the Total includes the Part.\n\nIn California, the category excludes minors and the mentally ill."
+        }
+    ]
+}

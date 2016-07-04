@@ -1,0 +1,164 @@
+{
+    "fdInfo": {
+        "eName": "Existence", 
+        "cName": "存现", 
+        "des": "表示实体的存在，一般不考虑它的位置或者有无具体指定什么位置的可能性。这里会提及时间、持续期、内在目的和状态。"
+    }, 
+    "frameId": 39, 
+    "lexElmt": [
+        {
+            "word": "存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "存在", 
+            "POS": "v"
+        }, 
+        {
+            "word": "没有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "生存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "是", 
+            "POS": "v"
+        }, 
+        {
+            "word": "无", 
+            "POS": "v"
+        }, 
+        {
+            "word": "现存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有", 
+            "POS": "v"
+        }, 
+        {
+            "word": "在", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "isMapped": true, 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "存在的某个抽象的抑或是具体的实体。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": false, 
+            "cName": "施动者", 
+            "isCore": false, 
+            "def": "致使实体存在的有意识的人。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": false, 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导致实体存在的无意识的环境、力。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "表示实体存在状态的环境表达。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "实体存在的时期。"
+        }, 
+        {
+            "abbrName": "inh_purp", 
+            "eName": "Inherent_purpose", 
+            "isMapped": true, 
+            "cName": "内在目的", 
+            "isCore": false, 
+            "def": "实体得以存在的原因。一般指实体创造的具体原因。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体存在的地点。"
+        }, 
+        {
+            "abbrName": "pov", 
+            "eName": "Point_of_view", 
+            "isMapped": false, 
+            "cName": "视角", 
+            "isCore": false, 
+            "def": "判断实体或势态存在与否的某个个体的视角。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "isMapped": true, 
+            "cName": "状态", 
+            "isCore": false, 
+            "def": "实体存在的情形。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体存在的时间。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A situation, force, or entity which brings about the existence of the Entity."
+        }, 
+        {
+            "abbrName": "Vie", 
+            "eName": "Viewpoint", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The perspective of an individual who judges whether they consider the Entity (or further state of affairs) to exist or not.\n\nFor him, there 's just too much drink in the world."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Concessive", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the concessive clause. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Depictive", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. "
+        }
+    ]
+}

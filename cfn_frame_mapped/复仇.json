@@ -1,0 +1,148 @@
+{
+    "fdInfo": {
+        "eName": "Revenge", 
+        "cName": "复仇", 
+        "des": "该框架指以惩报冤。由于冒犯者之前的伤害行为，复仇者对冒犯者做出惩罚。复仇者给予的惩罚不需要与遭受伤害的受害方一致，然而复仇者的确要认同冒犯者的行为是错误。对冒犯者已经造成伤害的判断是未考虑法律的。"
+    }, 
+    "frameId": 493, 
+    "lexElmt": [
+        {
+            "word": "报仇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "报复", 
+            "POS": "v"
+        }, 
+        {
+            "word": "报怨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "复仇", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雪恨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "雪恨", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容指描述行动者行为的词组。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "复仇者为伤害而寻求报复的时间长度。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素指出了实行复仇所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素指复仇者要向冒犯者复仇的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素描述了复仇发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素描述了进行复仇的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "该框架元素指因遭受冤屈而施加惩罚的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素指复仇发生的时间。"
+        }, 
+        {
+            "abbrName": "Agt", 
+            "eName": "Avenger", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Avenger exacts revenge from the Offender for the Injury.\n\n We want to avenge her. "
+        }, 
+        {
+            "abbrName": "Off", 
+            "eName": "Offender", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Offender has committed the earlier Injury for which the Avenger seeks revenge.\n\nJo had the affair as a kind of revenge against Pat.\nMarie took terrible revenge on Trevor."
+        }, 
+        {
+            "abbrName": "Pun", 
+            "eName": "Punishment", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Avenger carries out a Punishment in order to exact revenge on the Offender.\n\nThe team took revenge with a resounding victory."
+        }, 
+        {
+            "abbrName": "Injry", 
+            "eName": "Injury", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Injury is the injurious action committed by the Offender against the Injured_Party. This Frame Element need not always be realized, although it is conceptually necessary. \n\nThe team sought revenge for their 4-1 defeat last month."
+        }, 
+        {
+            "abbrName": "Injrd_prty", 
+            "eName": "Injured_party", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "This frame element identifies the constituent that encodes who or what suffered the Injury at the hands of the Offender. Sometimes, an abstract concept such a person's honour or their blood is presented as the element that has suffered the Injury. These also constitute instances of  Injured_party \n\nSam's brothers avenged him.\nWe will decide later how to avenge the blood of the fallen."
+        }
+    ]
+}

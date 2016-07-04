@@ -1,0 +1,184 @@
+{
+    "fdInfo": {
+        "eName": "Communication", 
+        "cName": "减刑", 
+        "des": "人民法院将原来的刑罚改为新的较轻的刑罚，接受原来刑罚的罪犯通常被表示为改造者。"
+    }, 
+    "frameId": 208, 
+    "lexElmt": [
+        {
+            "word": "减刑", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "isMapped": false, 
+            "cName": "法院", 
+            "isCore": false, 
+            "def": "法律确定的具有减刑权的机构。"
+        }, 
+        {
+            "abbrName": "ori_puni", 
+            "eName": "Original_punishment", 
+            "isMapped": false, 
+            "cName": "原来的刑罚", 
+            "isCore": false, 
+            "def": "罪犯原来被课处的刑罚。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对减刑的描述，由更多的明确的框架元素表述出来。它可能也指出了人民法院影响行为的显著特征。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "人民法院完成减刑所采取的行为。"
+        }, 
+        {
+            "abbrName": "new_puni", 
+            "eName": "New_punishment", 
+            "isMapped": false, 
+            "cName": "新的刑罚", 
+            "isCore": false, 
+            "def": "人民法院对罪犯判处的新的较轻的刑罚。"
+        }, 
+        {
+            "abbrName": "offender", 
+            "eName": "Offender", 
+            "isMapped": false, 
+            "cName": "罪犯", 
+            "isCore": false, 
+            "def": "被宣告有罪并被判处刑罚(原来的刑罚)的人。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "人民法院减轻原来刑罚的地点。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "isMapped": false, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "人民法院减轻原来刑罚的原因"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "原来的刑罚被减刑的时间。"
+        }, 
+        {
+            "abbrName": "Com", 
+            "eName": "Communicator", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The sentient entity that uses language in the written or spoken modality to convey a Message to another person. \nHe finds it hard to communicate with people, not least his separated parents . "
+        }, 
+        {
+            "abbrName": "Add", 
+            "eName": "Addressee", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Addressee receives a Message from the Communicator. \nThe company must be able to communicate to potential customers the way in which its product would satisfy their needs, and provide competitive value. "
+        }, 
+        {
+            "abbrName": "Msg", 
+            "eName": "Message", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "Message A proposition or set of propositions that the Communicator wants the Addressee to believe or take for granted. \nHow do you communicate to them that you really like them ?  "
+        }, 
+        {
+            "abbrName": "Top", 
+            "eName": "Topic", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "Topic is the entity that the proposition or propositions conveyed relate to, that they are about. \nHad someone communicated to the capital about the flagrant disregard of the religious law ? "
+        }, 
+        {
+            "abbrName": "Medium", 
+            "eName": "Medium", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The physical or abstract setting in which the Message is conveyed. \nOpinions are usually communicated over the telephone and are often given within 24 hours. "
+        }, 
+        {
+            "abbrName": "Amo", 
+            "eName": "Amount_of_information", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The amount of information exchanged when communication occurs.\nHe never really fully communicated his intentions."
+        }, 
+        {
+            "abbrName": "Dep-Act", 
+            "eName": "Depictive", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Depictive describes the state of the Communicator."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Duration", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Duration is the length of time during which the communication takes place."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Frequency", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE describes the number of times per unit of time that the Communicator conveys a Message."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Purpose", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The purpose for which a Communicator communicates."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Content", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Content of a Communication is not always concretely described -- but nonetheless Content contains information (usually regarding a frame) that a Communicator transmits to the Addressee."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Quote", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Quote is the concrete record of a communication act."
+        }
+    ]
+}

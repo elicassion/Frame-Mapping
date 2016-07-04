@@ -1,0 +1,128 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_collect", 
+        "cName": "收款", 
+        "des": "卖方接收买方支付的货币。"
+    }, 
+    "frameId": 204, 
+    "lexElmt": [
+        {
+            "word": "扣", 
+            "POS": "v"
+        }, 
+        {
+            "word": "扣除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收款", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收取", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "isMapped": true, 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "购买商品的一方。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "isMapped": true, 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "该框架元素可以是以钱交易的物品，也包括劳动或时间等。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "isMapped": true, 
+            "cName": "货币", 
+            "isCore": true, 
+            "def": "货币是用来进行商品交易所付出的特殊商品。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "isMapped": true, 
+            "cName": "单位价格", 
+            "isCore": true, 
+            "def": "指单位商品的价格"
+        }, 
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "isMapped": true, 
+            "cName": "卖方", 
+            "isCore": true, 
+            "def": "销售商品的一方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对收款活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进行交易的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施有意行为的目的。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "isMapped": true, 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以衡量商品或服务的任何单位，用介词“按”或代词“每”等表示。"
+        }
+    ]
+}

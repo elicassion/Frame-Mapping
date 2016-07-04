@@ -1,0 +1,160 @@
+{
+    "fdInfo": {
+        "eName": "Preserving", 
+        "cName": "防腐保鲜", 
+        "des": "施动者为了防止受体变质而对其进行保存；保存时，可能会使用介质。"
+    }, 
+    "frameId": 309, 
+    "lexElmt": [
+        {
+            "word": "保存", 
+            "POS": "v"
+        }, 
+        {
+            "word": "防腐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "风干", 
+            "POS": "v"
+        }, 
+        {
+            "word": "晾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "晒", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "熏制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腌", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腌制", 
+            "POS": "v"
+        }, 
+        {
+            "word": "腌渍", 
+            "POS": "v"
+        }, 
+        {
+            "word": "渍", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者指的是履行保存这个有意行为的人。"
+        }, 
+        {
+            "abbrName": "Pat", 
+            "eName": "Patient", 
+            "isMapped": true, 
+            "cName": "经历体", 
+            "isCore": false, 
+            "def": "受体就是被保存的有机物质。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "isMapped": true, 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "媒介是受体被淹没其中以达到防腐保鲜目的的物质。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "受体被保存的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述某一个参与者时所用的修饰性短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "保存过程持续的时间长短。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "施动者进行保存的器具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者保存受体的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "施动者保存对受体的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "保存行为发生的空间场所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者对受体进行保存的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "行为产生的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者保存受体的时间。"
+        }, 
+    ]
+}

@@ -1,0 +1,280 @@
+{
+    "fdInfo": {
+        "eName": "Memory", 
+        "cName": "记忆", 
+        "des": "该框架表示认知者用大脑记住或忘记某内容。"
+    }, 
+    "frameId": 13, 
+    "lexElmt": [
+        {
+            "word": "服膺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回顾", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回溯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回想", 
+            "POS": "v"
+        }, 
+        {
+            "word": "回忆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记取", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记忆", 
+            "POS": "n"
+        }, 
+        {
+            "word": "记忆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "记住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "镌心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刻骨铭心", 
+            "POS": "i"
+        }, 
+        {
+            "word": "刻肌刻骨", 
+            "POS": "i"
+        }, 
+        {
+            "word": "牢记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "镂心刻骨", 
+            "POS": "i"
+        }, 
+        {
+            "word": "铭记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铭记镂骨", 
+            "POS": "i"
+        }, 
+        {
+            "word": "铭心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "铭心刻骨", 
+            "POS": "i"
+        }, 
+        {
+            "word": "铭著肺腑", 
+            "POS": "i"
+        }, 
+        {
+            "word": "铭篆", 
+            "POS": "v"
+        }, 
+        {
+            "word": "念念不忘", 
+            "POS": "i"
+        }, 
+        {
+            "word": "念兹在兹", 
+            "POS": "i"
+        }, 
+        {
+            "word": "抛到九霄云外", 
+            "POS": "i"
+        }, 
+        {
+            "word": "切记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拳拳服膺", 
+            "POS": "i"
+        }, 
+        {
+            "word": "失记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忘掉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忘记", 
+            "POS": "v"
+        }, 
+        {
+            "word": "忘却", 
+            "POS": "v"
+        }, 
+        {
+            "word": "想起", 
+            "POS": "v"
+        }, 
+        {
+            "word": "言犹在耳", 
+            "POS": "i"
+        }, 
+        {
+            "word": "遗忘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "永志不忘", 
+            "POS": "i"
+        }, 
+        {
+            "word": "犹在心目", 
+            "POS": "i"
+        }, 
+        {
+            "word": "置于脑后", 
+            "POS": "i"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "isMapped": true, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "记忆内容的所有者。"
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "isMapped": true, 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "内容指的是认知者记住或忘记的信息或经历。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": " 认知者记忆内容时所处的物理环境或社会状况。\r\n"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "动作行为本身持续的时间数量或者动作重复进行所用的时间数量。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "表示目标词所表示的动作行为所处的状态，该元素是一个杂类，用来概括那些无法归入其他更具体的框架元素的语义成分。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "动作行为所采取的方法、形式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "空间是记忆或忘记发生的地方。"
+        }, 
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "记忆或遗忘发生的原因。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果表示记住或忘记内容的后果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "记忆某内容的时间。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "isMapped": true, 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": "记忆内容所关涉的主题，用介词短语\"关于……\"\"就……\"\"在这个问题上\"等表示。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "Dep", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "Depictive phrase describing the actor of an action."
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Experience", 
+            "isMapped": true, 
+            "cName": "经历", 
+            "isCore": false, 
+            "def": "An event (or period of time standing in for events) that the Cognizer has experienced that leads to the Cognizer remembering the Content.\nThen I remembered from our summer together that he frowned on smoking."
+        }
+    ]
+}

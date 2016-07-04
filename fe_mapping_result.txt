@@ -1,0 +1,5 @@
+Mapped FEs: 3690
+UnMapped CFN FEs: 361
+No English Name CFN FEs: 57
+Pure UnMapped CFN FEs: 304
+UnMapped FN FEs: 808

@@ -1,0 +1,83 @@
+{
+    "fdInfo": {
+        "eName": "Court_examination", 
+        "cName": "法庭询问", 
+        "des": "在法庭审理过程中询问者向证人问一些问题"
+    }, 
+    "frameId": 213, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "quener", 
+            "eName": "Questioner", 
+            "isMapped": true, 
+            "cName": "询问者", 
+            "isCore": true, 
+            "def": "向证人发问的人。"
+        }, 
+        {
+            "abbrName": "witness", 
+            "eName": "Witness", 
+            "isMapped": true, 
+            "cName": "证人", 
+            "isCore": true, 
+            "def": "为了作证，出席法庭的人，已经在法庭上宣誓，并且将接受询问者的询问。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "询问持续的时间。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "询问者询问证人的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "询问者询问证人的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "询问的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "询问的目的"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "询问所用的时间。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "isMapped": true, 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "和询问有关系的话题。"
+        }
+    ]
+}

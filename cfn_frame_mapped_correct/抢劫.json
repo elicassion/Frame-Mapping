@@ -1,0 +1,148 @@
+{
+    "fdInfo": {
+        "eName": "Robbery", 
+        "cName": "抢劫", 
+        "des": "以非法占有为目的，以暴力、胁迫或者其他方法，强行劫取公私财物的行为。"
+    }, 
+    "frameId": 282, 
+    "lexElmt": [
+        {
+            "word": "持枪抢劫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "劫匪", 
+            "POS": "n"
+        }, 
+        {
+            "word": "强盗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "抢夺", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抢劫", 
+            "POS": "n"
+        }, 
+        {
+            "word": "抢劫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "抢掠", 
+            "POS": "n"
+        }, 
+        {
+            "word": "缺乏判断力", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "isMapped": true, 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "使用暴力、胁迫或其他方法劫取他人财物的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "isMapped": true, 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "遭到抢劫的人"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "抢劫事件发生的次数"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "isMapped": true, 
+            "cName": "商品", 
+            "isCore": false, 
+            "def": "受害者所有，被抢劫分子劫取的财物。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对抢劫事件进行的形容和描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "抢劫者实施抢劫行为所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "抢劫事件发生的地点"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "抢劫者实施抢劫的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "isMapped": false, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "促使抢劫者实施抢劫的内心动因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "抢劫事件发生的时间 。"
+        }, 
+        {
+            "abbrName": "Src", 
+            "eName": "Source", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "Source is the initial location of the goods, before they change location.\nLeslie and Kim robbed a bank\nThis FE is realized in compound nouns as follows:\nbank robbery"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The state of affairs that the Perpetrator has in mind which leads to the decision to commit the robbery.\n\nListen, I just mug people 'cause I got mouths to feed -- nothing personal."
+        }, 
+        {
+            "abbrName": "co-p", 
+            "eName": "Co-participant", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Co-participant denotes a person that participates in a coordinated way in robbery event as the primary protagonist, the Perpetrator."
+        }
+    ]
+}

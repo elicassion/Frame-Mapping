@@ -1,0 +1,160 @@
+{
+    "fdInfo": {
+        "eName": "Activity_ongoing", 
+        "cName": "行为进行", 
+        "des": "施动者所从事的处于动态稳定性的行为。"
+    }, 
+    "frameId": 57, 
+    "lexElmt": [
+        {
+            "word": "保持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "持续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "继续", 
+            "POS": "n"
+        }, 
+        {
+            "word": "继续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "坚持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维持", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指参与了某一正在进行的行为的有意识的实体。"
+        }, 
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "这个框架元素指施动者参与的正在进行的行为。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": false, 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "造成行为处于动态稳定性的无意识的事件或事物。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素是用于描述动作行为者或经历者的描述性的短语。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": true, 
+            "def": "某一行为持续时间的长短。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者进行某一正在进行的行为的表现样式（修饰）"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者所进行某一正在进行的行为所凭借的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "正在进行的行为发生的空间。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者所从事正在进行的行为的目的。"
+        }, 
+        {
+            "abbrName": "subv", 
+            "eName": "Subevent", 
+            "isMapped": false, 
+            "cName": "亚事件", 
+            "isCore": false, 
+            "def": "施动者继续某一行为的亚事件。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "正在进行的行为发生的时间。"
+        }, 
+        {
+            "abbrName": "Co-t", 
+            "eName": "Co-timed_event", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE identifies the Co-timed_event with which the Agent continues an ongoing Activity.We continued the meeting with a discussion of the crisis in Africa."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Event_description", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "In general, this FE is used for phrases that describe the clause of the target as a whole. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Circumstances", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. "
+        }
+    ]
+}

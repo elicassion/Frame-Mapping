@@ -1,0 +1,144 @@
+{
+    "fdInfo": {
+        "eName": "Subjective_influence", 
+        "cName": "主观影响", 
+        "des": "外界事物（刺激物）对认知者产生影响，这种影响可能是普遍性的，也可能导致认知者采取某一行动，或者认知者由于受到刺激物的影响而产生某种新事物（产物）。"
+    }, 
+    "frameId": 123, 
+    "lexElmt": [
+        {
+            "word": "刺激", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鼓动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "鼓舞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激励", 
+            "POS": "v"
+        }, 
+        {
+            "word": "激扬", 
+            "POS": "v"
+        }, 
+        {
+            "word": "启发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "振奋", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "isMapped": true, 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "认知者受到一个刺激物的影响，决定采取某种行为。"
+        }, 
+        {
+            "abbrName": "cog", 
+            "eName": "Cognizer", 
+            "isMapped": true, 
+            "cName": "认知者", 
+            "isCore": true, 
+            "def": "受到刺激物影响的人"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "isMapped": true, 
+            "cName": "刺激物", 
+            "isCore": true, 
+            "def": "对认知者有影响的人或物。"
+        }, 
+        {
+            "abbrName": "produ", 
+            "eName": "Product", 
+            "isMapped": true, 
+            "cName": "产物", 
+            "isCore": true, 
+            "def": "用一个实体代指产生这个实体的行为或思维过程。"
+        }, 
+        {
+            "abbrName": "sit", 
+            "eName": "Situation", 
+            "isMapped": true, 
+            "cName": "情况", 
+            "isCore": true, 
+            "def": "A state of affairs--- which can be an event, state or conditions---that has an influence on the Cognizer.\n\n\nThe balmy temperatures inspired me to write a poem on the advent of spring.\nHecker said that although the sheer age of the building inspired him to preserve its heritage aspects he also designed its interiors around the ·clean and fresh· mood of Queensland."
+        }, 
+        {
+            "abbrName": "beh", 
+            "eName": "Behavior", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "A Behavior that the Cognizer is engaged in independently but whose execution is subsequently influenced by the Situation or Entity.\n\nAttention will also be paid to St. Paul , what influenced him in his thinking and what he wrote in his letters about sex, sexuality, men and women"
+        }, 
+        {
+            "abbrName": "Tim", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "The Time at which the Subjective_influencing event occurs."
+        }, 
+        {
+            "abbrName": "Eve", 
+            "eName": "Event_description", 
+            "isMapped": true, 
+            "cName": "事件描述", 
+            "isCore": false, 
+            "def": "This FE applies to appraisals of the Subjective_influence event. "
+        }, 
+        {
+            "abbrName": "Age", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "The Agent acts to influence a Cognizer."
+        }, 
+        {
+            "abbrName": "pla", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "The location in which one has influence.\n\nChavez has much influence in South America."
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "主要领域", 
+            "isCore": false, 
+            "def": "The field in which one maintains influence.\n\nChavez has much influence in South American politics."
+        }, 
+        {
+            "abbrName": "des", 
+            "eName": "Descriptor", 
+            "isMapped": true, 
+            "cName": "描述符", 
+            "isCore": false, 
+            "def": "This is typically an adjective describing a nominal target."
+        }
+    ]
+}

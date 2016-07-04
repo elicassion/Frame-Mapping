@@ -1,0 +1,168 @@
+{
+    "fdInfo": {
+        "eName": "Bungling", 
+        "cName": "搞砸", 
+        "des": "施动者采取了不当的行为，受其影响的受事可能会作为行为的转喻而被提及。"
+    }, 
+    "frameId": 415, 
+    "lexElmt": [
+        {
+            "word": "办砸", 
+            "POS": "f"
+        }, 
+        {
+            "word": "笨手笨脚", 
+            "POS": "a"
+        }, 
+        {
+            "word": "闯祸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "成事不足败事有余", 
+            "POS": "i"
+        }, 
+        {
+            "word": "断送", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搞坏", 
+            "POS": "f"
+        }, 
+        {
+            "word": "搞乱", 
+            "POS": "f"
+        }, 
+        {
+            "word": "搞砸", 
+            "POS": "f"
+        }, 
+        {
+            "word": "搞糟", 
+            "POS": "f"
+        }, 
+        {
+            "word": "弄错", 
+            "POS": "f"
+        }, 
+        {
+            "word": "弄坏", 
+            "POS": "f"
+        }, 
+        {
+            "word": "弄乱", 
+            "POS": "f"
+        }, 
+        {
+            "word": "弄脏", 
+            "POS": "f"
+        }, 
+        {
+            "word": "弄糟", 
+            "POS": "f"
+        }, 
+        {
+            "word": "惹祸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "捅娄子", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一团糟", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "该框架元素表示施动者的不当行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者实施了不当行为。"
+        }, 
+        {
+            "abbrName": "ar", 
+            "eName": "Area", 
+            "isMapped": true, 
+            "cName": "行为类型", 
+            "isCore": true, 
+            "def": "是指施动者惯常搞砸的行为类型。"
+        }, 
+        {
+            "abbrName": "pat", 
+            "eName": "Patient", 
+            "isMapped": true, 
+            "cName": "受事", 
+            "isCore": true, 
+            "def": "受事是指由于施动者的笨拙行为而受到影响的实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表示搞砸事件发生的程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容描述行为参与者。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者在搞砸行为中所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者搞砸的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表示施动者搞砸所使用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表示搞砸事件发生的处所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示搞砸事件发生的时间。"
+        }
+    ]
+}

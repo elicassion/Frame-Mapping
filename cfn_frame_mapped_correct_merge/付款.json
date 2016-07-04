@@ -1,0 +1,164 @@
+{
+    "fdInfo": {
+        "eName": "Commerce_pay", 
+        "cName": "付款", 
+        "des": "买方为了获得商品而向货主或代理商（即该框架的卖方元素）支付货币。在这个框架中，叙述的视角是买方，动作的客体是货币，货币是被转移的对象。"
+    }, 
+    "frameId": 206, 
+    "lexElmt": [
+        {
+            "word": "付", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付款", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付讫", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付清", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付帐", 
+            "POS": "v"
+        }, 
+        {
+            "word": "付账", 
+            "POS": "v"
+        }, 
+        {
+            "word": "支", 
+            "POS": "v"
+        }, 
+        {
+            "word": "支付", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "byr", 
+            "eName": "Buyer", 
+            "isMapped": true, 
+            "cName": "买方", 
+            "isCore": true, 
+            "def": "用货币换取商品的购买方。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "isMapped": true, 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "该框架元素包括可用钱交易的物品，也包括劳动和时间等。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "isMapped": true, 
+            "cName": "货币", 
+            "isCore": true, 
+            "def": "货币是指交易中用于交换商品所支付的特殊商品。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "isMapped": true, 
+            "cName": "单位价格", 
+            "isCore": true, 
+            "def": "指单位商品的价格。"
+        }, 
+        {
+            "abbrName": "slr", 
+            "eName": "Seller", 
+            "isMapped": true, 
+            "cName": "卖方", 
+            "isCore": true, 
+            "def": "用商品换取货币的销售方。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何关于对购买活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "进行交易的手段，如“用现金”、“用支票”等。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "支付钱款的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施交易行为的目的。"
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "isMapped": false, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "付款事件发生的时间。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "isMapped": true, 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以衡量商品或服务的任何单位，通常用介词“按”、“以”、“论”等。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Explanation for which an event occurs."
+        }, 
+        {
+            "abbrName": "Cir", 
+            "eName": "Circumstances", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. \n  \n\nWorker 's compensation payments alone in cases involving falls , now average more than $8500 per incident in North America ."
+        }, 
+        {
+            "abbrName": "Fre", 
+            "eName": "Frequency", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This frame element is defined as the number of times an event occurs per some unit of time.\n\nA good tenant pays her rent regularly"
+        }
+    ]
+}

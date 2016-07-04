@@ -1,0 +1,120 @@
+{
+    "fdInfo": {
+        "eName": "Prison", 
+        "cName": "监狱", 
+        "des": "该框架与刑事机构有关。这些机构由管理者来管理,收容犯人。刑事机构会有专用的名称,其所在场所也会可能会表现出来。"
+    }, 
+    "frameId": 267, 
+    "lexElmt": [
+        {
+            "word": "班房", 
+            "POS": "n"
+        }, 
+        {
+            "word": "大牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "监牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "监狱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "看守所", 
+            "POS": "n"
+        }, 
+        {
+            "word": "牢狱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "囚牢", 
+            "POS": "n"
+        }, 
+        {
+            "word": "铁窗", 
+            "POS": "n"
+        }, 
+        {
+            "word": "铁栏杆", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "该框架元素说明刑事机构所在的场所。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "isMapped": true, 
+            "cName": "名称", 
+            "isCore": false, 
+            "def": "该框架元素说明刑事机构的名称。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "isMapped": false, 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "类型表明刑事机构中收容的人群。"
+        }, 
+        {
+            "abbrName": "prisoner", 
+            "eName": "Prisoner", 
+            "isMapped": false, 
+            "cName": "犯人", 
+            "isCore": false, 
+            "def": "犯人是被监禁在监狱的人。"
+        }, 
+        {
+            "abbrName": "operator", 
+            "eName": "Operator", 
+            "isMapped": true, 
+            "cName": "管理者", 
+            "isCore": false, 
+            "def": "该框架元素说明哪级政府在管理刑事机构。"
+        }, 
+        {
+            "abbrName": "Inmates", 
+            "eName": "Inmates", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Inmates marks expressions that indicate the group of people a Penal Institution is intended to hold.\n\nMonica served time in the Tennessee Prison for Women."
+        }, 
+        {
+            "abbrName": "Sec", 
+            "eName": "Security", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The level of security maintained at the prison.\nHe was held in a maximum security Prison."
+        }, 
+        {
+            "abbrName": "pen", 
+            "eName": "Penal_institution", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The locale which serves to confine individuals, generally for the purpose of punishment. This FE is incorporated in each LU in this frame."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Part", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A subpart of the Penal_institution.\n\nYou really expect me to run a prison with only ten cells?"
+        }
+    ]
+}

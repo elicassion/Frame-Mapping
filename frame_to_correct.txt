@@ -1,0 +1,2124 @@
+保密状态	Secrecy_status	1
+	CFN not included: 
+		Viewpoint
+	No English Name: 
+		致动者
+
+使发展	Cause_to_make_progress	2
+	CFN not included: 
+		Duration
+		Place
+		Explanation
+		Particular_iteration
+		Purpose
+		Means
+	Pure UnMapped: 
+		动作时量
+
+迷醉	Intoxication	3
+	CFN not included: 
+		Intoxicant
+		Evaluation
+		Duration
+		Time
+	No English Name: 
+		致醉物
+		评价
+	Pure UnMapped: 
+		动作时量
+
+访客_到访	Visitor_arrival	4
+	CFN not included: 
+		Goal
+
+总结	Summarizing	5
+	CFN not included: 
+		Duration
+		Containing_event
+	Pure UnMapped: 
+		动作时量
+
+解雇	Firing	6
+	CFN not included: 
+		Explanation
+
+攻击	Attack	7
+	CFN not included: 
+		Victim
+		Assailant
+		Re-encoding
+		Iterations
+	Pure UnMapped: 
+		次数
+		重编码词
+
+尝试远距离互动场景	Attempt_distant_interaction_scenario	8
+	CFN not included: 
+		Particular_iteration
+
+追随	Cotheme	9
+	CFN not included: 
+		Event
+		Road
+		Duration
+		Handle
+		Place
+		Explanation
+		Direction
+	Pure UnMapped: 
+		动作时量
+		原因
+
+违法行为	Offenses	10
+	CFN not included: 
+		Specification
+
+记录	Recording	11
+	CFN not included: 
+		Medium
+		Language
+
+入侵	Invading	12
+	CFN not included: 
+		Re-encoding
+		Explanation
+		Iterations
+		Type
+	Pure UnMapped: 
+		次数
+		重编码词
+
+使状态发生变化	Cause_change_of_phase	13
+	CFN not included: 
+		Patient
+		Hot_cold_source
+	Pure UnMapped: 
+		经历体
+		热/冷源
+
+行为重启	Activity_resume	14
+	CFN not included: 
+		Duration
+		Explanation
+		Circumstances
+		Depictive
+		Result
+		Event_description
+	Pure UnMapped: 
+		实体
+		动作时量
+		原因
+
+职权变更	Change_of_leadership	15
+	Pure UnMapped: 
+		上位事件
+
+雇主场景	Employer_scenario	16
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+获知	Coming_to_believe	17
+	CFN not included: 
+		Medium
+		Place
+
+艺术制品	Physical_artworks	18
+	CFN not included: 
+		Place
+	Pure UnMapped: 
+		物量
+
+罚款	Fining	19
+	CFN not included: 
+		Result
+
+超出	Surpassing	20
+	CFN not included: 
+		Iterations
+	Pure UnMapped: 
+		次数
+
+信息交流	Communication	21
+	CFN not included: 
+		Means
+		Duration
+		Frequency
+		Place
+		Purpose
+		Content
+		Quote
+	No English Name: 
+		领域
+	Pure UnMapped: 
+		动作时量
+
+行为进行	Activity_ongoing	22
+	CFN not included: 
+		Co-timed_event
+		Explanation
+		Event_description
+		Circumstances
+	Pure UnMapped: 
+		致因
+		亚事件
+
+破坏	Destroying	23
+	CFN not included: 
+		Explanation
+		Result
+		Patient
+		Explanation
+		Role
+		Frequency
+		Containing_event
+		Depictive
+		Medium
+	Pure UnMapped: 
+		经历体
+		原因
+
+实例	Instance	24
+	CFN not included: 
+		Instance_prop
+	Pure UnMapped: 
+		方式
+
+记忆	Memory	25
+	CFN not included: 
+		Depictive
+		Duration
+		Explanation
+		Experience
+	Pure UnMapped: 
+		动作时量
+		原因
+
+集合	Gathering_up	26
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+提供	Supply	27
+	CFN not included: 
+		Explanation
+		Imposed_purpose
+	Pure UnMapped: 
+		接受者目的
+		原因
+
+获得	Getting	28
+	CFN not included: 
+		Explanation
+		Result
+		Concessive
+		Beneficiary
+	Pure UnMapped: 
+		原因
+
+拜访_东道主	Visit_host	29
+	CFN not included: 
+		Host_location
+
+受雇	Being_employed	30
+	CFN not included: 
+		Place_of_employment
+		Duration
+		Frequency
+		Event_description
+		Circumstances
+		Particular_iteration
+	Pure UnMapped: 
+		工作量
+		结果时量
+
+相信	Certainty	31
+	CFN not included: 
+		Cognizer
+		Topic
+		Content
+		Degree
+		Expressor
+		Concessive
+		Explanation
+	No English Name: 
+		认知者
+		内容
+		表达体
+		关涉
+		程度
+		形容
+	Pure UnMapped: 
+		时间
+
+状态变化情境	Change_of_phase_scenario	32
+	CFN not included: 
+		Patient
+	Pure UnMapped: 
+		经历体
+
+鲜明性	Obviousness	33
+	CFN not included: 
+		Attribute
+		Group
+		Location_of_protagonist
+		Particular_iteration
+		Direction
+	Pure UnMapped: 
+		特征项
+		背景
+		角色位置
+
+进口	Importing	34
+	CFN not included: 
+		Explanation
+		Particular_iteration
+		Frequency
+		Result
+		Beneficiary
+	Pure UnMapped: 
+		原因
+
+干燥	Being_dry	35
+	CFN not included: 
+		Item
+
+核实	Verification	36
+	CFN not included: 
+		Unconfirmed_content
+		Degree
+		Instrument
+		Condition
+		Descriptor
+		Viewpoint
+		Time
+		Place
+		Explanation
+	Pure UnMapped: 
+		问题
+
+穿越	Traversing	37
+	CFN not included: 
+		Means_of_motion
+		Duration
+		Re-encoding
+		New_situation
+		Event_description
+		Iterations
+	Pure UnMapped: 
+		后续事件
+		动作时量
+		重编码词
+		交通工具
+
+行为绝对终止	Activity_stop	38
+	CFN not included: 
+		Duration
+		Co-timed_event
+		Degree
+		Frequency
+		Containing_event
+		Circumstances
+		Re-encoding
+		Explanation
+		Event_description
+		Particular_iteration
+	Pure UnMapped: 
+		实体
+		动作时量
+		亚事件
+
+意愿	Being_obligated	39
+	CFN not included: 
+		Frequency
+
+行为完成	Activity_finish	40
+	CFN not included: 
+		Co-timed_event
+		Degree
+		Explanation
+		Circumstances
+		Containing_event
+	Pure UnMapped: 
+		亚事件
+
+成败行为	Successful_action	41
+	CFN not included: 
+		Explanation
+		Containing_event
+
+虐待	Abusing	42
+	CFN not included: 
+		Explanation
+		Depictive
+		Circumstances
+		Period_of_iterations
+	Pure UnMapped: 
+		原因
+
+经受	Undergoing	43
+	CFN not included: 
+		Manner
+	Pure UnMapped: 
+		方法
+
+客观需求	Have_as_requirement	44
+	CFN not included: 
+		Explanation
+		Domain
+		Required_entity
+
+宾主	Guest_and_host	45
+	CFN not included: 
+		Degree
+		Manner
+		Means
+		Duration
+
+协助	Assistance	46
+	CFN not included: 
+		Benefited_party
+		Duration
+		Purpose
+		Frequency
+		Explanation
+	Pure UnMapped: 
+		受协助者
+		动作时量
+
+力劝	Attempt_suasion	47
+	CFN not included: 
+		Re-encoding
+		Role
+	Pure UnMapped: 
+		重编码词
+
+感知觉	Perception	48
+	CFN not included: 
+		Sought_phenomenon
+	No English Name: 
+		印象
+	Pure UnMapped: 
+		身体部位
+
+适用性	Usefulness	49
+	CFN not included: 
+		Time
+
+主观影响	Subjective_influence	50
+	CFN not included: 
+		Situation
+		Entity
+		Behavior
+		Time
+		Event_description
+		Agent
+		Place
+		Domain
+		Descriptor
+	Pure UnMapped: 
+		刺激物
+
+雇用	Employing	51
+	CFN not included: 
+		Duration
+		Descriptor
+		Subgroup
+	Pure UnMapped: 
+		动作时量
+
+决定	Deciding	52
+	CFN not included: 
+		Cognizer
+		Decision
+		Possibilities
+		Time
+		Place
+		Manner
+		Inherent_purpose
+		Circumstance
+		Explanation
+	No English Name: 
+		认知者
+		决定
+		候选项
+	Pure UnMapped: 
+		主题
+
+居住	Residence	53
+	CFN not included: 
+		Frequency
+		Time
+		Circumstances
+	Pure UnMapped: 
+		程度
+
+回应提议	Respond_to_proposal	54
+	CFN not included: 
+		Role
+		Iterations
+		Explanation
+
+文本创作	Text_creation	55
+	CFN not included: 
+		Beneficiary
+		Explanation
+		Medium
+	Pure UnMapped: 
+		受众
+		原因
+
+司法机关	Judicial_body	56
+	CFN not included: 
+		Judges
+		Place
+
+评定	Assessing	57
+	CFN not included: 
+		Assessor
+		Method
+		Standard
+		Co-participant
+		Beneficiary
+		Depictive
+		Degree
+		Circumstances
+		Result
+		Duration
+		Explanation
+	Pure UnMapped: 
+		判断者
+		伴随者
+
+行为相对中止状态	Activity_paused_state	58
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		结果时量
+
+称	Simple_naming	59
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		动机
+
+自主感知	Perception_active	60
+	CFN not included: 
+		Location_of_protagonist
+		State
+		Duration
+		Expected_entity
+		Obscuring_medium
+	Pure UnMapped: 
+		动作时量
+		期望事件
+		感知者位置
+
+事件发生时间改变	Change_event_time	61
+	CFN not included: 
+		Manner
+		Explanation
+		Purpose
+		Time
+		Place
+	Pure UnMapped: 
+		形容
+		原因
+
+值得	Deserving	62
+	CFN not included: 
+		Degree
+		Domain
+		Circumstances
+	Pure UnMapped: 
+		施动者
+
+复仇	Revenge	63
+	CFN not included: 
+		Avenger
+		Offender
+		Punishment
+		Injury
+		Injured_party
+
+拜访	Visiting	64
+	CFN not included: 
+		Depictive
+
+教育教学	Education_teaching	65
+	CFN not included: 
+		Duration
+		Purpose
+	Pure UnMapped: 
+		动作时量
+
+出售	Commerce_sell	66
+	CFN not included: 
+		Explanation
+		Period_of_iterations
+		Imposed_purpose
+		Back
+	Pure UnMapped: 
+		动作时量
+		原因
+
+提交文件	Submitting_documents	67
+	CFN not included: 
+		Imposed_purpose
+	Pure UnMapped: 
+		意图目的
+
+盗窃	Theft	68
+	CFN not included: 
+		Explanation
+		Time
+	Pure UnMapped: 
+		原因
+
+强奸	Rape	69
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+上诉	Appeal	70
+	CFN not included: 
+		Time
+		Re-encoding
+		Explanation
+
+参加	Attending	71
+	CFN not included: 
+		Iterations
+		Event_description
+	Pure UnMapped: 
+		次数
+
+位移	Motion	72
+	CFN not included: 
+		Duration
+		Result
+		Place
+		Degree
+		Purpose
+		Path_shape
+		Containing_event
+		Frequency
+		Iterations
+	Pure UnMapped: 
+		动作时量
+
+纵火罪	Arson	73
+	CFN not included: 
+		Offense
+		Purpose
+		Time
+		Explanation
+	Pure UnMapped: 
+		事件
+		实体
+
+辞职	Quitting	74
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+渴望	Desiring	75
+	CFN not included: 
+		Explanation
+		Purpose_of_event
+		Duration
+		Explanation
+		Role_of_focal_participant
+	Pure UnMapped: 
+		致因
+		动作时量
+		目的
+		原因
+
+死刑	Execution	76
+	CFN not included: 
+		Executioner
+		Purpose
+		Degree
+		Explanation
+		Result
+	Pure UnMapped: 
+		法院
+		原因
+
+填充	Filling	77
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+询问	Questioning	78
+	CFN not included: 
+		Iterations
+
+清洁	Grooming	79
+	CFN not included: 
+		Medium
+		Duration
+		Purpose
+		Means
+	Pure UnMapped: 
+		动作时量
+
+话题	Topic	80
+	CFN not included: 
+		Explanation
+
+学习	Studying	81
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+使温度变化	Cause_temperature_change	82
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+身体感知	Perception_body	83
+	CFN not included: 
+		Experiencer
+		Body_part
+		Explanation
+		Degree
+	No English Name: 
+		身体部位
+		体验者
+		程度
+		致因
+
+范畴化	Categorization	84
+	CFN not included: 
+		Item
+		Criteria
+		Concessive
+		Explanation
+	No English Name: 
+		角色范围
+	Pure UnMapped: 
+		特征项
+		现象
+		频率
+		特定次数
+
+方向改变	Change_direction	85
+	CFN not included: 
+		Manner
+		Cotheme
+		Place
+		Time
+		Purpose
+		Means_of_motion
+		Explanation
+		Frequency
+		Re-encoding
+		New_situation
+		Circumstances
+		Result
+	Pure UnMapped: 
+		后续事件
+		次数
+		原因
+		重编码词
+		运载工具
+
+待命	Standing_by	86
+	CFN not included: 
+		Place
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+使位移	Cause_motion	87
+	CFN not included: 
+		Explanation
+
+购物	Shopping	88
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+尝试获取食物场景	Attempt_obtain_food_scenario	89
+	CFN not included: 
+		Particular_iteration
+
+非自主感知	Perception_experience	90
+	CFN not included: 
+		Location_of_protagonist
+		State
+		Duration
+		Contrastive_context
+		Concessive
+		Circumstances
+		Frequency
+		Obscuring_medium
+	Pure UnMapped: 
+		印象
+		感知者位置
+
+放弃	Forgoing	91
+	CFN not included: 
+		Explanation
+
+因果	Causation	92
+	CFN not included: 
+		Circumstances
+		Manner
+		Explanation
+		Means
+		Frequency
+		Concessive
+	Pure UnMapped: 
+		原因
+
+指望	Reliance_on_expectation	93
+	CFN not included: 
+		Circumstances
+	No English Name: 
+		现象
+
+放置	Placing	94
+	CFN not included: 
+		Explanation
+		Beneficiary
+	Pure UnMapped: 
+		原因
+
+辩解	Justifying	95
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+出口	Exporting	96
+	CFN not included: 
+		Explanation
+		Re-encoding
+		Type
+	Pure UnMapped: 
+		商品数量
+		原因
+		单位时间
+
+雇佣场景	Employment_scenario	97
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+查看	Scrutiny	98
+	CFN not included: 
+		Cognizer
+		Phenomenon
+		Means
+		Degree
+		Direction
+		Purpose
+		Medium
+		Instrument
+		Time
+	No English Name: 
+		认知者
+		现象
+		媒介
+		程度
+		方向
+		方法
+		目的
+
+论证	Reasoning	99
+	CFN not included: 
+		Duration
+		Group
+	Pure UnMapped: 
+		动作时量
+
+情景记忆	Remembering_experience	100
+	CFN not included: 
+		Impression
+		State
+		Vividness
+		Context
+		Duration
+	Pure UnMapped: 
+		形容
+		动作时量
+
+运送	Bringing	101
+	CFN not included: 
+		Place
+		Explanation
+		Beneficiary
+		Particular_iteration
+		Frequency
+		Degree
+		Co-participant
+		Duration
+		Period_of_iterations
+
+构建	Building	102
+	CFN not included: 
+		Duration
+		Descriptor
+		Period_of_iterations
+	Pure UnMapped: 
+		动作时量
+		迭代周期
+
+造成伤害	Cause_harm	103
+	CFN not included: 
+		Containing_event
+		Explanation
+		Iterations
+		Circumstances
+		Frequency
+		Duration
+		Explanation
+		Particular_iteration
+		Concessive
+		Re-encoding
+		Period_of_iterations
+	Pure UnMapped: 
+		事件
+		次数
+		原因
+
+犯罪场景	Crime_scenario	104
+	CFN not included: 
+		Crime
+
+绑架	Kidnapping	105
+	CFN not included: 
+		Source
+		Goal
+		Explanation
+		Event
+		Co-participant
+	Pure UnMapped: 
+		原因
+
+招聘	Hiring	106
+	CFN not included: 
+		Contract_basis
+		Period_of_iterations
+
+告诉	Telling	107
+	CFN not included: 
+		Iterations
+	Pure UnMapped: 
+		次数
+
+熟悉	Familiarity	108
+	CFN not included: 
+		Depictive
+		Context
+
+接合	Attaching	109
+	CFN not included: 
+		Result
+		Place
+		Purpose
+		Time
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+记	Memorization	110
+	CFN not included: 
+		Pattern
+	Pure UnMapped: 
+		现象
+
+形成	Coming_to_be	111
+	CFN not included: 
+		Explanation
+		Duration_of_final_state
+		Manner
+	Pure UnMapped: 
+		状态
+		时量
+		致因
+
+防腐保鲜	Preserving	112
+	CFN not included: 
+		Patient
+	Pure UnMapped: 
+		经历体
+
+使结合	Cause_to_amalgamate	113
+	CFN not included: 
+		Whole
+	Pure UnMapped: 
+		整体
+
+启程	Getting_underway	114
+	CFN not included: 
+		Duration_of_final_state
+		Direction
+	Pure UnMapped: 
+		自移者位置
+		动作时量
+		区域
+
+迹象	Sign	115
+	CFN not included: 
+		Reliability
+	Pure UnMapped: 
+		程度
+
+雇佣时间	Employment_continue	116
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+抢劫	Robbery	117
+	CFN not included: 
+		Source
+		Explanation
+		Co-participant
+	Pure UnMapped: 
+		原因
+
+成为	Becoming	118
+	CFN not included: 
+		Explanation
+		Explanation
+		Initial_category
+		Explanation
+		Group
+	Pure UnMapped: 
+		原因
+
+宗教信仰	Religious_belief	119
+	CFN not included: 
+		Element
+
+文本	Text	120
+	CFN not included: 
+		Beneficiary
+		Subpart
+		Place
+		Descriptor
+	Pure UnMapped: 
+		成分
+		受众
+		方式
+
+赦免	Pardon	121
+	CFN not included: 
+		Offender
+		Authority
+		Offense
+		Explanation
+		Time
+		Means
+		Manner
+		Place
+		Purpose
+	No English Name: 
+		犯罪人
+		决定机关
+		宣布机关
+		时间
+		原因
+		宣布时间
+
+心理刺激	Experiencer_obj	122
+	CFN not included: 
+		Explanation
+		Time
+
+姿势变化	Change_posture	123
+	CFN not included: 
+		Protagonist
+		Point_of_contact
+		Means
+	Pure UnMapped: 
+		经历体
+		支撑身体部位
+
+使量变	Cause_change_of_position_on_a_scale	124
+	CFN not included: 
+		Value_1
+		Value_2
+		Co-variable
+		Item
+	Pure UnMapped: 
+		实体
+		倚变因素
+		初值
+		终值
+
+事件	Event	125
+	CFN not included: 
+		Explanation
+		Timespan
+	Pure UnMapped: 
+		原因
+
+思考	Cogitation	126
+	CFN not included: 
+		Medium
+		Purpose
+		Time
+	Pure UnMapped: 
+		问题
+
+摄取	Ingestion	127
+	CFN not included: 
+		Purpose
+		Duration
+
+经历变化	Undergo_change	128
+	CFN not included: 
+		Cause
+		Intermediate_value
+		Value_range
+		Frequency
+		Period_of_iterations
+	Pure UnMapped: 
+		范围
+
+预期	Expectation	129
+	CFN not included: 
+		Phenomenon
+		Place
+		Time
+		Topic
+		Time_of_phenomenon
+	Pure UnMapped: 
+		内容
+
+依从	Compliance	130
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+过程持续	Process_continue	131
+	CFN not included: 
+		Duration
+		Explanation
+		Concessive
+	Pure UnMapped: 
+		动作时量
+		原因
+
+拜访_东道主_停留	Visit_host_stay	132
+	CFN not included: 
+		Manner
+
+知道	Awareness	133
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		事件评价
+		角色范围
+		亚区
+
+劫持	Piracy	134
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+行为完成状态	Activity_done_state	135
+	CFN not included: 
+		Time
+		Place
+	Pure UnMapped: 
+		状态
+
+完整性	Completeness	136
+	CFN not included: 
+		Whole
+	Pure UnMapped: 
+		整体
+
+情绪失控	Losing_it	137
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+逮捕	Arrest	138
+	CFN not included: 
+		Type
+		Purpose
+		Co-participant
+
+拥有	Possession	139
+	CFN not included: 
+		Duration
+		Time
+		Explanation
+
+脱落	Breaking_off	140
+	CFN not included: 
+		Subpart
+		Whole
+
+发光	Location_of_light	141
+	CFN not included: 
+		Degree
+		Depictive
+		Manner
+		Figure
+		Result
+		Cause_of_shine
+		Duration
+		Place
+		Time
+	Pure UnMapped: 
+		现象
+
+观点	Opinion	142
+	CFN not included: 
+		Cognizer
+		Opinion
+		Evidence
+		Constancy
+		Domain
+		Time
+		Circumstances
+	No English Name: 
+		认知者
+		观点
+		现象
+		坚定性
+		领域
+		根据
+
+类似	Expansion	143
+	CFN not included: 
+		Item
+		Group
+		Initial_size
+		Result_size
+		Size_change
+		Rate
+		Duration
+		Co-variable
+		Path
+		Goal
+	Pure UnMapped: 
+		实体集
+		实体1
+		实体2
+		致因
+		形容
+		处所
+
+使分散	Dispersal	144
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		形容
+		原因
+
+储存	Storing	145
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+创造	Creating	146
+	CFN not included: 
+		Co-participant
+		Imposed_purpose
+		Period_of_iterations
+		Recipient
+	Pure UnMapped: 
+		伴随者
+		迭代周期
+		创造物的用途
+
+出发	Setting_out	147
+	CFN not included: 
+		Re-encoding
+	Pure UnMapped: 
+		重编码词
+
+给予	Giving	148
+	CFN not included: 
+		Explanation
+		Imposed_purpose
+		Depictive
+		Period_of_iterations
+	Pure UnMapped: 
+		接受目的
+		原因
+
+包括	Inclusion	149
+	CFN not included: 
+		Explanation
+		Manner
+		Time
+		Place
+
+位置	Being_located	150
+	CFN not included: 
+		Cotheme
+		Depictive
+
+取代	Replacing	151
+	CFN not included: 
+		Manner
+		Explanation
+	Pure UnMapped: 
+		原因
+
+行为准备就绪状态	Activity_ready_state	152
+	CFN not included: 
+		Result
+		Duration
+		Degree
+	Pure UnMapped: 
+		状态
+
+限制行动	Inhibit_movement	153
+	CFN not included: 
+		Reciprocation
+		Explanation
+		Duration
+	Pure UnMapped: 
+		动作时量
+		动机
+		原因
+
+收款	Commerce_collect	154
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+积累	Amassing	155
+	CFN not included: 
+		Explanation
+
+出版	Publishing	156
+	CFN not included: 
+		Purpose
+		Place
+		Manner
+		Means
+
+到达	Arriving	157
+	CFN not included: 
+		New_situation
+		Period_of_iterations
+		Circumstances
+		Purpose
+		Degree
+		Event_description
+		Re-encoding
+		Frequency
+		Place
+	Pure UnMapped: 
+		目的地状态
+
+发送	Sending	158
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+命名	Being_named	159
+	CFN not included: 
+		Language
+		Descriptor
+		Context
+		Etymological_root
+	Pure UnMapped: 
+		名字来源
+		说话者
+
+行动记忆	Remembering_to_do	160
+	CFN not included: 
+		Frequency
+
+调整	Adjusting	161
+	CFN not included: 
+		Feature
+		Imposed_purpose
+		Circumstances
+	Pure UnMapped: 
+		属性
+
+过程开始	Process_start	162
+	CFN not included: 
+		Explanation
+		Duration
+	Pure UnMapped: 
+		动作时量
+		原因
+
+面部表情	Facial_expression	163
+	CFN not included: 
+		Expression
+		Duration
+	Pure UnMapped: 
+		动作时量
+		身体部位
+
+研究	Research	164
+	CFN not included: 
+		Duration_of_state
+	No English Name: 
+		动作时间量
+
+锻炼	Exercising	165
+	Pure UnMapped: 
+		环境条件
+		益处
+
+感觉	Feeling	166
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		致因
+
+丰富	Abundance	167
+	CFN not included: 
+		Collection
+		Quantity
+		Place
+
+承租	Renting	168
+	CFN not included: 
+		Explanation
+		Duration
+		Imposed_purpose
+	Pure UnMapped: 
+		动作时量
+		对商品的处置
+
+游览	Touring	169
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+拜访场景_停留	Visiting_scenario_stay	170
+	Pure UnMapped: 
+		终点
+
+商业购买	Commerce_buy	171
+	CFN not included: 
+		Explanation
+		Period_of_iterations
+		Imposed_purpose
+	Pure UnMapped: 
+		动作时量
+		原因
+
+风险场景	Risk_scenario	172
+	CFN not included: 
+		Asset
+		Harmful_event
+		Situation
+
+理解	Grasp	173
+	CFN not included: 
+		Reference_point
+		Faculty
+		Concessive
+	No English Name: 
+		内容
+		身体部位
+	Pure UnMapped: 
+		身份
+		程度
+
+雇员场景	Employee_scenario	174
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+行为绝对中止状态	Activity_abandoned_state	175
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		结果时量
+
+代表	Representative	176
+	CFN not included: 
+		Origin
+		Representative
+		Persistent_characteristic
+		Descriptor
+		Age
+		Ethnicity
+		Context_of_acquaintance
+		Rank
+		Place_of_employment
+		Represented
+		Type
+		Compensation
+		Contract_basis
+	Pure UnMapped: 
+		内容
+		实体
+		施动者
+		频率
+		形容
+		方式
+		时间
+
+携带武器	Bearing_arms	177
+	CFN not included: 
+		Weapon
+		Protagonist
+
+偏向性	Partiality	178
+	CFN not included: 
+		Decision_maker
+		Sides
+		Domain
+		Explanation
+		Time
+		Expressor
+		Manner
+	No English Name: 
+		领域
+	Pure UnMapped: 
+		多方
+
+走私	Smuggling	179
+	CFN not included: 
+		Explanation
+		Constant_location
+		Distance
+		Speed
+	Pure UnMapped: 
+		原因
+
+过程	Process	180
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		致因
+
+密度变化	Change_of_consistency	181
+	CFN not included: 
+		Patient
+		Explanation
+	Pure UnMapped: 
+		经历体
+		原因
+
+检查	Inspecting	182
+	CFN not included: 
+		Desired_state_of_affairs
+	Pure UnMapped: 
+		理想状态
+
+有意行为	Intentionally_act	183
+	CFN not included: 
+		Period_of_iterations
+		Result
+		Particular_iteration
+		Explanation
+		Event_description
+
+监禁	Imprisonment	184
+	CFN not included: 
+		Explanation
+		Iterations
+	Pure UnMapped: 
+		司法机关
+		原因
+
+结合	Amalgamation	185
+	CFN not included: 
+		Whole
+		Descriptor
+	Pure UnMapped: 
+		整体
+
+付款	Commerce_pay	186
+	CFN not included: 
+		Explanation
+		Circumstances
+		Frequency
+	Pure UnMapped: 
+		原因
+
+注意	Attention	187
+	CFN not included: 
+		Figure
+	No English Name: 
+		感知者范围
+		形容
+	Pure UnMapped: 
+		现象
+		特定次数
+		时间
+		方法
+		处所
+
+清空	Emptying	188
+	CFN not included: 
+		Purpose
+
+方位关系	Locative_relation	189
+	CFN not included: 
+		Figures
+		Deixis
+		Accessibility
+		Directness
+		Temporal_profile
+		Region_quantification
+		Profiled_region
+
+减刑	Communication	190
+	CFN not included: 
+		Communicator
+		Addressee
+		Message
+		Topic
+		Medium
+		Amount_of_information
+		Depictive
+		Duration
+		Frequency
+		Purpose
+		Content
+		Quote
+	Pure UnMapped: 
+		法院
+		原来的刑罚
+		新的刑罚
+		罪犯
+		原因
+
+发声	Make_noise	191
+	CFN not included: 
+		Sound_source
+		Explanation
+		Location_of_protagonist
+		Degree
+		Depictive
+		Internal_cause
+		Addressee
+		Circumstances
+		Iterations
+		Particular_iteration
+	No English Name: 
+		声源
+		信息接收者
+		方向
+		程度
+		描述
+		声源位置
+
+主观需要	Needing	192
+	CFN not included: 
+		Iterations
+		Explanation
+	Pure UnMapped: 
+		次数
+
+行为过程	Activity	193
+	Pure UnMapped: 
+		实体
+
+故意影响	Intentionally_affect	194
+	CFN not included: 
+		Event
+		Explanation
+		Event_description
+	Pure UnMapped: 
+		行为
+		原因
+
+传达评价	Judgment_communication	195
+	CFN not included: 
+		Role
+		Grounds
+	Pure UnMapped: 
+		判断
+
+挑选	Choosing	196
+	CFN not included: 
+		Explanation
+		Larger_purpose
+		Inherent_purpose
+		Contrast
+	Pure UnMapped: 
+		目的
+		原因
+
+成就	Accomplishment	197
+	CFN not included: 
+		Particular_iteration
+
+状态持续	State_continue	198
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+		原因
+
+死亡	Death	199
+	CFN not included: 
+		Explanation
+		Explanation
+		Containing_event
+		Maleficiary
+	Pure UnMapped: 
+		致因
+		事件
+		原因
+
+获奖	Win_prize	200
+	CFN not included: 
+		Viewpoint
+	Pure UnMapped: 
+		交际力量
+
+有毒物质	Toxic_substance	201
+	CFN not included: 
+		Explanation
+		Type
+		Duration
+	Pure UnMapped: 
+		原因
+
+拿走	Taking	202
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+冒险	Run_risk	203
+	CFN not included: 
+		Iterations
+	Pure UnMapped: 
+		次数
+
+杀害	Killing	204
+	CFN not included: 
+		Explanation
+		Depictive
+		Result
+		Beneficiary
+		Circumstances
+		Explanation
+		Period_of_iterations
+		Frequency
+		Containing_event
+	Pure UnMapped: 
+		原因
+
+发现	Becoming_aware	205
+	CFN not included: 
+		State
+		Frequency
+		Circumstances
+		Explanation
+		Particular_iteration
+		Period_of_iterations
+	No English Name: 
+		环境条件
+	Pure UnMapped: 
+		形容
+
+进展	Progress	206
+	CFN not included: 
+		Rate
+		Duration
+		Domain
+		Explanation
+		Place
+		Event_description
+		Frequency
+		Circumstances
+	Pure UnMapped: 
+		原因
+		施动者
+		结果时量
+		频率
+
+过程中断	Process_pause	207
+	CFN not included: 
+		Explanation
+
+使用	Using	208
+	CFN not included: 
+		Period_of_iterations
+		Explanation
+		Group
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+安装	Installing	209
+	CFN not included: 
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+
+身体姿势	Posture	210
+	CFN not included: 
+		Duration
+		Point_of_contact
+	Pure UnMapped: 
+		动作时量
+		支撑身体部位
+
+出租	Renting_out	211
+	CFN not included: 
+		Explanation
+		Time
+		Result
+		Duration
+		Imposed_purpose
+		Back
+		Relay
+	Pure UnMapped: 
+		结果时量
+		原因
+		对商品的处置
+		方向
+
+法律	Law	212
+	CFN not included: 
+		Time_of_creation
+		Name
+		Part
+		Forbidden
+		Required
+		Jurisdiction
+		Descriptor
+	Pure UnMapped: 
+		条款
+		时间
+
+属于某类	Being_in_category	213
+	CFN not included: 
+		Item
+	Pure UnMapped: 
+		实体
+
+使开始	Cause_to_start	214
+	CFN not included: 
+		Viewpoint
+	Pure UnMapped: 
+		交际力度
+
+监狱	Prison	215
+	CFN not included: 
+		Inmates
+		Security
+		Penal_institution
+		Part
+	Pure UnMapped: 
+		类型
+		犯人
+
+通缉犯罪嫌疑人	Want_suspect	216
+	CFN not included: 
+		Degree
+	Pure UnMapped: 
+		官方
+
+合法	Legality	217
+	CFN not included: 
+		Explanation
+
+辨别	Differentiation	218
+	CFN not included: 
+		Quality
+	Pure UnMapped: 
+		特征项
+		背景
+		工具
+
+引渡	Extradition	219
+	CFN not included: 
+		Explanation
+		Means
+		Place
+	Pure UnMapped: 
+		原因
+
+交谈	Chatting	220
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+避	Avoiding	221
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+行为开始	Activity_start	222
+	CFN not included: 
+		Co-timed_event
+		Circumstances
+		Event_description
+		Explanation
+		Particular_iteration
+		New_situation
+		Viewpoint
+		Concessive
+
+联想	Make_cognitive_connection	223
+	CFN not included: 
+		Evidence
+		Cognizer
+		Frequency
+		Time
+		Place
+		Circumstances
+	No English Name: 
+		认知者
+		根据
+
+成败	Success_or_failure	224
+	CFN not included: 
+		Re-encoding
+	Pure UnMapped: 
+		重编码词
+
+唤起	Evoking	225
+	CFN not included: 
+		Phenomenon
+		Duration
+		Explanation
+	Pure UnMapped: 
+		内容
+		动作时量
+		原因
+		方法
+
+使持续	Cause_to_continue	226
+	CFN not included: 
+		Duration
+	Pure UnMapped: 
+		动作时量
+
+钱	Money	227
+	Pure UnMapped: 
+		用途
+
+陈述	Statement	228
+	CFN not included: 
+		Addressee
+		Means
+		Internal_cause
+		Depictive
+		Place
+		Occasion
+		Particular_iteration
+		Viewpoint
+		Group
+		Event_description
+		Frequency
+		Iterations
+		Containing_event
+	No English Name: 
+		形容
+
+封闭	Closure	229
+	CFN not included: 
+		Result
+		Beneficiary
+		Circumstances
+		Depictive
+
+腐烂	Being_rotted	230
+	CFN not included: 
+		Patient
+
+缴械投降	Surrendering_possession	231
+	CFN not included: 
+		Explanation
+		Re-encoding
+		Viewpoint
+	Pure UnMapped: 
+		重编码词
+		交流力
+
+测量场景	Measure_scenario	232
+	CFN not included: 
+		Entity
+		Attribute
+		Value
+		Degree
+		Unit
+		Count
+
+感受	Sensation	233
+	CFN not included: 
+		Source
+		Descriptor
+		Time
+		Degree
+	Pure UnMapped: 
+		现象群
+		方式
+
+解决	Resolve_problem	234
+	CFN not included: 
+		Resultant_situation
+		Instrument
+		Duration
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+		动作时量
+
+巡逻	Patrolling	235
+	CFN not included: 
+		Desired_state_of_affairs
+	Pure UnMapped: 
+		理想事态
+
+满	Fullness	236
+	CFN not included: 
+		Time
+		Frequency
+		Duration
+
+使变化	Cause_change	237
+	CFN not included: 
+		Explanation
+		Containing_event
+		Place
+		Duration
+		Circumstances
+		Role
+		Event_description
+		Period_of_iterations
+		Re-encoding
+	Pure UnMapped: 
+		原因
+		动作时量
+
+货币交易	Commerce_money-transfer	238
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+状态变化	Change_of_phase	239
+	CFN not included: 
+		Patient
+		Manner
+	Pure UnMapped: 
+		经历体
+
+练习	Practice	240
+	CFN not included: 
+		Iterations
+		Co-participant
+	Pure UnMapped: 
+		伴随者
+		次数
+
+行为准备	Activity_prepare	241
+	CFN not included: 
+		Duration
+		Iterations
+		Event_description
+	Pure UnMapped: 
+		动作时量
+		次数
+
+可疑	Suspiciousness	242
+	CFN not included: 
+		Behavior
+		Degree
+		Social_actor
+		Judge
+		Entity
+	No English Name: 
+		现象
+		程度
+
+情感反应	Emotion_directed	243
+	CFN not included: 
+		Explanation
+	Pure UnMapped: 
+		原因
+
+扩展	Expansion	244
+	CFN not included: 
+		Co-variable
+		Goal
+	Pure UnMapped: 
+		同现变量
+
+存现	Existence	245
+	CFN not included: 
+		Explanation
+		Viewpoint
+		Concessive
+		Depictive
+	Pure UnMapped: 
+		施动者
+		致因
+		视角
+
+拘留	Detaining	246
+	CFN not included: 
+		Dependent_state
+
+行动相对中止	Activity_pause	247
+	CFN not included: 
+		Duration
+		Legal_basis
+	Pure UnMapped: 
+		结果时量
+		依据
+		致因
+
+讯问被告人	Try_defendant	248
+	CFN not included: 
+		Jury
+		Governing_authority
+
+客观影响	Objective_influence	249
+	CFN not included: 
+		Time
+		Place
+		Manner
+		Circumstances
+		Descriptor
+
+方法尝试	Attempt_means	250
+	CFN not included: 
+		Particular_iteration
+	Pure UnMapped: 
+		特定次数
+
+使伸缩	Cause_expansion	251
+	CFN not included: 
+		Co-variable
+		Explanation
+	Pure UnMapped: 
+		相关变量
+		原因
+
+自首	Surrendering	252
+	CFN not included: 
+		Manner
+		Explanation
+

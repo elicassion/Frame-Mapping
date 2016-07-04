@@ -1,0 +1,88 @@
+{
+    "fdInfo": {
+        "eName": "Mining", 
+        "cName": "采矿", 
+        "des": "矿工通过挖掘或开凿隧道在某一处所，即采矿区，试图获得类似于岩石和矿物质这样的矿产资源。"
+    }, 
+    "frameId": 350, 
+    "lexElmt": [
+        {
+            "word": "采", 
+            "POS": "v"
+        }, 
+        {
+            "word": "采掘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "采矿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开采", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "开掘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挖掘", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "miner", 
+            "eName": "Miner", 
+            "isMapped": true, 
+            "cName": "矿工", 
+            "isCore": true, 
+            "def": "矿工探寻矿产资源。"
+        }, 
+        {
+            "abbrName": "resrs", 
+            "eName": "Resource", 
+            "isMapped": true, 
+            "cName": "资源", 
+            "isCore": true, 
+            "def": "矿工所寻找的资源，通常埋在地下。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "矿工用来获取资源所使用的方法。"
+        }, 
+        {
+            "abbrName": "outcome", 
+            "eName": "Outcome", 
+            "isMapped": true, 
+            "cName": "成败", 
+            "isCore": false, 
+            "def": "矿工为获取某种资源所做尝试的成败或结果。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "矿工探寻资源的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "矿工开采资源的时间。"
+        }
+    ]
+}

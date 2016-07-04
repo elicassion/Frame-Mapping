@@ -1,0 +1,272 @@
+{
+    "fdInfo": {
+        "eName": "Activity_finish", 
+        "cName": "行为完成", 
+        "des": "致动者完成某一从逻辑上讲不能再继续的行为。该框架是行为框架的分框架。"
+    }, 
+    "frameId": 101, 
+    "lexElmt": [
+        {
+            "word": "罢笔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢兵", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢休", 
+            "POS": "v"
+        }, 
+        {
+            "word": "罢战", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封笔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "封镜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搞颠", 
+            "POS": "v"
+        }, 
+        {
+            "word": "搞定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "告罄", 
+            "POS": "v"
+        }, 
+        {
+            "word": "挂靴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "结果", 
+            "POS": "n"
+        }, 
+        {
+            "word": "结束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "杀青", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收场", 
+            "POS": "v"
+        }, 
+        {
+            "word": "收束", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停火", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停课", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停息", 
+            "POS": "v"
+        }, 
+        {
+            "word": "停止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完毕", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完稿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完工", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完卷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完胜", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完事儿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "休止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终结", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终了", 
+            "POS": "v"
+        }, 
+        {
+            "word": "终止", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住手", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "activity", 
+            "eName": "Activity", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "表现致动者所完成的行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "表现行为完成的致动者。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "用于描述动作行为者或经历者的描述性的短语。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的所凭借的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者完成某一行为的目的。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "表现完成行为的结果。"
+        }, 
+        {
+            "abbrName": "subv", 
+            "eName": "Subevent", 
+            "isMapped": false, 
+            "cName": "亚事件", 
+            "isCore": false, 
+            "def": "表现完成行为最后的亚事件。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "表现行为结束的时间。"
+        }, 
+        {
+            "abbrName": "Co-t", 
+            "eName": "Co-timed_event", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE identifies the last Co-timed_event of the finished Activity.They finished the peace march   with a prayer."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Degree", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE describes the how near the agent is to finishing.  "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Circumstances", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Containing_event", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part.\n\n"
+        }
+    ]
+}

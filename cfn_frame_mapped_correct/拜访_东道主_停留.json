@@ -1,0 +1,115 @@
+{
+    "fdInfo": {
+        "eName": "Visit_host_stay", 
+        "cName": "拜访_东道主_停留", 
+        "des": "访客进行拜访时与东道主在一起。"
+    }, 
+    "frameId": 315, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "host", 
+            "eName": "Host", 
+            "isMapped": true, 
+            "cName": "东道主", 
+            "isCore": true, 
+            "def": "东道主欢迎访客到其接待场所，并允许访客使用其资源来达成目的。拜访期间，访客把接待场所与东道主联系在一起。"
+        }, 
+        {
+            "abbrName": "hos_loc", 
+            "eName": "Host_location", 
+            "isMapped": true, 
+            "cName": "待客场所", 
+            "isCore": true, 
+            "def": "接待场所在这里指与东道主长期相关的场所，也是访客为了实现某种目的而短暂停留的场所。"
+        }, 
+        {
+            "abbrName": "vis", 
+            "eName": "Visitor", 
+            "isMapped": true, 
+            "cName": "访客", 
+            "isCore": true, 
+            "def": "为了实现某种目的而临时与东道主在一起的有感实体。"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "isMapped": true, 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "访客与东道主在一起时所产生的一种状态"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "访客与东道主在一起的时间量。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "频率是对一段时间内平均拜访次数的特征化描述."
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iterations", 
+            "isMapped": true, 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "所描述事件发生的次数"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "访客为了拜访能够成行而采取的一种行动。"
+        }, 
+        {
+            "abbrName": "nor_loc", 
+            "eName": "Normal_location", 
+            "isMapped": true, 
+            "cName": "常住地", 
+            "isCore": false, 
+            "def": "访客通常生活居住或是说与之（长期）相关的地方。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "对拜访期间访客所处位置的描述。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "东道主能够满足条件，而且访客也想进行的活动\n "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "进行拜访的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Manner", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Any overall description of the details of the visit, either in terms of how it matches other events (the same way) or in terms of states of the Visitor that affect the action."
+        }
+    ]
+}

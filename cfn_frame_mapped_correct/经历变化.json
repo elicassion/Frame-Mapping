@@ -1,0 +1,168 @@
+{
+    "fdInfo": {
+        "eName": "Undergo_change", 
+        "cName": "经历变化", 
+        "des": "一个实体的组成范畴或属性值发生了变化。组成范畴的变化用初范畴和终范畴表示，属性值的变化以初值和终值表示。"
+    }, 
+    "frameId": 14, 
+    "lexElmt": [
+        {
+            "word": "变", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变成", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变化", 
+            "POS": "n"
+        }, 
+        {
+            "word": "变化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变换", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变为", 
+            "POS": "v"
+        }, 
+        {
+            "word": "变形", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "attr", 
+            "eName": "Attribute", 
+            "isMapped": true, 
+            "cName": "属性", 
+            "isCore": false, 
+            "def": "实体的特征，可通过计算、测量或观测来为其赋值。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "isMapped": true, 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "经历变化的具体的或抽象的实体。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "ini_cat", 
+            "eName": "Initial_category", 
+            "isMapped": true, 
+            "cName": "初范畴", 
+            "isCore": true, 
+            "def": "在经历变化前实体所属的范畴。"
+        }, 
+        {
+            "abbrName": "finc", 
+            "eName": "Final_category", 
+            "isMapped": true, 
+            "cName": "终范畴", 
+            "isCore": true, 
+            "def": "在经历变化后实体所属的范畴。"
+        }, 
+        {
+            "abbrName": "ini_v", 
+            "eName": "Initial_value", 
+            "isMapped": true, 
+            "cName": "初值", 
+            "isCore": false, 
+            "def": "变化发生之前属性的值。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "fin_v", 
+            "eName": "Final_value", 
+            "isMapped": true, 
+            "cName": "终值", 
+            "isCore": false, 
+            "def": "由变化产生的最终的属性值。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "range", 
+            "eName": "Range", 
+            "isMapped": false, 
+            "cName": "范围", 
+            "isCore": false, 
+            "def": "初值和终值之间的范围。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "发生变化的物理条件或社会状况。\r\n"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "初值区别于终值或初范畴区别于终范畴的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述变化的特征的成分，都归入该元素。\r\n"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "实体经历变化的时间。\r\n"
+        }, 
+        {
+            "abbrName": "cau", 
+            "eName": "Cause", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "An event or state that causes the change to take place.\n\nDoctor?s practices have changed due to concerns over medical litigation."
+        }, 
+        {
+            "abbrName": "intv", 
+            "eName": "Intermediate_value", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A value that the Attribute assumes before the Final_value obtains.\n\nThe slurry was stirred until the color of the suspension changed from red via orange to yellow over a period of two hours."
+        }, 
+        {
+            "abbrName": "val", 
+            "eName": "Value_range", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Initial_value and Final_value taken together as the range through which the Entity changes.\n\nThe main faith of the church has changed between Orthodox, Protestant and Greek Catholic several times."
+        }, 
+        {
+            "abbrName": "fre", 
+            "eName": "Frequency", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This frame element is defined as the number of times an event occurs per some unit of time."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Period_of_iterations", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The length of time from when the event denoted by the target began to be repeated to when it stopped."
+        }
+    ]
+}

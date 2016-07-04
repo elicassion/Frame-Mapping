@@ -1,0 +1,91 @@
+{
+    "fdInfo": {
+        "eName": "Have_as_requirement", 
+        "cName": "客观需求", 
+        "des": "依存项的实现要求具备某些事态或必需品（需求）。"
+    }, 
+    "frameId": 239, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "dep", 
+            "eName": "Dependent", 
+            "isMapped": true, 
+            "cName": "依存项", 
+            "isCore": true, 
+            "def": "没有需求就不能实现的事态。"
+        }, 
+        {
+            "abbrName": "requir", 
+            "eName": "Requirement", 
+            "isMapped": true, 
+            "cName": "需求", 
+            "isCore": true, 
+            "def": "实现依存项所必需具备的事态或实体。"
+        }, 
+        {
+            "abbrName": "condi", 
+            "eName": "Condition", 
+            "isMapped": true, 
+            "cName": "条件", 
+            "isCore": false, 
+            "def": "需求成为必要的情况。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "依存项取决于需求是否出现的程度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "依存项和需求存在特定关系的场所。"
+        }, 
+        {
+            "abbrName": "req_indi", 
+            "eName": "Required_individual", 
+            "isMapped": true, 
+            "cName": "必需主体", 
+            "isCore": false, 
+            "def": "需要满足需求的个体。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "为实现依存项，需要满足需求的时间。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The state-of-affairs which militates that the Requirement is necessary for the Dependent to obtain. "
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "主要领域", 
+            "isCore": false, 
+            "def": "The field of endeavor whose nature imposes the Requirement.\n\n"
+        }, 
+        {
+            "abbrName": "reqe", 
+            "eName": "Required_entity", 
+            "isMapped": true, 
+            "cName": "需求实体", 
+            "isCore": true, 
+            "def": "An entity that has to be present for the Dependent state of affairs to obtain.\n\nBelieve it or not, but this cake requires a pound of mild sausage."
+        }
+    ]
+}

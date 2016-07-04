@@ -1,0 +1,99 @@
+{
+    "fdInfo": {
+        "eName": "Change_of_phase_scenario", 
+        "cName": "状态变化情境", 
+        "des": "在这个框架中，经历体经历一个物理或化学状态的变化。"
+    }, 
+    "frameId": 126, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "undgo", 
+            "eName": "Undergoer", 
+            "isMapped": false, 
+            "cName": "经历体", 
+            "isCore": false, 
+            "def": "经历体是经历状态变化的实体。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "状态变化发生的环境。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "经历者经历阶段变化的程度。"
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "isMapped": true, 
+            "cName": "初状态", 
+            "isCore": false, 
+            "def": "经历体当初的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果表现的是状态变化的结果。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "isMapped": true, 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "状态变化发生的速度。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区指在整体中受到影响的部分。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "经历体经历状态变化的时间。"
+        }, 
+        {
+            "abbrName": "Pat", 
+            "eName": "Patient", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Patient is the entity that undergoes a change of phase.   The water froze. "
+        }
+    ]
+}

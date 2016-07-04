@@ -1,0 +1,112 @@
+{
+    "fdInfo": {
+        "eName": "Money", 
+        "cName": "钱", 
+        "des": "钱是商品交换和服务交易的媒介。在多数情况下，它由政府（它的创造者）以硬币和纸币的形式发行。其特定数量可能会有特定或预定的用途，或可能会有特定的来源。"
+    }, 
+    "frameId": 453, 
+    "lexElmt": [
+        {
+            "word": "货币", 
+            "POS": "n"
+        }, 
+        {
+            "word": "金钱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "钱", 
+            "POS": "n"
+        }, 
+        {
+            "word": "现金", 
+            "POS": "n"
+        }, 
+        {
+            "word": "资金", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "isMapped": true, 
+            "cName": "钱", 
+            "isCore": true, 
+            "def": "钱被用作交换的媒介。"
+        }, 
+        {
+            "abbrName": "cre", 
+            "eName": "Creator", 
+            "isMapped": true, 
+            "cName": "创造者", 
+            "isCore": false, 
+            "def": "铸造、发行并保证钱合法使用的政府（或其他组织）。"
+        }, 
+        {
+            "abbrName": "inh_purp", 
+            "eName": "Inherent_purpose", 
+            "isMapped": true, 
+            "cName": "固有_目的", 
+            "isCore": false, 
+            "def": "设计钱的目的"
+        }, 
+        {
+            "abbrName": "mat", 
+            "eName": "Material", 
+            "isMapped": true, 
+            "cName": "材料", 
+            "isCore": false, 
+            "def": "任何说明钱的构成的表述，包括成分，材料，等等都可以看作是该框架元素。"
+        }, 
+        {
+            "abbrName": "name", 
+            "eName": "Name", 
+            "isMapped": true, 
+            "cName": "名字", 
+            "isCore": false, 
+            "def": "钱的专用术语。"
+        }, 
+        {
+            "abbrName": "ori", 
+            "eName": "Origin", 
+            "isMapped": true, 
+            "cName": "起源", 
+            "isCore": false, 
+            "def": "获得钱的过程或方法。"
+        }, 
+        {
+            "abbrName": "possor", 
+            "eName": "Possessor", 
+            "isMapped": true, 
+            "cName": "所有者", 
+            "isCore": false, 
+            "def": "所有者支配金钱的使用。Theymanagedtoscamhimoutofmostof?his?CASH.他们设法诓去他的大部分现金。"
+        }, 
+        {
+            "abbrName": "tim_cre", 
+            "eName": "Time_of_creation", 
+            "isMapped": true, 
+            "cName": "存在时间", 
+            "isCore": false, 
+            "def": "钱产生或开始流通的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "isMapped": true, 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "钱的子类型。"
+        }, 
+        {
+            "abbrName": "use", 
+            "eName": "Use", 
+            "isMapped": false, 
+            "cName": "用途", 
+            "isCore": false, 
+            "def": "钱的用途。"
+        }
+    ]
+}

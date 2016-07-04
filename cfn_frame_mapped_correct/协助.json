@@ -1,0 +1,176 @@
+{
+    "fdInfo": {
+        "eName": "Assistance", 
+        "cName": "协助", 
+        "des": "协助者通过与受协助者共同参与某种活动来帮助受协助者实现其目标。"
+    }, 
+    "frameId": 97, 
+    "lexElmt": [
+        {
+            "word": "帮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "帮忙", 
+            "POS": "v"
+        }, 
+        {
+            "word": "帮助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "补助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "服务", 
+            "POS": "v"
+        }, 
+        {
+            "word": "救援", 
+            "POS": "v"
+        }, 
+        {
+            "word": "救助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "协助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "有利", 
+            "POS": "a"
+        }, 
+        {
+            "word": "援助", 
+            "POS": "v"
+        }, 
+        {
+            "word": "资助", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "help", 
+            "eName": "Helper", 
+            "isMapped": true, 
+            "cName": "协助者", 
+            "isCore": true, 
+            "def": "协助者是采取某种有益于受协助者行为的人。"
+        }, 
+        {
+            "abbrName": "Ben", 
+            "eName": "Benefited_party", 
+            "isMapped": false, 
+            "cName": "受协助者", 
+            "isCore": true, 
+            "def": "受协助者是从协助者的行为中受益的人。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "isMapped": true, 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "受协助者通过协助者的帮助要达到的目标。"
+        }, 
+        {
+            "abbrName": "focal_e", 
+            "eName": "Focal_entity", 
+            "isMapped": true, 
+            "cName": "焦点实体", 
+            "isCore": true, 
+            "def": "这个框架元素是指达到目标所涉及的焦点实体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "协助者的协助使受协助者接近他要实现的目标的量度。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "实现目标的范围，与协助者的协助有关"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": false, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "协助者协助受协助者的时间段。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "协助者为协助受协助者实现其目标所使用的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "协助者协助受协助者的方式（修饰）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "协助者为帮助受协助者实现目标所采取的方法"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "指帮助事件发生的地点 "
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指帮助事件发生的时间。 "
+        },  
+        {
+            "abbrName": "pur", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "The situation that the Helper wishes to bring about by helping the Benefited_party to acheive the Goal.  Note that this FE should normally be used only when this situation is separate from the Goal.\n\nI helped her with the problem just to show her that it could be done.\n\n"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "The frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the questions how often. It is to be distinguished from Iteration, which pertains simply to the number of times an event occurs; Iteration expressions answer the question how many times."
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases.\n\nSince the earthquake did so much damage, even the federal government aided in the recovery process."
+        }
+    ]
+}

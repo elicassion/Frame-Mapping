@@ -1,0 +1,380 @@
+{
+    "fdInfo": {
+        "eName": "Obviousness", 
+        "cName": "鲜明性", 
+        "des": "描绘某现象在多大程度上能够被感受到，或者能够被认识到，其中可能涉及一定的根据（经常隐含）、感知者和所处环境条件。"
+    }, 
+    "frameId": 23, 
+    "lexElmt": [
+        {
+            "word": "暧昧", 
+            "POS": "a"
+        }, 
+        {
+            "word": "不言而喻", 
+            "POS": "i"
+        }, 
+        {
+            "word": "打眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "洞若观火", 
+            "POS": "i"
+        }, 
+        {
+            "word": "斐然", 
+            "POS": "a"
+        }, 
+        {
+            "word": "分明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "妇孺皆知", 
+            "POS": "i"
+        }, 
+        {
+            "word": "含糊", 
+            "POS": "a"
+        }, 
+        {
+            "word": "含混", 
+            "POS": "a"
+        }, 
+        {
+            "word": "黑白分明", 
+            "POS": "i"
+        }, 
+        {
+            "word": "家喻户晓", 
+            "POS": "i"
+        }, 
+        {
+            "word": "简明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "尽人皆知", 
+            "POS": "i"
+        }, 
+        {
+            "word": "泾渭分明", 
+            "POS": "i"
+        }, 
+        {
+            "word": "举世瞩目", 
+            "POS": "i"
+        }, 
+        {
+            "word": "笼统", 
+            "POS": "a"
+        }, 
+        {
+            "word": "荦荦", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明白", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明摆着", 
+            "POS": "i"
+        }, 
+        {
+            "word": "明朗", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明了", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明确", 
+            "POS": "a"
+        }, 
+        {
+            "word": "明显", 
+            "POS": "a"
+        }, 
+        {
+            "word": "模糊", 
+            "POS": "a"
+        }, 
+        {
+            "word": "模棱两可", 
+            "POS": "i"
+        }, 
+        {
+            "word": "强烈", 
+            "POS": "a"
+        }, 
+        {
+            "word": "清楚", 
+            "POS": "a"
+        }, 
+        {
+            "word": "惹眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "司马昭之心，路人皆知", 
+            "POS": "i"
+        }, 
+        {
+            "word": "万目睽睽", 
+            "POS": "i"
+        }, 
+        {
+            "word": "无可争辩", 
+            "POS": "i"
+        }, 
+        {
+            "word": "无庸赘述", 
+            "POS": "i"
+        }, 
+        {
+            "word": "鲜明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显而易见", 
+            "POS": "i"
+        }, 
+        {
+            "word": "显豁", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显目", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显然", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "显著", 
+            "POS": "a"
+        }, 
+        {
+            "word": "详明", 
+            "POS": "a"
+        }, 
+        {
+            "word": "醒豁", 
+            "POS": "a"
+        }, 
+        {
+            "word": "醒目", 
+            "POS": "a"
+        }, 
+        {
+            "word": "醒眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "研制不想", 
+            "POS": "i"
+        }, 
+        {
+            "word": "眼见得", 
+            "POS": "i"
+        }, 
+        {
+            "word": "央央", 
+            "POS": "a"
+        }, 
+        {
+            "word": "一览无遗", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一览无余", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一目了然", 
+            "POS": "i"
+        }, 
+        {
+            "word": "一望而知", 
+            "POS": "i"
+        }, 
+        {
+            "word": "依违", 
+            "POS": "a"
+        }, 
+        {
+            "word": "引人注目", 
+            "POS": "i"
+        }, 
+        {
+            "word": "隐隐", 
+            "POS": "a"
+        }, 
+        {
+            "word": "隐隐约约", 
+            "POS": "i"
+        }, 
+        {
+            "word": "隐约", 
+            "POS": "a"
+        }, 
+        {
+            "word": "有目共睹", 
+            "POS": "i"
+        }, 
+        {
+            "word": "语焉不详", 
+            "POS": "i"
+        }, 
+        {
+            "word": "扎眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "彰明较著", 
+            "POS": "i"
+        }, 
+        {
+            "word": "招眼", 
+            "POS": "a"
+        }, 
+        {
+            "word": "昭然若揭", 
+            "POS": "i"
+        }, 
+        {
+            "word": "昭彰", 
+            "POS": "a"
+        }, 
+        {
+            "word": "昭著", 
+            "POS": "a"
+        }, 
+        {
+            "word": "众目睽睽", 
+            "POS": "i"
+        }, 
+        {
+            "word": "众目昭彰", 
+            "POS": "i"
+        }, 
+        {
+            "word": "众目昭著", 
+            "POS": "i"
+        }, 
+        {
+            "word": "众所周知", 
+            "POS": "i"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": true, 
+            "def": "指一种修饰语，通过表明现象和标准参照相背离的程度或与另一现象的特点的差异，揭示出得以认识现象的可能性有多大。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "isMapped": true, 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "被感知的对象。"
+        }, 
+        {
+            "abbrName": "Attr", 
+            "eName": "Attribute", 
+            "isMapped": true, 
+            "cName": "特征项", 
+            "isCore": true, 
+            "def": "指现象所具有的有程度等级差别的那些特征范畴。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "现象能够被感受的具体条件。"
+        }, 
+        {
+            "abbrName": "evid", 
+            "eName": "Evidence", 
+            "isMapped": true, 
+            "cName": "根据", 
+            "isCore": false, 
+            "def": "关系到现象是否被感受或理解的事件状态。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "isMapped": false, 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "背景是现象所处的位置，作为感知觉活动的背景场所，用处所短语表示。"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location_of_protagonist", 
+            "isMapped": true, 
+            "cName": "角色位置", 
+            "isCore": false, 
+            "def": "表示感知者的绝对位置，或者感知者相对于现象的位置。"
+        }, 
+        {
+            "abbrName": "perc", 
+            "eName": "Perceiver", 
+            "isMapped": true, 
+            "cName": "感知者", 
+            "isCore": false, 
+            "def": "感知现象的有意识的实体。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "现象可感的时间。"
+        }, 
+        {
+            "abbrName": "gro", 
+            "eName": "Group", 
+            "isMapped": true, 
+            "cName": "相似组", 
+            "isCore": false, 
+            "def": "The likelihood of a Phenomenon to be observed perceptually or cognitively in a particular Group of comparable background items may be contrasted, implicitly or explicitly,  with different groups.\n\nThis correlation was obvious in patients classified as acute myeloid leukemia (AML)as well as in the monocytic varieties of ANLL."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Particular_iteration", 
+            "isMapped": true, 
+            "cName": "特别重复", 
+            "isCore": false, 
+            "def": "Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. In addition, most expressions of Particular_iteration indicate which instance of the series is being referred to."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Direction", 
+            "isMapped": true, 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "This frame element is used for all path-like expressions, except those indicating the location of the perceiver (see above), that describe how the perceiver's attention is directed during the act of perception.\n\n\nThe top of the mountain showed through the mist"
+        }
+    ]
+}

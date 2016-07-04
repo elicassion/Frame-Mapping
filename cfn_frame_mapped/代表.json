@@ -1,0 +1,204 @@
+{
+    "fdInfo": {
+        "eName": "Representative", 
+        "cName": "代表", 
+        "des": "此框架是指用某一事件或事物即实体表示某种特定的意义或概念即内容。"
+    }, 
+    "frameId": 135, 
+    "lexElmt": [
+        {
+            "word": "标志", 
+            "POS": "n"
+        }, 
+        {
+            "word": "标志", 
+            "POS": "v"
+        }, 
+        {
+            "word": "表示", 
+            "POS": "v"
+        }, 
+        {
+            "word": "代表", 
+            "POS": "n"
+        }, 
+        {
+            "word": "代表", 
+            "POS": "v"
+        }, 
+        {
+            "word": "象征", 
+            "POS": "n"
+        }, 
+        {
+            "word": "象征", 
+            "POS": "v"
+        }, 
+        {
+            "word": "意味", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "con", 
+            "eName": "Content", 
+            "isMapped": false, 
+            "cName": "内容", 
+            "isCore": false, 
+            "def": "内容是指实体表示的特定意义或概念。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "isMapped": false, 
+            "cName": "实体", 
+            "isCore": false, 
+            "def": "实体是指表示某种特定的意义或概念的事件或事物。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": false, 
+            "cName": "施动者", 
+            "isCore": false, 
+            "def": "是指致使实体表示某一内容的人或机构。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequence", 
+            "isMapped": false, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "频率是指实体代表内容的过程中在单位时间内发生的次数。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": false, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容是指实体在代表内容这一过程中所处的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": false, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述代表活动过程的特征或所处状态的成分，都归入该元素，如“认真、坦白地”等。注意，修饰元素是对事件过程本身的描述，而形容元素是对事件参与者的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指实体表示内容的时间。"
+        }, 
+        {
+            "abbrName": "Ori", 
+            "eName": "Origin", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Origin is the place where the Representative was born or lived a salient part of her or his life."
+        }, 
+        {
+            "abbrName": "rep", 
+            "eName": "Representative", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Representative speaks for another."
+        }, 
+        {
+            "abbrName": "Pers_char", 
+            "eName": "Persistent_characteristic", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Persistent_characteristic is a physiological characteristic or personality trait of the Representative which is concieved of as persisting over time."
+        }, 
+        {
+            "abbrName": "Desc", 
+            "eName": "Descriptor", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Descriptor is a temporary condition of the Representative."
+        }, 
+        {
+            "abbrName": "Age", 
+            "eName": "Age", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Age is the length of time the Representative has been alive."
+        }, 
+        {
+            "abbrName": "Eth", 
+            "eName": "Ethnicity", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Ethnicity is the religious, racial, national, socio-economic or cultural group to which the Representative belongs."
+        }, 
+        {
+            "abbrName": "coa", 
+            "eName": "Context_of_acquaintance", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "An expression indicating the context with which the Representative is associated.\n"
+        }, 
+        {
+            "abbrName": "rnk", 
+            "eName": "Rank", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Rank is the position in a hierarchy that a Representative occupies within an organization."
+        }, 
+        {
+            "abbrName": "poe", 
+            "eName": "Place_of_employment", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE identifies the Place where the Representative works."
+        }, 
+        {
+            "abbrName": "repd", 
+            "eName": "Represented", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Represented authorizes the Representative to communicate on its behalf."
+        }, 
+        {
+            "abbrName": "typ", 
+            "eName": "Type", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE identifies the Type of Representative."
+        }, 
+        {
+            "abbrName": "com", 
+            "eName": "Compensation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Compensation is the payment that the Representative receives for performing a task."
+        }, 
+        {
+            "abbrName": "cb", 
+            "eName": "Contract_basis", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Contract_basis describes the conditions of employment with respect to permanency, hours per time period, or payment basis.\n\nSmithers is a half-time spokesperson for Procteur et Gamble "
+        }
+    ]
+}

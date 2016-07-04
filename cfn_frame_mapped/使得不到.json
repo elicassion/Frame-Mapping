@@ -1,0 +1,104 @@
+{
+    "fdInfo": {
+        "eName": "Prevent_from_having", 
+        "cName": "使得不到", 
+        "des": "施动者或阻因使主体得不到所需要或渴望的事态。"
+    }, 
+    "frameId": 424, 
+    "lexElmt": [
+        {
+            "word": "剥夺", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是防止事件发生的人。"
+        }, 
+        {
+            "abbrName": "prevnt_cause", 
+            "eName": "Preventing_cause", 
+            "isMapped": true, 
+            "cName": "阻力", 
+            "isCore": true, 
+            "def": "阻力指阻止事件发生的施动者或力量。"
+        }, 
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "isMapped": true, 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体是指得不到所需事态的人。"
+        }, 
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "isMapped": true, 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "该框架元素指的是主体得不到的情况、事态或占有状态。"
+        }, 
+        {
+            "abbrName": "contain_even", 
+            "eName": "Containing_event", 
+            "isMapped": true, 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "阻止时发生的事件或保持的事态，且阻止事件被视为其中的一部分。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "主体被拒绝给与事态的时间长度。"
+        }, 
+        {
+            "abbrName": "expla", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "剥夺事件何以可能发生。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素表明主体得不到事态的频率。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "处所指阻力阻止事件发生的地方。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者使主体得不到事态的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "阻力阻止事件发生的时间。"
+        }
+    ]
+}

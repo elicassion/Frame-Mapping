@@ -1,0 +1,208 @@
+{
+    "fdInfo": {
+        "eName": "Grooming", 
+        "cName": "清洁", 
+        "des": "在这一框架中，致动者进行身体清洁或修饰。在此过程中可以使用工具。"
+    }, 
+    "frameId": 75, 
+    "lexElmt": [
+        {
+            "word": "拔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "冲洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "淋浴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沐浴", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清洁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "清洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "梳", 
+            "POS": "v"
+        }, 
+        {
+            "word": "刷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "剔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗漱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗刷", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗洗手", 
+            "POS": "v"
+        }, 
+        {
+            "word": "洗澡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修", 
+            "POS": "v"
+        }, 
+        {
+            "word": "修剪", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者指进行清洁活动或修饰的人。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "isMapped": true, 
+            "cName": "身体部位", 
+            "isCore": true, 
+            "def": "被清洁或修饰的身体的部分。"
+        }, 
+        {
+            "abbrName": "pat", 
+            "eName": "Patient", 
+            "isMapped": true, 
+            "cName": "受事", 
+            "isCore": true, 
+            "def": "受事指身体被清洗或修饰的人。"
+        }, 
+        {
+            "abbrName": "dur_action", 
+            "eName": "Duration_of_action", 
+            "isMapped": false, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "清洁或修饰过程持续的时间长短。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "致动者清洁或修饰自己或别人的发生次数。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者所用的有增强清洁效果的洗涤剂或用来修饰的工具。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者进行有意行为所采取的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事情发生的地点。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "清洗或修饰的结果"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "清洗或修饰身体或身体的一部分，清洗修饰的区域。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "清洗或修饰发生的时间"
+        }, 
+        {
+            "abbrName": "Med", 
+            "eName": "Medium", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Medium is the substance that is the grooming agent.\nBobby washed his hair with shampoo "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Duration", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "How long the grooming takes place."
+        }, 
+        {
+            "abbrName": "pur", 
+            "eName": "Purpose", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The state-of-affairs that the Agent is trying to bring about by grooming."
+        }, 
+        {
+            "abbrName": "mea", 
+            "eName": "Means", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The action performed by the Agent to accomplish the grooming."
+        }
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "fdInfo": {
+        "eName": "Deciding", 
+        "cName": "决定", 
+        "des": "认知者在各种显性的或潜在的选择中做出一项决定，这项决定可能是一个实体，也可能是一个行为过程。"
+    }, 
+    "frameId": 61, 
+    "lexElmt": [
+        {
+            "word": "定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "定弦", 
+            "POS": "v"
+        }, 
+        {
+            "word": "决定", 
+            "POS": "n"
+        }, 
+        {
+            "word": "决定", 
+            "POS": "v"
+        }, 
+        {
+            "word": "决心", 
+            "POS": "n"
+        }, 
+        {
+            "word": "决心", 
+            "POS": "v"
+        }, 
+        {
+            "word": "决议", 
+            "POS": "n"
+        }, 
+        {
+            "word": "立意", 
+            "POS": "v"
+        }, 
+        {
+            "word": "立志", 
+            "POS": "v"
+        }, 
+        {
+            "word": "确定", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "cog", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "认知者", 
+            "isCore": false, 
+            "def": "认知者决定做某事。"
+        }, 
+        {
+            "abbrName": "dec", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "决定", 
+            "isCore": false, 
+            "def": "决定元素表示认知者所决定的实体或过程。"
+        }, 
+        {
+            "abbrName": "poss", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "候选项", 
+            "isCore": false, 
+            "def": "认知者从一系列可能的选项中决定选择哪一个。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "isMapped": false, 
+            "cName": "主题", 
+            "isCore": false, 
+            "def": "由\"关于\"引导的表示决定所涉及的事物，有时所涉及的事物也表明了决定的大体内容。"
+        }, 
+        {
+            "abbrName": "Cog", 
+            "eName": "Cognizer", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Cognizer decides on a course of action.\n\nMo decided to quit the program."
+        }, 
+        {
+            "abbrName": "Dec", 
+            "eName": "Decision", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "Decision identifies the entity or course of action upon which the Cognizer decides.\nMo decided to quit the program.\n"
+        }, 
+        {
+            "abbrName": "Poss", 
+            "eName": "Possibilities", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A Cognizer makes a Decision from among a set of Possibilities.\n\nMo decided on the blue sweater from the pile on the counter."
+        }, 
+        {
+            "abbrName": "tim", 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The time or time period over which the Cognizer makes the decision.\n\nThe State Cabinet today decided to file an appeal in the Supreme Court seeking an extension of six months for implementation of its judgment"
+        }, 
+        {
+            "abbrName": "pla", 
+            "eName": "Place", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The place where the Cognizer makes the decision.\n\nAt the first crossroad we decided to wait."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Manner", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Manner in which the Cognizer makes a Decision"
+        }, 
+        {
+            "abbrName": "Inh", 
+            "eName": "Inherent_purpose", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Cognizer intends the Decision to fulfill an Inherent_purpose . Samson ruled out  Delilah as a wife. "
+        }, 
+        {
+            "abbrName": "Circ", 
+            "eName": "Circumstance", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The conditions under which the Cognizer makes a Decision.\n\nWe have ruled out the effect of photosynthesis under the current conditions of the experiment."
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The reason for which the Cognizer makes the Decision.\n\nMiss Patty opted for blue because it is her daughter's favorite color."
+        }
+    ]
+}

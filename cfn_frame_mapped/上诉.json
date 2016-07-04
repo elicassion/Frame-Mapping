@@ -1,0 +1,92 @@
+{
+    "fdInfo": {
+        "eName": "Appeal", 
+        "cName": "上诉", 
+        "des": "在刑事程序的上诉阶段，罪犯或其代理人根据某一原因向更高一级的法院提出申请，要求改变下一级法院的裁判。"
+    }, 
+    "frameId": 182, 
+    "lexElmt": [
+        {
+            "word": "辩护", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上诉", 
+            "POS": "n"
+        }, 
+        {
+            "word": "上诉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "上诉人", 
+            "POS": "n"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "conv", 
+            "eName": "Convict", 
+            "isMapped": true, 
+            "cName": "罪犯", 
+            "isCore": true, 
+            "def": "罪犯是不服法院判决而向高一级法院提出上诉的人，指被告人或自诉案件的自诉人。"
+        }, 
+        {
+            "abbrName": "dec", 
+            "eName": "Decision", 
+            "isMapped": true, 
+            "cName": "裁判", 
+            "isCore": true, 
+            "def": "裁判是指一审法院宣布的判决、裁定"
+        }, 
+        {
+            "abbrName": "reptive", 
+            "eName": "Representative", 
+            "isMapped": true, 
+            "cName": "代理人", 
+            "isCore": true, 
+            "def": "代理人是为了罪犯的利益而向高一级的法院提出申请的人。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "isMapped": true, 
+            "cName": "法院", 
+            "isCore": false, 
+            "def": "法院是罪犯提起上诉的司法机构。"
+        }, 
+        {
+            "abbrName": "grounds", 
+            "eName": "Grounds", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因是提起上诉的依据。如不服下一级法院的裁判。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Time at which a Convict or Representative appeals. "
+        }, 
+        {
+            "abbrName": "re-e", 
+            "eName": "Re-encoding", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE presents the current frame as an integral part of a larger conceptualization expressed by another frame. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Explanation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. "
+        }
+    ]
+}

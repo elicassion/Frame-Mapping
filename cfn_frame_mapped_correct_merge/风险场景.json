@@ -1,0 +1,59 @@
+{
+    "fdInfo": {
+        "eName": "Risk_scenario", 
+        "cName": "风险场景", 
+        "des": "在特定情形下，价值体有可能导致或引起危害性事件，危害性事件将会对价值体有负面影响。"
+    }, 
+    "frameId": 445, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "表达实际安全级别与目标词本身所表达的价值体、情形和状态预期值背离的修饰语。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "保持安全程度的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "保持安全程度的时间。"
+        }, 
+        {
+            "abbrName": "ass", 
+            "eName": "Asset", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "Something judged to be desirable or valuable which might be lost or damaged."
+        }, 
+        {
+            "abbrName": "har", 
+            "eName": "Harmful_event", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "An event that may occur or a state which may hold which could result in the loss of or damage to the Asset."
+        }, 
+        {
+            "abbrName": "sit", 
+            "eName": "Situation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Situation under which the Asset is safe or unsafe."
+        }
+    ]
+}

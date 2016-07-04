@@ -1,0 +1,256 @@
+{
+    "fdInfo": {
+        "eName": "Motion", 
+        "cName": "位移", 
+        "des": "转移体从源点出发，终止于目的地，两个地点之间经过的是路径。从一般的[位移]框架继承的那些框架是在这个简单思想上加入了一些细节，如凸显目的地的[到达]，凸显源点的[出发]，凸显路径的[穿越]。"
+    }, 
+    "frameId": 22, 
+    "lexElmt": [
+        {
+            "word": "吹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "飞", 
+            "POS": "v"
+        }, 
+        {
+            "word": "飞行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滚动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滑动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滑翔", 
+            "POS": "v"
+        }, 
+        {
+            "word": "滑行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "跑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "漂", 
+            "POS": "v"
+        }, 
+        {
+            "word": "漂浮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "漂流", 
+            "POS": "v"
+        }, 
+        {
+            "word": "漂移", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "驶入", 
+            "POS": "v"
+        }, 
+        {
+            "word": "移动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "走", 
+            "POS": "v"
+        }, 
+        {
+            "word": "走动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "走开", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "isMapped": true, 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "转移体是改变地点的实体。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "isMapped": true, 
+            "cName": "方向", 
+            "isCore": true, 
+            "def": "移动的方向。"
+        }, 
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "isMapped": true, 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "目的地是转移体终止的地方。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "isMapped": true, 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "路径是指转移体行进在其上的路线。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "isMapped": true, 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "源点是转移体在位置改变之前的处所。"
+        }, 
+        {
+            "abbrName": "area", 
+            "eName": "Area", 
+            "isMapped": true, 
+            "cName": "区域", 
+            "isCore": true, 
+            "def": "区域是在没有明确路径的情况下，转移体位移的背景。"
+        }, 
+        {
+            "abbrName": "carrier", 
+            "eName": "Carrier", 
+            "isMapped": true, 
+            "cName": "载体", 
+            "isCore": false, 
+            "def": "载体是运输转移体的工具。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "描述位移发生时转移体的状态。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "isMapped": true, 
+            "cName": "路程", 
+            "isCore": true, 
+            "def": "距离表示位移的长度。"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "位移发生的时间数量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "位移发生的方式。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "isMapped": true, 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "转移体位移的速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "位移发生的时间。 "
+        }, 
+        {
+            "abbrName": "Result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "Result identifies the ultimate effect of the Motion.\nThe feathers floated together on the water's surface."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "The Place is the general area in which a specific motion (with Source, Path, or Goal) occurs."
+        }, 
+        {
+            "abbrName": "Degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "The extent to which the Theme cross a boundary as it moves away from a Source region or into a Goal region.\n\nPluto has moved fullyinto Sagittarius"
+        }, 
+        {
+            "abbrName": "pur", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "In cases wherein the Theme is construed as a sentient entity, this FE denotes the state of affairs that the entity wishes to bring about by moving.\n\nJohnny went to Langley  to turn himself in."
+        }, 
+        {
+            "abbrName": "sha", 
+            "eName": "Path_shape", 
+            "isMapped": true, 
+            "cName": "路径形状", 
+            "isCore": false, 
+            "def": "The shape of the overall Path travelled by the Theme.\n\nThey drifted in circles for weeks before rescue ."
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Containing_event", 
+            "isMapped": true, 
+            "cName": "包含事件", 
+            "isCore": false, 
+            "def": "An event that the described motion forms an integral part of."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "This frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the question how often. "
+        }, 
+        {
+            "abbrName": "Ite", 
+            "eName": "Iterations", 
+            "isMapped": true, 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "The frame element Iterations is used for expressions that indicate the number of times an event or state (of the kind denoted by the target in its clause) has taken place or held."
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "fdInfo": {
+        "eName": "Law", 
+        "cName": "法律", 
+        "des": "法律是国家制定或认可的，以国家强制力保障实施的，以权利义务为内容的行为规范的总称。"
+    }, 
+    "frameId": 254, 
+    "lexElmt": [], 
+    "element": [
+        {
+            "abbrName": "law", 
+            "eName": "Law", 
+            "isMapped": true, 
+            "cName": "法律", 
+            "isCore": true, 
+            "def": "这个框架元素表明规则是用于指导行为，反对一些行为和/或要求其他的行为。"
+        }, 
+        {
+            "abbrName": "cre", 
+            "eName": "Creator", 
+            "isMapped": true, 
+            "cName": "创造者", 
+            "isCore": false, 
+            "def": "法律的制定机关"
+        }, 
+        {
+            "abbrName": "term", 
+            "eName": "Term", 
+            "isMapped": false, 
+            "cName": "条款", 
+            "isCore": false, 
+            "def": "涉及到法律的条款。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": false, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "法律产生的时间。"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "isMapped": true, 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": " 法律部门。"
+        }, 
+        {
+            "abbrName": "use", 
+            "eName": "Use", 
+            "isMapped": true, 
+            "cName": "用途", 
+            "isCore": false, 
+            "def": "法律旨在起到的作用。"
+        }, 
+        {
+            "abbrName": "Time", 
+            "eName": "Time_of_creation", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The time at which a Law comes into existence.\n\nThe 1996 welfare reform act was a sham."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Name", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The term used to refer to a Law.\n\nWell, they're still in violation of the Sarbanes-Oxley Act."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Part", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Any indication of what makes up the Law.\n\nWe don't need another law with 300 subsections."
+        }, 
+        {
+            "abbrName": "for", 
+            "eName": "Forbidden", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The state-of-affairs which is disallowed by the Law.\n\nI think we need a law against all firearms within city limits."
+        }, 
+        {
+            "abbrName": "req", 
+            "eName": "Required", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "A state-of-affairs which the Law declares must be maintained.\n\nThe law that all minors must be accompanied by an adult is a laughingstock."
+        }, 
+        {
+            "abbrName": "jur", 
+            "eName": "Jurisdiction", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The location where a given Law is in force.\n\nAccording to Fijian law, no-one may enter the park after sunset.\n\n"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Descriptor", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "Any description of the Law not covered by a more specific frame element."
+        }
+    ]
+}

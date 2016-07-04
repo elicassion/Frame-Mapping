@@ -1,0 +1,80 @@
+{
+    "fdInfo": {
+        "eName": "Suspiciousness", 
+        "cName": "可疑", 
+        "des": "一个具体的或者抽象的实体，其本身可疑，或者遭到外界置疑，一般情况是，实体提供了某些迹象（还没有证实）引发某种怀疑。"
+    }, 
+    "frameId": 63, 
+    "lexElmt": [
+        {
+            "word": "靠不住", 
+            "POS": "a"
+        }, 
+        {
+            "word": "靠不住", 
+            "POS": "i"
+        }, 
+        {
+            "word": "可疑", 
+            "POS": "a"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "phen", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "被质疑的事物。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "某事物被质疑的程度。"
+        }, 
+        {
+            "abbrName": "Act", 
+            "eName": "Behavior", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Behavior is the state of affairs or action of the social actor that is regarded as susipcious. "
+        }, 
+        {
+            "abbrName": "Deg", 
+            "eName": "Degree", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The extent to which the Behavior is suspicious.\nThat looks like very suspicious activity."
+        }, 
+        {
+            "abbrName": "soc", 
+            "eName": "Social_actor", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "An individual that is suspected of wrongdoing because of the Behavior."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Judge", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The individual whose point of view is taken in assigning the judgment denoted by the target."
+        }, 
+        {
+            "abbrName": "Ent", 
+            "eName": "Entity", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": true, 
+            "def": "The Entity metonymically stands in for a Behavior that saliently involves the Entity. "
+        }
+    ]
+}

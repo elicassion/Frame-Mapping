@@ -1,0 +1,88 @@
+{
+    "fdInfo": {
+        "eName": "Being_located", 
+        "cName": "位置", 
+        "des": "表示一个主题的固定位置的地点"
+    }, 
+    "frameId": 188, 
+    "lexElmt": [
+        {
+            "word": "处于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "地处", 
+            "POS": "v"
+        }, 
+        {
+            "word": "位于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "位置", 
+            "POS": "n"
+        }, 
+        {
+            "word": "坐落", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "主题的一个代表性的具体的地点"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "能够代表主题的地点的一片地方"
+        }, 
+        {
+            "abbrName": "thm", 
+            "eName": "Theme", 
+            "isMapped": true, 
+            "cName": "转移体", 
+            "isCore": true, 
+            "def": "位于特殊位置的一个实体"
+        }, 
+        {
+            "abbrName": "dep_state", 
+            "eName": "Dependent_state", 
+            "isMapped": true, 
+            "cName": "依存状态", 
+            "isCore": false, 
+            "def": "主题位于此位置造成的后果和相关的情形"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "主题第一次出现在此处的时间"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Cotheme", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This frame element is used to denote phrases that specifically entail an entity which is conceived as moving relative to another entity."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Depictive", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A Depictive expression describes a state or condition of the Theme independent of its location.\n\nThe rubble of the buildings lies in a heap just outside the city."
+        }
+    ]
+}

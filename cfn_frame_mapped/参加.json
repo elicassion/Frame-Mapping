@@ -1,0 +1,132 @@
+{
+    "fdInfo": {
+        "eName": "Attending", 
+        "cName": "参加", 
+        "des": "施动者参与某项事件，并以相对非参与的方式存在。"
+    }, 
+    "frameId": 400, 
+    "lexElmt": [
+        {
+            "word": "参加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "参与", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出席", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "施动者是指自主决定参与到某事件中的某人。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "isMapped": true, 
+            "cName": "事件", 
+            "isCore": true, 
+            "def": "事件是指在某个特定的时间和地点所发生的一系列有主观意志的事情。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "施动者参加某事件所处的环境条件。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "时量表示的是某个（目标词所表示的）持续的状态从开始到结束的时长。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "该框架元素指单位时间内事件发生的次数。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "isMapped": false, 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "框架元素“次数”表示某个（目标词在其从句中）所表示的事件或状态已发生或持续的数量。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "施动者参与事件的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "通过某种策略或方法，施动者使自己有可能参与到某个事件。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "施动者参与事件的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "施动者参与事件的原因"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "施动者参与事件的时间。"
+        }, 
+        {
+            "abbrName": "Iter", 
+            "eName": "Iterations", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The frame element Iterations is used for expressions that indicate the number of times an event or state (of the kind denoted by the target in its clause) has taken place or held."
+        }, 
+        {
+            "abbrName": "Eve", 
+            "eName": "Event_description", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "This FE describes the event as a whole."
+        }
+    ]
+}

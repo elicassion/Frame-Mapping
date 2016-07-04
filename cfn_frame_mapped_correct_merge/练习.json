@@ -1,0 +1,160 @@
+{
+    "fdInfo": {
+        "eName": "Practice", 
+        "cName": "练习", 
+        "des": "致动者反复练习某种想要在以后的场合中一次或多次执行的行动，练习的目的是确保行动在以后的场合中完美地完成。"
+    }, 
+    "frameId": 265, 
+    "lexElmt": [
+        {
+            "word": "彩排", 
+            "POS": "v"
+        }, 
+        {
+            "word": "操练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "操演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "苦练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "练习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排练", 
+            "POS": "v"
+        }, 
+        {
+            "word": "排演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "试演", 
+            "POS": "v"
+        }, 
+        {
+            "word": "演习", 
+            "POS": "v"
+        }, 
+        {
+            "word": "预演", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "isMapped": true, 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "致动者为了给以后的场合作好准备而有意执行的动作行为。"
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "执行行动的人，此行动作为稍后同类型行为的准备。"
+        }, 
+        {
+            "abbrName": "occa", 
+            "eName": "Occasion", 
+            "isMapped": true, 
+            "cName": "场合", 
+            "isCore": true, 
+            "def": "表示致动者练习某种技能是为了在何种场合下使用。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者练习所采取的方法、形式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "致动者练习行为发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者执行故意行为的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "致动者练习的时间。"
+        }, 
+        {
+            "abbrName": "co_part", 
+            "eName": "Co_participant", 
+            "isMapped": false, 
+            "cName": "伴随者", 
+            "isCore": false, 
+            "def": "和致动者一起参加练习的非核心参与者。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "练习行为重复进行所用的时间数量。"
+        }, 
+        {
+            "abbrName": "iter", 
+            "eName": "Iteration", 
+            "isMapped": false, 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "表示练习重复发生的次数。"
+        }, 
+        {
+            "abbrName": "Ite", 
+            "eName": "Iterations", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "The number of times that the Action is practiced.\n\nWe practice this scene daily"
+        }, 
+        {
+            "abbrName": "co-p", 
+            "eName": "Co-participant", 
+            "isMapped": false, 
+            "cName": null, 
+            "isCore": false, 
+            "def": "A person who participates in a practice event along with the Agent.\n\n Then I went back to rehearsing with the band while she sat around listening "
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "fdInfo": {
+        "eName": "Execution", 
+        "cName": "死刑", 
+        "des": "剥夺犯罪分子生命的刑罚。"
+    }, 
+    "frameId": 229, 
+    "lexElmt": [
+        {
+            "word": "处死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "处斩刑", 
+            "POS": "v"
+        }, 
+        {
+            "word": "断头台", 
+            "POS": "n"
+        }, 
+        {
+            "word": "绞死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "绞刑吏", 
+            "POS": "n"
+        }, 
+        {
+            "word": "侩子手", 
+            "POS": "n"
+        }, 
+        {
+            "word": "死刑", 
+            "POS": "n"
+        }, 
+        {
+            "word": "死刑执行者", 
+            "POS": "n"
+        }, 
+        {
+            "word": "致死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "纵火", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "executed", 
+            "eName": "Executed", 
+            "isMapped": true, 
+            "cName": "死刑犯", 
+            "isCore": true, 
+            "def": "依照判决被剥夺生命的犯罪分子。"
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "isMapped": false, 
+            "cName": "法院", 
+            "isCore": false, 
+            "def": "判处犯罪分子死刑的法院。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对死刑执行情形的描述。"
+        }, 
+        {
+            "abbrName": "action", 
+            "eName": "Execution", 
+            "isMapped": true, 
+            "cName": "死刑", 
+            "isCore": false, 
+            "def": "剥夺犯罪分子生命的刑罚。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "执行死刑所使用的工具，为枪或毒药。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对死刑执行的形容性描写。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "执行死刑的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "执行死刑的地点。"
+        }, 
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "执行死刑的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "死刑执行的时间。"
+        }, 
+        {
+            "abbrName": "Agt", 
+            "eName": "Executioner", 
+            "isMapped": true, 
+            "cName": "行刑者", 
+            "isCore": true, 
+            "def": "The Executioner is the individual who performs the execution.\n\nThe truth is, we have all put them to death."
+        }, 
+        {
+            "abbrName": "Purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "意图", 
+            "isCore": false, 
+            "def": "The purpose for which the execution is carried out.\n"
+        }, 
+        {
+            "abbrName": "Degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "Degree to which event occurs."
+        }, 
+        {
+            "abbrName": "Result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "Result of an event"
+        }
+    ]
+}
