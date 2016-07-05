@@ -1,0 +1,84 @@
+{
+    "fdInfo": {
+        "eName": "Breaking_off", 
+        "cName": "脱落", 
+        "des": "单一的子部分从整体脱落。"
+    }, 
+    "element": [
+        {
+            "abbrName": "sub", 
+            "eName": "Subpart", 
+            "isMapped": true, 
+            "cName": "成分", 
+            "isCore": true, 
+            "def": "The part of the Whole that is conceived as being broken or taken off from the remaining part of the whole.\n\nThe handle broke off of the pot."
+        }, 
+        {
+            "abbrName": "who", 
+            "eName": "Whole", 
+            "isMapped": true, 
+            "cName": "整体", 
+            "isCore": true, 
+            "def": "The piece that is presented in a less prominent position, and which is the landmark or remaining whole from which Sub_part breaks off.\nThe handle broke off of the pot."
+        }, 
+        {
+            "abbrName": "cri", 
+            "eName": "Criterion", 
+            "isMapped": true, 
+            "cName": "标准", 
+            "isCore": false, 
+            "def": "该框架元素表示构成部分或成分的属性，整体与残片的位置相关。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指未包括在更具体的框架元素中的对事件和参与者的描述。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "使“脱落”事件发生的行为、事件或状态。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "脱落发生的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "子部分脱落发生的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "断", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱", 
+            "POS": "v"
+        }, 
+        {
+            "word": "脱落", 
+            "POS": "v"
+        }, 
+        {
+            "word": "折", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 461
+}

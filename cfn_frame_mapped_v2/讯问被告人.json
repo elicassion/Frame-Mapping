@@ -1,0 +1,88 @@
+{
+    "fdInfo": {
+        "eName": "Try_defendant", 
+        "cName": "讯问被告人", 
+        "des": "就案件事实对被告人进行的发问，被告人应当如实回答，对于案件无关的问题，有权拒绝回答。"
+    }, 
+    "element": [
+        {
+            "abbrName": "chrgs", 
+            "eName": "Charges", 
+            "isMapped": true, 
+            "cName": "指控", 
+            "isCore": true, 
+            "def": "对被告人犯罪事实提起的控告。"
+        }, 
+        {
+            "abbrName": "def", 
+            "eName": "Defendant", 
+            "isMapped": true, 
+            "cName": "被告人", 
+            "isCore": true, 
+            "def": "被指控犯罪，接受讯问的人。"
+        }, 
+        {
+            "abbrName": "judge", 
+            "eName": "Judge", 
+            "isMapped": true, 
+            "cName": "判断者", 
+            "isCore": true, 
+            "def": "法官主持法庭审判，在我国法官同样拥有讯问被告人的权力。"
+        }, 
+        {
+            "abbrName": "Jury", 
+            "eName": "Jury", 
+            "isMapped": true, 
+            "cName": "陪审团", 
+            "isCore": true, 
+            "def": "This FE identifies the people who are charged by the Court to listen to the testimony, evidence, and arguments, and come to a consensus about the guilt or innocence of the Defendant."
+        }, 
+        {
+            "abbrName": "GA", 
+            "eName": "Governing_authority", 
+            "isMapped": true, 
+            "cName": "权威部门", 
+            "isCore": true, 
+            "def": "The Defendant is tried under the laws of the Governing_authority.\nThe United States will try the accused bomber in a federal courthouse."
+        }, 
+        {
+            "abbrName": "court", 
+            "eName": "Court", 
+            "isMapped": true, 
+            "cName": "法院", 
+            "isCore": false, 
+            "def": "讯问被告人的法庭"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "讯问的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "讯问进行的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "询问进行的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "审问", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 298
+}

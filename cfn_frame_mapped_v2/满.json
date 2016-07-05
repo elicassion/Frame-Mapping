@@ -1,0 +1,68 @@
+{
+    "fdInfo": {
+        "eName": "Fullness", 
+        "cName": "满", 
+        "des": "一个容器装了一些容纳物，处于满、不满或空的状态。注意该框架与[容纳][倒空]和[填充]框架的区别和联系。"
+    }, 
+    "element": [
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "isMapped": true, 
+            "cName": "容器", 
+            "isCore": true, 
+            "def": "容器是被描述为满、不满或空的实体。"
+        }, 
+        {
+            "abbrName": "contents", 
+            "eName": "Contents", 
+            "isMapped": true, 
+            "cName": "容纳物", 
+            "isCore": false, 
+            "def": "容纳物用来做容器中容纳或待填充的物品。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "容器中的容纳物的数量与容器的最大容量之间的差别程度。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "The Time when the Container is full. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "The amount of times the Container is empty per unit of time."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "Duration denotes the length of time from the beginning of the Container's fullness to the end. "
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "空", 
+            "POS": "a"
+        }, 
+        {
+            "word": "满", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 236
+}

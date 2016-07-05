@@ -109,9 +109,9 @@
             "def": "施动者所从事正在进行的行为的目的。"
         }, 
         {
-            "abbrName": "subv", 
-            "eName": "Subevent", 
-            "isMapped": false, 
+            "abbrName": "Co-t", 
+            "eName": "Co-timed_event", 
+            "isMapped": true, 
             "cName": "亚事件", 
             "isCore": false, 
             "def": "施动者继续某一行为的亚事件。"
@@ -123,14 +123,6 @@
             "cName": "时间", 
             "isCore": false, 
             "def": "正在进行的行为发生的时间。"
-        }, 
-        {
-            "abbrName": "Co-t", 
-            "eName": "Co-timed_event", 
-            "isMapped": true, 
-            "cName": "同时发生事件", 
-            "isCore": false, 
-            "def": "This FE identifies the Co-timed_event with which the Agent continues an ongoing Activity.We continued the meeting with a discussion of the crisis in Africa."
         }, 
         {
             "abbrName": null, 

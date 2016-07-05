@@ -1,0 +1,144 @@
+{
+    "fdInfo": {
+        "eName": "Verification", 
+        "cName": "核实", 
+        "des": "一个核查者通过调查证据，对于不确定内容（问题）有了一定程度的确定性。"
+    }, 
+    "element": [
+        {
+            "abbrName": "inspec", 
+            "eName": "Inspector", 
+            "isMapped": true, 
+            "cName": "核查者", 
+            "isCore": true, 
+            "def": "认定不确定内容为真实内容的个人或群体。"
+        }, 
+        {
+            "abbrName": "unc", 
+            "eName": "Unconfirmed_content", 
+            "isMapped": true, 
+            "cName": "问题", 
+            "isCore": true, 
+            "def": "即一个待查命题，需要调查者检查证据，通常由某些对此持有异议的派别团体提出。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "isMapped": true, 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": null
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "包括表示主观认识的修饰语（可能，大概，不可思议），强制程度（强硬，温柔），附属效果（安静，吵闹），一般的表示事件类比的成分（同样），等等，只要是对查证的描述，而又不属于其他更具体的框架元素的，都归入方式元素。也包括描述检验者具有的影响行为的突出特点（专横，冷漠，故意，急切，认真）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "调查者在弄清楚事实真相的过程中采用的方法。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "调查者通过核实调查所要达到的状态。"
+        }, 
+        {
+            "abbrName": "deg", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "The amount of certainty which the Inspector achieves after the process of verification.\n\nHis involvement in the action has subsequently been completely confirmed.\n"
+        }, 
+        {
+            "abbrName": "inst", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "A tool or instrument used by the Inspector in the verification process."
+        }, 
+        {
+            "abbrName": "Con", 
+            "eName": "Condition", 
+            "isMapped": true, 
+            "cName": "条件", 
+            "isCore": false, 
+            "def": "The conditions under which the the verification will occur."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Descriptor", 
+            "isMapped": true, 
+            "cName": "描述符", 
+            "isCore": false, 
+            "def": "This FE describes a characteristic of the verification event. "
+        }, 
+        {
+            "abbrName": "Vie", 
+            "eName": "Viewpoint", 
+            "isMapped": true, 
+            "cName": "视角", 
+            "isCore": false, 
+            "def": "This FE identifies the \"by rule\" domain in which the verification event is true or operational (often denoted by words such as \"technically,\" \"technically,\" \"formally,\" etc. "
+        }, 
+        {
+            "abbrName": "Tim", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "This FE describes the Time at which the verification event takes place. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "This FE describes where the verificiation event takes place. "
+        }, 
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "The reason for the state of the verification event. "
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "核查", 
+            "POS": "v"
+        }, 
+        {
+            "word": "核实", 
+            "POS": "v"
+        }, 
+        {
+            "word": "确认", 
+            "POS": "v"
+        }, 
+        {
+            "word": "整改", 
+            "POS": "v"
+        }, 
+        {
+            "word": "证实", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 50
+}

@@ -125,12 +125,6 @@
             "def": "实体形成的原因。"
         }, 
         {
-            "isMapped": false, 
-            "cName": null, 
-            "isCore": false, 
-            "def": "This FE identifies the length of time that the Entity exists after coming to be."
-        }, 
-        {
             "abbrName": "manner", 
             "eName": "Manner", 
             "isMapped": true, 

@@ -1,0 +1,204 @@
+{
+    "fdInfo": {
+        "eName": "Destroying", 
+        "cName": "破坏", 
+        "des": "破坏者（有意识的实体）或致因（事件或卷入该事件中的实体）给经历体造成了消极影响，从而使该经历体不复存在。"
+    }, 
+    "element": [
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": true, 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "造成经历体毁坏的事件或实体。"
+        }, 
+        {
+            "abbrName": "destr", 
+            "eName": "Destroyer", 
+            "isMapped": true, 
+            "cName": "破坏者", 
+            "isCore": true, 
+            "def": "导致经历体受到破坏的有意识的实体。"
+        }, 
+        {
+            "abbrName": "Pat", 
+            "eName": "Patient", 
+            "isMapped": true, 
+            "cName": "经历体", 
+            "isCore": true, 
+            "def": "被破坏者或致因破坏的实体。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "破坏者为破坏经历体所使用的器物。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述破坏活动的特征或所处状态的成分，都归入该元素"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "破坏者为实施破坏所采取的行为。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "即经历体受到破坏的程度。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏行为的目的。 "
+        }, 
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "破坏者对经历体实施破坏行为的原因。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "破坏行为对经历体造成直接影响的具体部位。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "破坏者破坏经历体的时间。"
+        }, 
+        {
+            "abbrName": "Result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "This FE identifies the Result of an event on the Patient.  This FE is very rare in this frame, and since the Patient is destroyed by this process, the Result is generally constrained to indicate the Patient 's resulting inexistence. All of the buildings had been razed to nothing."
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases."
+        }, 
+        {
+            "abbrName": "Rol", 
+            "eName": "Role", 
+            "isMapped": true, 
+            "cName": "经历体类别", 
+            "isCore": false, 
+            "def": "The category in which the Patient is destroyed. "
+        }, 
+        {
+            "abbrName": "Fre", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "How often the Cause or Destroyer destroys the Patient."
+        }, 
+        {
+            "abbrName": "Con", 
+            "eName": "Containing_event", 
+            "isMapped": true, 
+            "cName": "包含事件", 
+            "isCore": false, 
+            "def": "This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part."
+        }, 
+        {
+            "abbrName": "Dep", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. "
+        }, 
+        {
+            "abbrName": "Med", 
+            "eName": "Medium", 
+            "isMapped": true, 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "Medium expresses the Medium in which the Patient is destroyed by the Cause or Destroyer.  This FE is generally used in Metaphorical uses of this frame. West demolished Kraft's arguments in his most recent essay."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "拆除", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拆卸", 
+            "POS": "v"
+        }, 
+        {
+            "word": "摧毁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁害", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁坏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁灭", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毁损", 
+            "POS": "v"
+        }, 
+        {
+            "word": "破坏", 
+            "POS": "v"
+        }, 
+        {
+            "word": "损毁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "夷为平地", 
+            "POS": "i"
+        }
+    ], 
+    "frameId": 17
+}

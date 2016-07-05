@@ -99,104 +99,104 @@
         {
             "abbrName": "Ori", 
             "eName": "Origin", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "出身", 
             "isCore": false, 
             "def": "The Origin is the place where the Representative was born or lived a salient part of her or his life."
         }, 
         {
             "abbrName": "rep", 
             "eName": "Representative", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "代表", 
             "isCore": true, 
             "def": "The Representative speaks for another."
         }, 
         {
             "abbrName": "Pers_char", 
             "eName": "Persistent_characteristic", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "坚持的品质", 
             "isCore": false, 
             "def": "The Persistent_characteristic is a physiological characteristic or personality trait of the Representative which is concieved of as persisting over time."
         }, 
         {
             "abbrName": "Desc", 
             "eName": "Descriptor", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "描述语", 
             "isCore": false, 
             "def": "The Descriptor is a temporary condition of the Representative."
         }, 
         {
             "abbrName": "Age", 
             "eName": "Age", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "年龄", 
             "isCore": false, 
             "def": "The Age is the length of time the Representative has been alive."
         }, 
         {
             "abbrName": "Eth", 
             "eName": "Ethnicity", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "种族地位", 
             "isCore": false, 
             "def": "The Ethnicity is the religious, racial, national, socio-economic or cultural group to which the Representative belongs."
         }, 
         {
             "abbrName": "coa", 
             "eName": "Context_of_acquaintance", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "人际背景", 
             "isCore": false, 
             "def": "An expression indicating the context with which the Representative is associated.\n"
         }, 
         {
             "abbrName": "rnk", 
             "eName": "Rank", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "阶层", 
             "isCore": false, 
             "def": "Rank is the position in a hierarchy that a Representative occupies within an organization."
         }, 
         {
             "abbrName": "poe", 
             "eName": "Place_of_employment", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "供职地点", 
             "isCore": false, 
             "def": "This FE identifies the Place where the Representative works."
         }, 
         {
             "abbrName": "repd", 
             "eName": "Represented", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "被代表者", 
             "isCore": false, 
             "def": "The Represented authorizes the Representative to communicate on its behalf."
         }, 
         {
             "abbrName": "typ", 
             "eName": "Type", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "类型", 
             "isCore": false, 
             "def": "This FE identifies the Type of Representative."
         }, 
         {
             "abbrName": "com", 
             "eName": "Compensation", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "补偿", 
             "isCore": false, 
             "def": "The Compensation is the payment that the Representative receives for performing a task."
         }, 
         {
             "abbrName": "cb", 
             "eName": "Contract_basis", 
-            "isMapped": false, 
-            "cName": null, 
+            "isMapped": true, 
+            "cName": "合同基础", 
             "isCore": false, 
             "def": "The Contract_basis describes the conditions of employment with respect to permanency, hours per time period, or payment basis.\n\nSmithers is a half-time spokesperson for Procteur et Gamble "
         }

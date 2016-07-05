@@ -1,0 +1,73 @@
+{
+    "fdInfo": {
+        "eName": "Suspiciousness", 
+        "cName": "可疑", 
+        "des": "一个具体的或者抽象的实体，其本身可疑，或者遭到外界置疑，一般情况是，实体提供了某些迹象（还没有证实）引发某种怀疑。"
+    }, 
+    "element": [
+        {
+            "abbrName": "Act", 
+            "eName": "Behavior", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": true, 
+            "def": "The Behavior is the state of affairs or action of the social actor that is regarded as susipcious. "
+        }, 
+        {
+            "abbrName": "soc", 
+            "eName": "Social_actor", 
+            "isMapped": true, 
+            "cName": "社会角色", 
+            "isCore": true, 
+            "def": "An individual that is suspected of wrongdoing because of the Behavior."
+        }, 
+        {
+            "abbrName": "Ent", 
+            "eName": "Entity", 
+            "isMapped": true, 
+            "cName": "实体", 
+            "isCore": true, 
+            "def": "The Entity metonymically stands in for a Behavior that saliently involves the Entity. "
+        }, 
+        {
+            "abbrName": "Deg", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "def_eng": "The extent to which the Behavior is suspicious.\nThat looks like very suspicious activity.", 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "某事物被质疑的程度。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Judge", 
+            "isMapped": true, 
+            "cName": "判断者", 
+            "isCore": false, 
+            "def": "The individual whose point of view is taken in assigning the judgment denoted by the target."
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "被质疑的事物。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "靠不住", 
+            "POS": "a"
+        }, 
+        {
+            "word": "靠不住", 
+            "POS": "i"
+        }, 
+        {
+            "word": "可疑", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 63
+}

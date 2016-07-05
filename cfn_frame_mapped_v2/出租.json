@@ -1,0 +1,210 @@
+{
+    "fdInfo": {
+        "eName": "Renting_out", 
+        "cName": "出租", 
+        "des": "拥有商品的出租者，获得承租者的货币，将商品一段时期内的使用权赋予承租者。"
+    }, 
+    "element": [
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "isMapped": true, 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "商品是在交易过程中临时用货币交换使用权的物品。"
+        }, 
+        {
+            "abbrName": "lee", 
+            "eName": "Lessee", 
+            "isMapped": true, 
+            "cName": "承租者", 
+            "isCore": true, 
+            "def": "承租者是通过向出租者支付一定的费用而获得商品临时使用权的人。"
+        }, 
+        {
+            "abbrName": "les", 
+            "eName": "Lessor", 
+            "isMapped": true, 
+            "cName": "出租者", 
+            "isCore": true, 
+            "def": "拥有商品所有权、临时把商品租给承租者以获得租金的人。"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "def_eng": "The length of time that the Goods are (or have been) in the Lessee's possession.   \n\nOur neighbors have rented their house out for the last ten years.", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "承租者拥有商品使用权的时间长度。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "def_eng": "A state-of-affairs from which the renting logically follows.\n\nI rented it out because since Ned died, nobody's been using it for anything.", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "租借的原因。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指该框架中未被其他更明确的框架元素所涵盖的任何对租借活动的描述，包括情态、方式等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "发生出租交易所凭借的手段。"
+        }, 
+        {
+            "abbrName": "mny", 
+            "eName": "Money", 
+            "isMapped": true, 
+            "cName": "货币", 
+            "isCore": false, 
+            "def": "货币是交易中为获得商品临时使用权所支付的租金。0"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "租借行为发生的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "实施出租行为的目的。"
+        }, 
+        {
+            "abbrName": "rate", 
+            "eName": "Rate", 
+            "isMapped": true, 
+            "cName": "单位价格", 
+            "isCore": false, 
+            "def": "有些租借行为中，支付的租金是按商品的单位价格来计算的，该框架元素即指商品的单位价格。"
+        }, 
+        {
+            "abbrName": "unit", 
+            "eName": "Unit", 
+            "isMapped": true, 
+            "cName": "计量单位", 
+            "isCore": false, 
+            "def": "该框架元素指可以用来计算商品或服务的任何单位，用“以”、“按”、“论”等介词引导。"
+        }, 
+        {
+            "abbrName": "Time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "The time at which the renting takes place."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "The state of the Lessor after the sale has occurred.\nI leased the whole lot at a loss."
+        }, 
+        {
+            "abbrName": "Imp", 
+            "eName": "Imposed_purpose", 
+            "isMapped": true, 
+            "cName": "强加的目的", 
+            "isCore": false, 
+            "def": "The Lessee's intended purpose for the Goods.\nHe leased the filing robot to me to organize all my legal documents."
+        }, 
+        {
+            "abbrName": "Bac", 
+            "eName": "Back", 
+            "isMapped": true, 
+            "cName": "反过来", 
+            "isCore": false, 
+            "def": "This FE indicates that the selling act reverses an earlier separate act in which the current Lessor rented or bought the Goods from the current Lessee.\n\n There is a plan for Mercer to buy the ground and lease it back to the club"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Relay", 
+            "isMapped": true, 
+            "cName": "转租", 
+            "isCore": false, 
+            "def": "This FE indicates that the current leasing constitues a re-lease by the current Lessor of  Goods that they bought or rented earlier from a third person (not the Lessee of the current leasing act).\n\nMy housemates rented my room on to an English student ."
+        }, 
+        {
+            "abbrName": "pog", 
+            "eName": "Purpose_of_goods", 
+            "isMapped": false, 
+            "cName": "对商品的处置", 
+            "isCore": false, 
+            "def": "表示承租者如何处置商品。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "isMapped": false, 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "描述出租的动作方向，由趋向补语表达。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "包租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出顶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "出租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "顶", 
+            "POS": "v"
+        }, 
+        {
+            "word": "赁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "招租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "转租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租借", 
+            "POS": "v"
+        }, 
+        {
+            "word": "租赁", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 276
+}

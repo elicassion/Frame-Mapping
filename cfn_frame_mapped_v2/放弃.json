@@ -1,0 +1,100 @@
+{
+    "fdInfo": {
+        "eName": "Forgoing", 
+        "cName": "放弃", 
+        "des": "一个放弃者决定不参加平常该做之事或者说平常想做之事。\u000b"
+    }, 
+    "element": [
+        {
+            "abbrName": "des", 
+            "eName": "Desirable", 
+            "isMapped": true, 
+            "cName": "想做之事", 
+            "isCore": true, 
+            "def": "想做之事是指放弃者不参加的事件或活动。"
+        }, 
+        {
+            "abbrName": "forg", 
+            "eName": "Forgoer", 
+            "isMapped": true, 
+            "cName": "放弃者", 
+            "isCore": true, 
+            "def": "放弃者决定不参加满足需要的活动或事件。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "该框架元素表示放弃者不参加想做之事的环境条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的程度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生所采用的方法。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生的处所。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "该框架元素表明放弃事件发生所要达到的目的。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该元素表明放弃事件发生的时间。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "This FE identifies the Explanation for which the forgoing occurs."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "放弃", 
+            "POS": "v"
+        }, 
+        {
+            "word": "弃权", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 459
+}

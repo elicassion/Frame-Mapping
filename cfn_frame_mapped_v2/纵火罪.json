@@ -1,0 +1,140 @@
+{
+    "fdInfo": {
+        "eName": "Arson", 
+        "cName": "纵火罪", 
+        "des": "故意以放火焚烧公私财物的方法危害公共安全的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "isMapped": true, 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "实施放火行为的人。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "isMapped": true, 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "在放火行为中安全和利益受到损害的人"
+        }, 
+        {
+            "abbrName": "off", 
+            "eName": "Offense", 
+            "isMapped": true, 
+            "cName": "犯罪方法", 
+            "isCore": true, 
+            "def": "The illegal setting of fire to destroy something."
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "放火行为的严重程度。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对放火行为的描写和陈述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "放火事件的持续时间"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "放火行为发生的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对放火行为进行形容。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "实行放火的方法"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "放火事件发生的地点。"
+        }, 
+        {
+            "abbrName": "Purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "意图", 
+            "isCore": false, 
+            "def": "The action that the Perpetrator is trying to accomplish with the arson Event.\n\nArson for insurance fraud is quite common."
+        }, 
+        {
+            "abbrName": "Time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "This FE identifies the Time when the arson occurs."
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases."
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "isMapped": false, 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "犯罪者焚烧公私财物的非法放火行为。"
+        }, 
+        {
+            "abbrName": "ent", 
+            "eName": "Entity", 
+            "isMapped": false, 
+            "cName": "实体", 
+            "isCore": false, 
+            "def": "实体"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "纵火犯人", 
+            "POS": "n"
+        }, 
+        {
+            "word": "纵火罪", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 184
+}

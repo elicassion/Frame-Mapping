@@ -1,0 +1,138 @@
+{
+    "fdInfo": {
+        "eName": "Death", 
+        "cName": "死亡", 
+        "des": "这个框架描述了死亡的主体，有时也表达出死亡的致因。"
+    }, 
+    "element": [
+        {
+            "abbrName": "prot", 
+            "eName": "Protagonist", 
+            "isMapped": true, 
+            "cName": "主体", 
+            "isCore": true, 
+            "def": "主体框架元素是指死亡的实体，一般做主语。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "程度框架元素是对事件的度量，一般指次数或频率。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "形容框架元素指主体死亡时的状态。 "
+        }, 
+        {
+            "abbrName": "sub", 
+            "eName": "Containing_event", 
+            "isMapped": true, 
+            "def_eng": "This FE identifies the larger event in which the Protagonist dies, i.e. changes from living to dead.\n\nThe pilot died in the crash", 
+            "cName": "背景事件", 
+            "isCore": false, 
+            "def": "事件框架指主体死亡的事件。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述事件所处的状态，是一个杂类，凡是无法归入其他更加具体的框架元素时，都归入修饰元素；做动词目标词的状语或补语，名词目标词的定语。   "
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "空间框架元素指死亡发生的地点。"
+        }, 
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "def_eng": "The FE Explanation expresses any object or eventuality that brings about the Protagonist's death.\n\nThe cat died of old age.\nThe children perished from hunger.\n", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "原因框架元素指主体死亡的原因。"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "结果框架元素指主体死亡导致的结果。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "时间框架元素指死亡发生的时间。"
+        }, 
+        {
+            "abbrName": "mal", 
+            "eName": "Maleficiary", 
+            "isMapped": true, 
+            "cName": "附属受害者", 
+            "isCore": false, 
+            "def": "An individual negatively affected by the death of the Protagonist.\n\nAww man, my dog died on me."
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": false, 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "致因框架元素指导致主体死亡的任何实体或不可预测的事件。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "断气", 
+            "POS": "v"
+        }, 
+        {
+            "word": "过世", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溺死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "去世", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死去", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死亡", 
+            "POS": "v"
+        }, 
+        {
+            "word": "死于", 
+            "POS": "v"
+        }, 
+        {
+            "word": "淹死", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 90
+}

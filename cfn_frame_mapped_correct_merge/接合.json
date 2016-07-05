@@ -239,6 +239,6 @@
             "cName": "时间", 
             "isCore": false, 
             "def": "This FE identifies the Time when the Agent intentionally affects the Item or Items. The robber tied Harry to the chair at midnight."
-        }, 
+        }
     ]
 }

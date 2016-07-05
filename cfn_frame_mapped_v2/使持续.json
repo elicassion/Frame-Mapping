@@ -1,0 +1,117 @@
+{
+    "fdInfo": {
+        "eName": "Cause_to_continue", 
+        "cName": "使持续", 
+        "des": "致动者致使过程或状态持续。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致使过程持续或状态维持的个人。 "
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": true, 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "致使过程或状态得以维持的事件。"
+        }, 
+        {
+            "abbrName": "proce", 
+            "eName": "Process", 
+            "isMapped": true, 
+            "cName": "过程", 
+            "isCore": true, 
+            "def": "过程是由致动者来维持的。"
+        }, 
+        {
+            "abbrName": "state", 
+            "eName": "State", 
+            "isMapped": true, 
+            "cName": "状态", 
+            "isCore": true, 
+            "def": "致动者保持的状态。"
+        }, 
+        {
+            "abbrName": "dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "def_eng": "The length of time for which the Agent maintain the State or Process.\n\n\n I responded quickly to the relaxed, calm atmosphere and found answers to questions that had kept me on edge for years.", 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "致动者保持状态或过程的时间段。"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者用来保持状态或过程的实体。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述发现活动的特征或所处状态的成分，都归入该元素，如“容易、轻易”等。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者或致因用以保持状态或过程的实体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "过程得以持续的地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者通过保持状态或过程意图实现的行为。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "过程持续的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "保持", 
+            "POS": "v"
+        }, 
+        {
+            "word": "持续", 
+            "POS": "v"
+        }, 
+        {
+            "word": "继承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "维持", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 198
+}

@@ -1,10 +1,107 @@
 {
     "fdInfo": {
-        "eName": "Expansion", 
+        "eName": "Similarity", 
         "cName": "类似", 
         "des": "两个不同的实体，或是具体的物体或是抽象的类型，彼此相似。这些实体可能被当作两个不同的框架元素或要素，即实体-1和实体-2，或者合起来作为单个框架元素或要素，即多个实体。其类似可能是基于两个实体的外观，物理特性或其他特性，然而，这些方面不是非出现不可;实体还可能或多或少在一定程度上相似。注意，虽然相似与否来自某个评判者的观念，但是评判者并不是相似框架中的一部分。"
     }, 
-    "frameId": 67, 
+    "element": [
+        {
+            "abbrName": "ent_1", 
+            "eName": "Entity_1", 
+            "isMapped": true, 
+            "cName": "实体1", 
+            "isCore": true, 
+            "def": "当两个实体被分开表达时，此框架元素标记两个实体中更显著的那个实体，一般做句子的主语或话题。"
+        }, 
+        {
+            "abbrName": "dimen", 
+            "eName": "Dimension", 
+            "isMapped": true, 
+            "cName": "维度", 
+            "isCore": true, 
+            "def": "此框架元素表达的是实体有相似点的方面，如外观、风格、物理特性等。"
+        }, 
+        {
+            "abbrName": "ent_2", 
+            "eName": "Entity_2", 
+            "isMapped": true, 
+            "cName": "实体2", 
+            "isCore": true, 
+            "def": "当两个实体被分开表达时，此框架元素标记两个实体中较不显著的那个实体，一般以介词短语或比喻句的喻体出现。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该框架元素描述实体的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素描述实体。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "实体具有相似点时所处的地点。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "该框架元素表示相似点是否存在的时间。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "实体在某些方面相似的程度。"
+        },  
+        {
+            "abbrName": "Expl", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "致因", 
+            "isCore": false, 
+            "def": "导致实体有相似点的原因。"
+        }, 
+        {
+            "abbrName": "ents", 
+            "eName": "Entities", 
+            "isMapped": true, 
+            "cName": "实体集", 
+            "isCore": true, 
+            "def": "实体是一组物体或抽象类型，其相似处是问题的核心。"
+        },  
+        {
+            "abbrName": "cir", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Differentiating_fact", 
+            "isMapped": true, 
+            "cName": "不同点", 
+            "isCore": true, 
+            "def": "A fact about Entity_1 or the Entities that reveals how Entity_1 is the same or different from other entities.  (Note the contrast with 'as to'.)\n\nHis presidency was different in that it offered a way forward for the common man .\nBanks primarily differ in offering different rates for different risks .\nWe are all similar in having two arms , two legs , a mind , and a heart to feel with ."
+        }
+    ], 
     "lexElmt": [
         {
             "word": "不同", 
@@ -75,158 +172,5 @@
             "POS": "v"
         }
     ], 
-    "element": [
-        {
-            "abbrName": "Grp", 
-            "eName": "Group", 
-            "isMapped": true, 
-            "cName": "实体集", 
-            "isCore": false, 
-            "def": "实体是一组物体或抽象类型，其相似处是问题的核心。"
-        }, 
-        {
-            "abbrName": "ent_1", 
-            "eName": "Entity_1", 
-            "isMapped": false, 
-            "cName": "实体1", 
-            "isCore": false, 
-            "def": "当两个实体被分开表达时，此框架元素标记两个实体中更显著的那个实体，一般做句子的主语或话题。"
-        }, 
-        {
-            "abbrName": "dimen", 
-            "eName": "Dimension", 
-            "isMapped": true, 
-            "cName": "维度", 
-            "isCore": false, 
-            "def": "此框架元素表达的是实体有相似点的方面，如外观、风格、物理特性等。"
-        }, 
-        {
-            "abbrName": "ent_2", 
-            "eName": "Entity_2", 
-            "isMapped": false, 
-            "cName": "实体2", 
-            "isCore": false, 
-            "def": "当两个实体被分开表达时，此框架元素标记两个实体中较不显著的那个实体，一般以介词短语或比喻句的喻体出现。"
-        }, 
-        {
-            "abbrName": "cause", 
-            "eName": "Cause", 
-            "isMapped": false, 
-            "cName": "致因", 
-            "isCore": false, 
-            "def": "导致实体有相似点的原因。"
-        }, 
-        {
-            "abbrName": "depic", 
-            "eName": "Depictive", 
-            "isMapped": false, 
-            "cName": "形容", 
-            "isCore": false, 
-            "def": "该框架元素描述实体的状态。"
-        }, 
-        {
-            "abbrName": "manr", 
-            "eName": "Manner", 
-            "isMapped": true, 
-            "cName": "方式", 
-            "isCore": false, 
-            "def": "该框架元素描述实体。"
-        }, 
-        {
-            "abbrName": "place", 
-            "eName": "Place", 
-            "isMapped": false, 
-            "cName": "处所", 
-            "isCore": false, 
-            "def": "实体具有相似点时所处的地点。"
-        }, 
-        {
-            "abbrName": "time", 
-            "eName": "Time", 
-            "isMapped": true, 
-            "cName": "时间", 
-            "isCore": false, 
-            "def": "该框架元素表示相似点是否存在的时间。"
-        }, 
-        {
-            "abbrName": "degr", 
-            "eName": "Degree", 
-            "isMapped": true, 
-            "cName": "程度", 
-            "isCore": false, 
-            "def": "实体在某些方面相似的程度。"
-        }, 
-        {
-            "abbrName": "Item", 
-            "eName": "Item", 
-            "isMapped": true, 
-            "cName": "实体", 
-            "isCore": true, 
-            "def": "This FE identifies the Item whose size changes.\nJoan's new sweater shrank to a size that might fit a doll."
-        }, 
-        {
-            "abbrName": "Initial", 
-            "eName": "Initial_size", 
-            "isMapped": true, 
-            "cName": "初始尺度", 
-            "isCore": false, 
-            "def": "Initial_size is used for the size of the Item before any change occurs.  It is rarely expressed without Result_size also being explicit.  Initial_size generally occurs in a PP-from Complement.\n\nThe glacier shrank from 1km square to 400 square meters."
-        }, 
-        {
-            "abbrName": "Result", 
-            "eName": "Result_size", 
-            "isMapped": true, 
-            "cName": "结果尺度", 
-            "isCore": false, 
-            "def": "Result_size is the size that the Item has after the event.  It is typically expressed in a PP Complement headed by to.\n\nThe trees grow to 25 feet. "
-        }, 
-        {
-            "abbrName": "SizeC", 
-            "eName": "Size_change", 
-            "isMapped": true, 
-            "cName": "变化尺度", 
-            "isCore": false, 
-            "def": "This FE identifies the Size_change of an Item.\n\nA 2-3cm expansion in width is required."
-        }, 
-        {
-            "abbrName": "Rate", 
-            "eName": "Rate", 
-            "isMapped": true, 
-            "cName": "变化率", 
-            "isCore": false, 
-            "def": "This FE identifies the Rate of change of the value.\n\nThe balloon inflates about 2 cubic cm a minute."
-        }, 
-        {
-            "abbrName": "Dur", 
-            "eName": "Duration", 
-            "isMapped": true, 
-            "cName": "时长", 
-            "isCore": false, 
-            "def": "This FE identifies the Duration of time that the expansion takes.\n\nThe piglet had grown 6 inches over two months. "
-        }, 
-        {
-            "abbrName": "co-v", 
-            "eName": "Co-variable", 
-            "isMapped": true, 
-            "cName": "伴随者", 
-            "isCore": false, 
-            "def": "Co_variable is the quantity that varies commensurately with the size of the Item, usually construed to be causally linked to the size.\n\nThe snake's belly expanded with each mouse it ate. "
-        }, 
-        {
-            "abbrName": "Path", 
-            "eName": "Path", 
-            "isMapped": true, 
-            "cName": "路径", 
-            "isCore": false, 
-            "def": "Path is used for any expression that gives information about points on the scale of size that the Item traverses between the starting and ending point of its movement.\nThe muscle tissue contracts down to less than half its original length."
-        }, 
-        {
-            "abbrName": "goal", 
-            "eName": "Goal", 
-            "isMapped": true, 
-            "cName": "目标", 
-            "isCore": false, 
-            "def": "Where the Iteam ends up due to Expansion."
-        }
-    ]
+    "frameId": 67
 }

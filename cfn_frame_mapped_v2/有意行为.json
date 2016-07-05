@@ -1,0 +1,172 @@
+{
+    "fdInfo": {
+        "eName": "Intentionally_act", 
+        "cName": "有意行为", 
+        "des": "该框架是个抽象框架，表示有意志的生命所进行的活动。该框架主要用于（其它具体框架）对框架元素的继承。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者进行有意行为。"
+        }, 
+        {
+            "abbrName": "act", 
+            "eName": "Act", 
+            "isMapped": true, 
+            "cName": "行为", 
+            "isCore": false, 
+            "def": "表示致动者有意进行的行为。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者进行有意活动的目的。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "致动者的行为所处的领域。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "致动者在给定时间内进行某行为的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该框架元素对有意行为进行表述，并且不属于那些含义比较具体明确的框架元素，包括次要印象（静静地，吵闹地），也包括一般的表示事件之间的比较的描述（同样）。此外，该元素也表示致动者所具有的并对行为产生影响的突出的特征（冒昧地，冷淡地，故意地，急切地，小心地）。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "表示致动者进行有意行为的方式。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "表示有意行为发生的场所。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "表示致动者进行有意行为的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Period_of_iterations", 
+            "isMapped": true, 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "The length of time from when the event denoted by the target began to be repeated to when it stopped."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "The Result of an act. "
+        }, 
+        {
+            "abbrName": "par", 
+            "eName": "Particular_iteration", 
+            "isMapped": true, 
+            "cName": "特定次数", 
+            "isCore": false, 
+            "def": "Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the state of affairs expressed by the target, but not in all cases. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Event_description", 
+            "isMapped": true, 
+            "cName": "事件描述", 
+            "isCore": false, 
+            "def": "This FE gives a description of the Intentionally_act event."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "从事", 
+            "POS": "v"
+        }, 
+        {
+            "word": "措施", 
+            "POS": "n"
+        }, 
+        {
+            "word": "奉承", 
+            "POS": "v"
+        }, 
+        {
+            "word": "活动", 
+            "POS": "n"
+        }, 
+        {
+            "word": "进行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实施", 
+            "POS": "v"
+        }, 
+        {
+            "word": "实行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "所作所为", 
+            "POS": "n"
+        }, 
+        {
+            "word": "行动", 
+            "POS": "v"
+        }, 
+        {
+            "word": "行为", 
+            "POS": "n"
+        }, 
+        {
+            "word": "执行", 
+            "POS": "v"
+        }, 
+        {
+            "word": "做", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 114
+}

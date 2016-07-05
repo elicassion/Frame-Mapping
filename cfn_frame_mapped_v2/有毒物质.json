@@ -1,0 +1,105 @@
+{
+    "fdInfo": {
+        "eName": "Toxic_substance", 
+        "cName": "有毒物质", 
+        "des": "指含有毒性的物质，其被人体或其他有机体吸收会产生毒害作用。如砒霜、氰化钾等。"
+    }, 
+    "element": [
+        {
+            "abbrName": "tox_subs", 
+            "eName": "Toxic_substance", 
+            "isMapped": true, 
+            "cName": "有毒物质", 
+            "isCore": true, 
+            "def": "指含有毒性的物质，其被人体或其他有机体吸收会产生毒害作用。如砒霜、氰化钾等。"
+        }, 
+        {
+            "abbrName": "tox_src", 
+            "eName": "Toxin_source", 
+            "isMapped": true, 
+            "cName": "毒素源", 
+            "isCore": true, 
+            "def": "有毒物质的来源。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "isMapped": true, 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "受到有毒物质损害的人或其他有机体。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "isMapped": true, 
+            "cName": "身体部位", 
+            "isCore": false, 
+            "def": "有毒物质由于其毒性不同，其有害性表现为对人体或有机体某一部位的损伤。"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "有毒物质发挥毒性的条件。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "有毒物质对受害者的有害程度。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "def_eng": "A fact or action that explains why the Toxic_substance has a harmful effect on the Victim .", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "有毒物质产生毒害作用的机理。"
+        }, 
+        {
+            "abbrName": "typ", 
+            "eName": "Type", 
+            "isMapped": true, 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "Type identifies the kind or sort of Toxic_substance."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "Temporal period for which the substance or source remains toxic to the victim."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "毒", 
+            "POS": "n"
+        }, 
+        {
+            "word": "毒素", 
+            "POS": "n"
+        }, 
+        {
+            "word": "毒液", 
+            "POS": "n"
+        }, 
+        {
+            "word": "分泌毒液的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "有毒的", 
+            "POS": "a"
+        }
+    ], 
+    "frameId": 176
+}

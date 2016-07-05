@@ -112,7 +112,7 @@
             "abbrName": "expla", 
             "eName": "Explanation", 
             "isMapped": true, 
-            "cName": "解释", 
+            "cName": "原因", 
             "isCore": false, 
             "def": "入侵者所响应的一种事态，该状态使他们发起对该地域的攻击。"
         }, 
@@ -235,14 +235,6 @@
             "cName": "背景事件", 
             "isCore": false, 
             "def": "该框架元素是指某时间段内发生的某个事件或持续的某种事态，该事件或事态包含由目标词所指的事件或事态，或者说目标词所指的事件或事态是该框架元素所指的事件或事态的一部分。"
-        }, 
-        {
-            "abbrName": "re-e", 
-            "eName": "Re-encoding", 
-            "isMapped": false, 
-            "cName": null, 
-            "isCore": false, 
-            "def": "This FE presents the current frame as an integral part of a larger conceptualization expressed by another frame. The frame expressed by the target typically corresponds to a Means action within the frame expressed by the Re-encoding, but not necessarily. "
         }, 
         {
             "abbrName": "Exp", 

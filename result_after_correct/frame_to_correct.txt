@@ -1,0 +1,304 @@
+保密状态	Secrecy_status	1
+	No English Name: 
+		致动者
+
+行为重启	Activity_resume	2
+	Pure UnMapped: 
+		实体
+
+职权变更	Change_of_leadership	3
+	Pure UnMapped: 
+		上位事件
+
+艺术制品	Physical_artworks	4
+	Pure UnMapped: 
+		物量
+
+信息交流	Communication	5
+	No English Name: 
+		领域
+
+行为进行	Activity_ongoing	6
+	Pure UnMapped: 
+		致因
+
+实例	Instance	7
+	Pure UnMapped: 
+		方式
+
+受雇	Being_employed	8
+	Pure UnMapped: 
+		工作量
+
+相信	Certainty	9
+	No English Name: 
+		形容
+	Pure UnMapped: 
+		时间
+
+鲜明性	Obviousness	10
+	Pure UnMapped: 
+		背景
+
+行为绝对终止	Activity_stop	11
+	Pure UnMapped: 
+		实体
+
+虐待	Abusing	12
+	Pure UnMapped: 
+		原因
+
+经受	Undergoing	13
+	Pure UnMapped: 
+		方法
+
+感知觉	Perception	14
+	Pure UnMapped: 
+		身体部位
+
+决定	Deciding	15
+	Pure UnMapped: 
+		主题
+
+居住	Residence	16
+	Pure UnMapped: 
+		程度
+
+事件发生时间改变	Change_event_time	17
+	Pure UnMapped: 
+		形容
+
+值得	Deserving	18
+	Pure UnMapped: 
+		施动者
+
+纵火罪	Arson	19
+	Pure UnMapped: 
+		事件
+		实体
+
+渴望	Desiring	20
+	Pure UnMapped: 
+		目的
+
+死刑	Execution	21
+	Pure UnMapped: 
+		法院
+
+范畴化	Categorization	22
+	No English Name: 
+		角色范围
+	Pure UnMapped: 
+		特征项
+		现象
+		频率
+		特定次数
+
+非自主感知	Perception_experience	23
+	Pure UnMapped: 
+		印象
+
+指望	Reliance_on_expectation	24
+	No English Name: 
+		现象
+
+出口	Exporting	25
+	Pure UnMapped: 
+		商品数量
+		单位时间
+
+情景记忆	Remembering_experience	26
+	Pure UnMapped: 
+		形容
+
+记	Memorization	27
+	Pure UnMapped: 
+		现象
+
+形成	Coming_to_be	28
+	Pure UnMapped: 
+		状态
+
+启程	Getting_underway	29
+	Pure UnMapped: 
+		自移者位置
+		区域
+
+迹象	Sign	30
+	Pure UnMapped: 
+		程度
+
+文本	Text	31
+	Pure UnMapped: 
+		方式
+
+赦免	Pardon	32
+	No English Name: 
+		宣布机关
+		宣布时间
+
+思考	Cogitation	33
+	Pure UnMapped: 
+		问题
+
+预期	Expectation	34
+	Pure UnMapped: 
+		内容
+
+知道	Awareness	35
+	Pure UnMapped: 
+		事件评价
+		角色范围
+		亚区
+
+行为完成状态	Activity_done_state	36
+	Pure UnMapped: 
+		状态
+
+发光	Location_of_light	37
+	Pure UnMapped: 
+		现象
+
+观点	Opinion	38
+	No English Name: 
+		现象
+
+使分散	Dispersal	39
+	Pure UnMapped: 
+		形容
+
+给予	Giving	40
+	Pure UnMapped: 
+		接受目的
+
+行为准备就绪状态	Activity_ready_state	41
+	Pure UnMapped: 
+		状态
+
+面部表情	Facial_expression	42
+	Pure UnMapped: 
+		身体部位
+
+锻炼	Exercising	43
+	Pure UnMapped: 
+		环境条件
+		益处
+
+承租	Renting	44
+	Pure UnMapped: 
+		对商品的处置
+
+拜访场景_停留	Visiting_scenario_stay	45
+	Pure UnMapped: 
+		终点
+
+理解	Grasp	46
+	No English Name: 
+		内容
+	Pure UnMapped: 
+		身份
+		程度
+
+监禁	Imprisonment	47
+	Pure UnMapped: 
+		司法机关
+
+注意	Attention	48
+	No English Name: 
+		感知者范围
+		形容
+	Pure UnMapped: 
+		特定次数
+		时间
+		方法
+		处所
+
+发声	Make_noise	49
+	No English Name: 
+		方向
+
+行为过程	Activity	50
+	Pure UnMapped: 
+		实体
+
+传达评价	Judgment_communication	51
+	Pure UnMapped: 
+		判断
+
+挑选	Choosing	52
+	Pure UnMapped: 
+		目的
+
+状态持续	State_continue	53
+	Pure UnMapped: 
+		原因
+
+死亡	Death	54
+	Pure UnMapped: 
+		致因
+
+获奖	Win_prize	55
+	Pure UnMapped: 
+		交际力量
+
+发现	Becoming_aware	56
+	Pure UnMapped: 
+		形容
+
+进展	Progress	57
+	Pure UnMapped: 
+		施动者
+		结果时量
+
+使用	Using	58
+	Pure UnMapped: 
+		动作时量
+
+出租	Renting_out	59
+	Pure UnMapped: 
+		对商品的处置
+		方向
+
+使开始	Cause_to_start	60
+	Pure UnMapped: 
+		交际力度
+
+监狱	Prison	61
+	Pure UnMapped: 
+		类型
+
+通缉犯罪嫌疑人	Want_suspect	62
+	Pure UnMapped: 
+		官方
+
+辨别	Differentiation	63
+	Pure UnMapped: 
+		背景
+		工具
+
+唤起	Evoking	64
+	Pure UnMapped: 
+		方法
+
+钱	Money	65
+	Pure UnMapped: 
+		用途
+
+缴械投降	Surrendering_possession	66
+	Pure UnMapped: 
+		交流力
+
+可疑	Suspiciousness	67
+	No English Name: 
+		现象
+
+存现	Existence	68
+	Pure UnMapped: 
+		施动者
+		致因
+
+行动相对中止	Activity_pause	69
+	Pure UnMapped: 
+		依据
+		致因
+

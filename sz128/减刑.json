@@ -1,0 +1,89 @@
+{
+    "fdInfo": {
+        "eName": "commutation", 
+        "cName": "减刑", 
+        "des": "人民法院将原来的刑罚改为新的较轻的刑罚，接受原来刑罚的罪犯通常被表示为改造者。"
+    }, 
+    "frameId": 208, 
+    "lexElmt": [
+        {
+            "word": "减刑", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "exe", 
+            "eName": "Executive_authority", 
+            "isMapped": true, 
+            "cName": "行政当局", 
+            "isCore": true, 
+            "def": "法律确定的具有减刑权的机构。",
+            "def_eng": "The constitutionally specified authority who has the power to commute punishments.\nHearst was sentenced to seven years in prison. 1979, President Jimmy Carter commuted Hearst's prison sentence after she served nearly two years. "
+        }, 
+        {
+            "abbrName": "ori", 
+            "eName": "Original_punishment", 
+            "isMapped": true, 
+            "cName": "原来的刑罚", 
+            "isCore": true, 
+            "def": "罪犯原来被课处的刑罚。"
+        }, 
+        {
+            "abbrName": "man", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对减刑的描述，由更多的明确的框架元素表述出来。它可能也指出了人民法院影响行为的显著特征。"
+        }, 
+        {
+            "abbrName": "mea", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "人民法院完成减刑所采取的行为。"
+        }, 
+        {
+            "abbrName": "new", 
+            "eName": "New_punishment", 
+            "isMapped": true, 
+            "cName": "新的刑罚", 
+            "isCore": false, 
+            "def": "人民法院对罪犯判处的新的较轻的刑罚。"
+        }, 
+        {
+            "abbrName": "offender", 
+            "eName": "Offender", 
+            "isMapped": true, 
+            "cName": "罪犯", 
+            "isCore": false, 
+            "def": "被宣告有罪并被判处刑罚(原来的刑罚)的人。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "人民法院减轻原来刑罚的地点。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "人民法院减轻原来刑罚的原因"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "原来的刑罚被减刑的时间。"
+        }
+    ]
+}

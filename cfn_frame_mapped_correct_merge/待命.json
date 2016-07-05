@@ -151,6 +151,6 @@
             "cName": "地点", 
             "isCore": false, 
             "def": "The location in which the Protagonist is waiting.\n\nGuards are standing by outside the State Guesthouse for new orders."
-        }, 
+        }
     ]
 }

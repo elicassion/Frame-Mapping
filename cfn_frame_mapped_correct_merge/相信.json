@@ -174,7 +174,7 @@
     "element": [
         {
             "abbrName": "cog", 
-            "eName": "Congizer", 
+            "eName": "Cognizer", 
             "isMapped": true, 
             "cName": "认知者", 
             "isCore": true, 
@@ -243,6 +243,14 @@
             "cName": "原因", 
             "isCore": false, 
             "def": "The reason for which the Cognizer is certain."
+        },
+        {
+            "abbrName": "Conc",
+            "eName": "Concessive",
+            "isMapped": true,
+            "cName": "让步",
+            "isCore": false,
+            "def": "This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the concessive clause. "
         }
     ]
 }

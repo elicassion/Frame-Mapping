@@ -1,0 +1,156 @@
+{
+    "fdInfo": {
+        "eName": "Locative_relation", 
+        "cName": "方位关系", 
+        "des": "形象相对于背景位置而存在。形象的位置可进一步用距离和方向来说明，距离指形象和参照位置（一般是指示中心）之间的距离，方向指的是从参照位置（一般是指示中心）到形象的方向。"
+    }, 
+    "element": [
+        {
+            "abbrName": "fig", 
+            "eName": "Figure", 
+            "isMapped": true, 
+            "cName": "形象", 
+            "isCore": true, 
+            "def": "指相对于某个背景位置的形象。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "isMapped": true, 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "背景是描写形象位置的基础"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Profiled_region", 
+            "isMapped": true, 
+            "cName": "描述区域", 
+            "isCore": true, 
+            "def": "The region within which a Figure might be found.  This FE is exclusive of Figure, and is a reconstrual that is not possible with verb lexical units.\n\nNext to the kitchen is the best place to locate your garage ."
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "isMapped": true, 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "指从路径的参照位置（一般是指示中心）到形象的方向。"
+        }, 
+        {
+            "abbrName": "dist", 
+            "eName": "Distance", 
+            "isMapped": true, 
+            "cName": "路程", 
+            "isCore": false, 
+            "def": "指形象与某个参照位置之间的距离（一般是指示中心或背景）"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": " 形象和背景获得位置关系的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Figures", 
+            "isMapped": true, 
+            "cName": "互联体", 
+            "isCore": false, 
+            "def": "The Figures are items which mutually serve to identify the location of the other items."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Deixis", 
+            "isMapped": true, 
+            "cName": "指示功能", 
+            "isCore": false, 
+            "def": "An indication of how the locative phrase relates to the grounding of the speech situation, either locating it near (here) or far (there, yonder), or specifically separated from the speech context by distance or a barrier (over).  Fillers of this FE are restricted to this closed class of items.\n\nShe has a boyfriend way over in Springfield.\nIt is lying here on my desk.\n\n"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Accessibility", 
+            "isMapped": true, 
+            "cName": "可得性", 
+            "isCore": false, 
+            "def": "An indication of how accessible the Figure is to some participant in the speech context (either the speaker or the addressee, or some other highly salient viewpoint in a narrative).  This FE normally describes availability for manipulation and use, but may simply describe how easily seen or difficult to see the Figure is. There is a closed class of items that can fill this slot, including only 'just' and 'right' indicating ease of access, and 'way', 'all the way', or (dialectally) 'clear' indicating distance and difficulty of access.  \n\nOh yeah , the flashlight 's right in my handbag.\n I had an uncle that lived clear over in Kenmore , and I tried to ride my bike there.\n\nWhile ease of access correlates with proximal deixis (e.g. 'right here') and difficulty correlates with distal deixis (e.g. 'all the way over there'), these notions are separable as shown in the following examples:\n\nI have two officers right over in the next room.\nYou ca n't come way out here to my mom 's!"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Directness", 
+            "isMapped": true, 
+            "cName": "直接", 
+            "isCore": false, 
+            "def": "An indication of how closely the position of Figure matches the prototype expected from the image schema associated with the target.  This FE is normally filled by closed-class, dedicated adverbs like right, straight, directly, and due (and some combinations of these), but also occurs with rarer items like 'smack dab'.\n\nShe put her wallet straight into the drawer.\nI ran right straight at the pole.\n\nSome general adverbs that indicate exact and non-exact match to an idea can also express this FE:\nWe set our tents up approximately northeast of here."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Temporal_profile", 
+            "isMapped": true, 
+            "cName": "时间谱", 
+            "isCore": false, 
+            "def": "A description of how the access path to the Ground interacts with time.  This FE is filled only by the closed class of adverbials back.adv (which indicates that the position was occupied by the Figure before) and on.adv (which indicates a continued path).  While this FE in its most basic use refers to cases of actual motion, it can be used with descriptions of static position, in which case it either refers to fictive, imagined motion (as in the first example below), or it backgrounds motion entirely (as in the second example).\n\nYou 'll find it straight on around behind the door.\nI do n't know why my kids are back out of the crib."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Region_quantification", 
+            "isMapped": true, 
+            "cName": "区域量化", 
+            "isCore": false, 
+            "def": "A description of how much of a potential profiled region actually has (or is expected to have) a Figure in it.  It is normally filled by closed-class items like 'all', 'somewhere', 'nowhere', etc.\n\nI think it 's somewhere under the truck .\nAll along the watchtowers, princes kept the view pristine ."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "横亘", 
+            "POS": "v"
+        }, 
+        {
+            "word": "横贯", 
+            "POS": "v"
+        }, 
+        {
+            "word": "横跨", 
+            "POS": "v"
+        }, 
+        {
+            "word": "接近", 
+            "POS": "v"
+        }, 
+        {
+            "word": "邻接", 
+            "POS": "v"
+        }, 
+        {
+            "word": "邻近", 
+            "POS": "v"
+        }, 
+        {
+            "word": "临近", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毗连", 
+            "POS": "v"
+        }, 
+        {
+            "word": "毗邻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相连", 
+            "POS": "v"
+        }, 
+        {
+            "word": "相邻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "沿着", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 44
+}

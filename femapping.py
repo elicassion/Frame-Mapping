@@ -12,12 +12,12 @@ import xmltodict
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
-cfnFrameRootDir = "D:\\GitHub\\CFN-Crawler\\cfn_frame"
+cfnFrameRootDir = "D:\\GitHub\\Frame-Mapping\\cfn_frame_mapped_correct_merge"
 fnFrameRootDir = "D:\\SJTU\\SpeechLab\\FrameNet\\FrameNetData\\fndata-1.6\\frame"
 frameMappingFileName = "ce_mapping.json"
 frameMappingDic = {}
 
-cfnLinkMapDir = "cfn_frame_mapped"
+cfnLinkMapDir = "cfn_frame_mapped_v2"
 if not os.path.exists(cfnLinkMapDir):
 	os.mkdir(cfnLinkMapDir)
 fnLinkMapDir = "fn_frame_mapped"
@@ -29,13 +29,20 @@ noENameNumbers = []
 pureUnMappedNumbers = []
 unMappedFnFENumbers = []
 
+afterCorrectDic = "result_after_correct"
+if not os.path.exists(afterCorrectDic):
+	os.mkdir(afterCorrectDic)
 noENameDetailFileName = "noename_unmapped_detail.txt"
 pureUnMappedDetailFileName = "pure_unmapped_detail.txt"
 unMappedFnFEFileName = "fnfe_unmapped_detail.txt"
 
-noENameDetailFile = codecs.open(noENameDetailFileName, "w")
-pureUnMappedDetailFile = codecs.open(pureUnMappedDetailFileName, "w")
-unMappedFnFEFile = codecs.open(unMappedFnFEFileName, "w")
+# noENameDetailFile = codecs.open(noENameDetailFileName, "w")
+# pureUnMappedDetailFile = codecs.open(pureUnMappedDetailFileName, "w")
+# unMappedFnFEFile = codecs.open(unMappedFnFEFileName, "w")
+
+noENameDetailFile = codecs.open(os.path.join(afterCorrectDic, noENameDetailFileName), "w")
+pureUnMappedDetailFile = codecs.open(os.path.join(afterCorrectDic, pureUnMappedDetailFileName), "w")
+unMappedFnFEFile = codecs.open(os.path.join(afterCorrectDic, unMappedFnFEFileName), "w")
 
 unMappedInfoSortedByFrameArray = []
 def init():
@@ -48,12 +55,14 @@ def readCfn(cName):
 	cfnFrameFileName = os.path.join(cfnFrameRootDir, cName+".json")
 	cfnFrameFile = codecs.open(cfnFrameFileName, "r")
 	s = cfnFrameFile.read()
+	cfnFrameFile.close()
 	return s
 
 def readFn(eName):
 	fnFrameFileName = os.path.join(fnFrameRootDir, eName+".xml")
 	fnFrameFile = codecs.open(fnFrameFileName, "r")
 	s = fnFrameFile.read()
+	fnFrameFile.close()
 	return s
 
 def removeTag(string):
@@ -66,6 +75,8 @@ def extractFnFE(fnFrameDic):
 	fnFEDef = []
 	fnFEs = fnFrameDic["frame"]["FE"]
 	for fnFE in fnFEs:
+		if fnFE["@name"] in fnFENames:
+			continue
 		fnFENames.append(fnFE["@name"])
 		fnFEIsCore.append(True if fnFE["@coreType"] == "Core" else False)
 		fnFEAbbr.append(fnFE["@abbrev"] if not fnFE["@abbrev"] == "" else None)
@@ -79,7 +90,23 @@ def judgeMapping(src, dst):
 	else:
 		return False
 
+def cmp_cfnfe(fe1, fe2):
+	isMap1 = fe1["isMapped"]
+	isMap2 = fe2["isMapped"]
+	isCore1 = fe1["isCore"]
+	isCore2 = fe2["isCore"]
+	if isMap1 and not isMap2:
+		return -1
+	elif isMap1 and isMap2:
+		if isCore1 and not isCore2:
+			return -1
+		else:
+			return 1
+	else:
+		return 1
+
 def writeMappedFile(name, dic):
+	dic["element"].sort(cmp_cfnfe)
 	mappedFileName = os.path.join(cfnLinkMapDir, name+".json")
 	mappedFile = codecs.open(mappedFileName, "w")
 	mappedFile.write(json.dumps(dic, ensure_ascii = False, indent = 4))
@@ -116,7 +143,7 @@ def cmpframe(f1, f2):
 
 def writeSortedByFrame():
 	filename = "frame_to_correct.txt"
-	file = codecs.open(filename, "w")
+	file = codecs.open(os.path.join(afterCorrectDic, filename), "w")
 	unMappedInfoSortedByFrameArray.sort(cmpframe)
 	fcode = 0
 	for fm in unMappedInfoSortedByFrameArray:
@@ -143,6 +170,7 @@ def writeSortedByFrame():
 
 init()
 for (cName, eName) in frameMappingDic.items():
+	#print cName, eName
 	cfnFrameDic = json.loads(readCfn(cName))
 	fnFrameDic = xmltodict.parse(readFn(eName))
 
@@ -203,7 +231,7 @@ for (cName, eName) in frameMappingDic.items():
 
 	#break
 
-feMappingResultFile = codecs.open(feMappingResultFileName, "w")
+feMappingResultFile = codecs.open(os.path.join(afterCorrectDic, feMappingResultFileName), "w")
 feMappingResultFile.write("Mapped FEs: "+str(sum(mappedNumbers))+"\n")
 feMappingResultFile.write("UnMapped CFN FEs: "+str(sum(unMappedNumbers))+"\n")
 feMappingResultFile.write("No English Name CFN FEs: "+str(sum(noENameNumbers))+"\n")

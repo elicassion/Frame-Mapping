@@ -1,0 +1,60 @@
+{
+    "fdInfo": {
+        "eName": "Being_dry", 
+        "cName": "干燥", 
+        "des": "物体处于干燥状态。"
+    }, 
+    "element": [
+        {
+            "abbrName": "Item", 
+            "eName": "Item", 
+            "isMapped": true, 
+            "cName": "物体", 
+            "isCore": true, 
+            "def": "The Item exists in a state of dryness.\n The mop is dry."
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "该框架元素指物体干燥的程度。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "亚区指较大的整体中受影响部分。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "干", 
+            "POS": "a"
+        }, 
+        {
+            "word": "干旱", 
+            "POS": "a"
+        }, 
+        {
+            "word": "干燥", 
+            "POS": "a"
+        }, 
+        {
+            "word": "焦", 
+            "POS": "a"
+        }, 
+        {
+            "word": "焦枯", 
+            "POS": "a"
+        }, 
+        {
+            "word": "脱水", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 479
+}

@@ -1,0 +1,156 @@
+{
+    "fdInfo": {
+        "eName": "Abusing", 
+        "cName": "虐待", 
+        "des": "虐待是指经常以打骂、冻饿、禁闭、有病不治、强迫过度劳动或者限制人身自由、凌辱人格等方法，从肉体上或精神上对他人进行摧残迫害的行为。"
+    }, 
+    "element": [
+        {
+            "abbrName": "abu", 
+            "eName": "Abuser", 
+            "isMapped": true, 
+            "cName": "虐待者", 
+            "isCore": true, 
+            "def": "经常对受害者施以打骂、冻饿、禁闭等行为的人。一般来讲，虐待者在经济上或社会关系上占有优势地位。"
+        }, 
+        {
+            "abbrName": "vic", 
+            "eName": "Victim", 
+            "isMapped": true, 
+            "cName": "受害者", 
+            "isCore": true, 
+            "def": "被虐待者施以虐待行为的人。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指虐待行为的强度和严重度。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "虐待行为所持续的时间"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "虐待行为发生的频率"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "虐待者施以虐待行为时使用的物品。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对虐待行为进行的描述，表明虐待行为的特征。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为使用的方法"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "虐待行为发生的地点"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为所追求的目标。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指虐待行为发生的时间"
+        }, 
+        {
+            "abbrName": "type", 
+            "eName": "Type", 
+            "isMapped": true, 
+            "cName": "类型", 
+            "isCore": false, 
+            "def": "指虐待者在哪方面对受害者施以虐待行为。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. The depicted state does not necessarily or usually facilitate or cause the state of affairs reported by the target. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. "
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Period_of_iterations", 
+            "isMapped": true, 
+            "cName": "迭代周期", 
+            "isCore": false, 
+            "def": "The length of time from when the Abusing event began to be repeated to when it stopped."
+        }, 
+        {
+            "abbrName": "rea", 
+            "eName": "Reason", 
+            "isMapped": false, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "虐待者实施虐待行为的心理动因。 "
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "虐待", 
+            "POS": "v"
+        }, 
+        {
+            "word": "施虐", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 73
+}

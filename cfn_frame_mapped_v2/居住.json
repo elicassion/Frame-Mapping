@@ -1,0 +1,132 @@
+{
+    "fdInfo": {
+        "eName": "Residence", 
+        "cName": "居住", 
+        "des": "该框架是涉及到居住在某居住地的人（居民），有时还有共同居住者。"
+    }, 
+    "element": [
+        {
+            "abbrName": "resid", 
+            "eName": "Resident", 
+            "isMapped": true, 
+            "cName": "居民", 
+            "isCore": true, 
+            "def": "居住在某居住地的个人或群体。"
+        }, 
+        {
+            "abbrName": "co_resid", 
+            "eName": "Co_resident", 
+            "isMapped": true, 
+            "cName": "共同居住者", 
+            "isCore": true, 
+            "def": "与居民同住的某一个人或一群人"
+        }, 
+        {
+            "abbrName": "loc", 
+            "eName": "Location", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": true, 
+            "def": "某人居住的地方。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "居民在居住期间的状态。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "实施行动的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "使居民居住在某居住地的行动。"
+        }, 
+        {
+            "abbrName": "fre", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "Frequency at which event occurs."
+        }, 
+        {
+            "abbrName": "tim", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "This FE refers to the Time when the Resident resides."
+        }, 
+        {
+            "abbrName": "cir", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. "
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": false, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "事件发生的程度。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "寄居", 
+            "POS": "v"
+        }, 
+        {
+            "word": "寄宿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "居住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "露宿", 
+            "POS": "v"
+        }, 
+        {
+            "word": "露营", 
+            "POS": "v"
+        }, 
+        {
+            "word": "宿营", 
+            "POS": "n"
+        }, 
+        {
+            "word": "宿营", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住居", 
+            "POS": "v"
+        }, 
+        {
+            "word": "住宿", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 59
+}

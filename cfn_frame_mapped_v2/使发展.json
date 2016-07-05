@@ -1,0 +1,176 @@
+{
+    "fdInfo": {
+        "eName": "Cause_to_make_progress", 
+        "cName": "使发展", 
+        "des": "指某一致动者使某项目达到更好的或期望的状态。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "指带动项目发展的个人。"
+        }, 
+        {
+            "abbrName": "proje", 
+            "eName": "Project", 
+            "isMapped": true, 
+            "cName": "项目", 
+            "isCore": true, 
+            "def": "指通过致动者的动作，发生变化的事物或思想。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "指项目获得的发展变化量。"
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "指发展的相关范围。"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "指致动者发展某项目所持续的时间长度。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "指对发展过程的描述；除此之外，它可能描述影响发展的致动者的特征或状态。"
+        }, 
+        {
+            "abbrName": "post_s", 
+            "eName": "Post_state", 
+            "isMapped": true, 
+            "cName": "后状态", 
+            "isCore": false, 
+            "def": "指项目发展之后的状态。"
+        }, 
+        {
+            "abbrName": "pri_s", 
+            "eName": "Prior_state", 
+            "isMapped": true, 
+            "cName": "前状态", 
+            "isCore": false, 
+            "def": "指项目发展之前的状态。"
+        }, 
+        {
+            "abbrName": "rt", 
+            "eName": "Rate", 
+            "isMapped": true, 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "指项目发展的速度。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "指项目发生变化的时间。"
+        }, 
+        {
+            "abbrName": "Pla", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "The location at which the the Project progresses. "
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "解释", 
+            "isCore": false, 
+            "def": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. "
+        }, 
+        {
+            "abbrName": "Par", 
+            "eName": "Particular_iteration", 
+            "isMapped": true, 
+            "cName": "次数", 
+            "isCore": false, 
+            "def": "Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. "
+        }, 
+        {
+            "abbrName": "Pur", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "This FE identifies the Purpose for which the Agent progresses the Project. "
+        }, 
+        {
+            "abbrName": "Mea", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "为完成发展采取的行动"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "发展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "改进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "进步", 
+            "POS": "v"
+        }, 
+        {
+            "word": "前进", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提高", 
+            "POS": "v"
+        }, 
+        {
+            "word": "提升", 
+            "POS": "v"
+        }, 
+        {
+            "word": "拓展", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完善", 
+            "POS": "v"
+        }, 
+        {
+            "word": "完善", 
+            "POS": "a"
+        }, 
+        {
+            "word": "增加", 
+            "POS": "v"
+        }, 
+        {
+            "word": "增进", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 199
+}

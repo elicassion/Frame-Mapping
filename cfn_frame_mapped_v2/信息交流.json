@@ -1,0 +1,172 @@
+{
+    "fdInfo": {
+        "eName": "Communication", 
+        "cName": "信息交流", 
+        "des": "信息传递者把关于某个话题（关涉）的信息通过一定的媒介传递给信息接收者。本框架对交流的方法（说话、文字、手势等）没有具体限制。"
+    }, 
+    "element": [
+        {
+            "abbrName": "communi", 
+            "eName": "Communicator", 
+            "isMapped": true, 
+            "cName": "信息传递者", 
+            "isCore": true, 
+            "def": "用书面或口语或其他形式把信息传递给另外一个人或团体的人。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "isMapped": true, 
+            "cName": "媒介", 
+            "isCore": true, 
+            "def": "信息被传播时所借助的具体或抽象的工具。"
+        }, 
+        {
+            "abbrName": "msg", 
+            "eName": "Message", 
+            "isMapped": true, 
+            "cName": "信息", 
+            "isCore": true, 
+            "def": "信息传递者希望信息接收者相信或接受的一个或一组命题。"
+        }, 
+        {
+            "abbrName": "top", 
+            "eName": "Topic", 
+            "isMapped": true, 
+            "cName": "主题", 
+            "isCore": true, 
+            "def": " 关涉是传递的信息所涉及的事物。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Content", 
+            "isMapped": true, 
+            "cName": "内容", 
+            "isCore": true, 
+            "def": "The Content of a Communication is not always concretely described -- but nonetheless Content contains information (usually regarding a frame) that a Communicator transmits to the Addressee."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Quote", 
+            "isMapped": true, 
+            "cName": "引用", 
+            "isCore": true, 
+            "def": "The Quote is the concrete record of a communication act."
+        }, 
+        {
+            "abbrName": "add", 
+            "eName": "Addressee", 
+            "isMapped": true, 
+            "cName": "信息接收者", 
+            "isCore": false, 
+            "def": "指接收信息的一方。"
+        }, 
+        {
+            "abbrName": "aoi", 
+            "eName": "Amount_of_information", 
+            "isMapped": true, 
+            "cName": "信息量", 
+            "isCore": false, 
+            "def": "信息交换过程中传达的信息的多少。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对信息传递中的人的描述。"
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "动作时量", 
+            "isCore": false, 
+            "def": "信息传递时间持续的长短。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对信息传递事件的描述。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "信息传递发生的时间。"
+        }, 
+        {
+            "abbrName": "Mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "The Means by which the Communicator communicates."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "This FE describes the number of times per unit of time that the Communicator conveys a Message."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "地点", 
+            "isCore": false, 
+            "def": "The location where the act of communication occurs."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "The purpose for which a Communicator communicates."
+        }, 
+        {
+            "abbrName": "dom", 
+            "eName": null, 
+            "isMapped": false, 
+            "cName": "领域", 
+            "isCore": false, 
+            "def": "信息所属的领域。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "沟通", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交流", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交涉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "交谈", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联络", 
+            "POS": "v"
+        }, 
+        {
+            "word": "联系", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 24
+}

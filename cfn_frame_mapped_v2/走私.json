@@ -1,0 +1,165 @@
+{
+    "fdInfo": {
+        "eName": "Smuggling", 
+        "cName": "走私", 
+        "des": "是指违反海关法规，逃避海关监管，运输、携带、邮寄物品入境或出境的行为。物品通常为禁止、限制进出口或应纳税物品。"
+    }, 
+    "element": [
+        {
+            "abbrName": "goal", 
+            "eName": "Goal", 
+            "isMapped": true, 
+            "cName": "终点", 
+            "isCore": true, 
+            "def": "运输、携带、邮寄物品所要到达的场所。"
+        }, 
+        {
+            "abbrName": "goods", 
+            "eName": "Goods", 
+            "isMapped": true, 
+            "cName": "商品", 
+            "isCore": true, 
+            "def": "当事人运输、携带、邮寄的非法入境或出境的物品。"
+        }, 
+        {
+            "abbrName": "path", 
+            "eName": "Path", 
+            "isMapped": true, 
+            "cName": "路径", 
+            "isCore": true, 
+            "def": "指货物入境或出境的路线。"
+        }, 
+        {
+            "abbrName": "perp", 
+            "eName": "Perpetrator", 
+            "isMapped": true, 
+            "cName": "犯罪者", 
+            "isCore": true, 
+            "def": "运输、携带、邮寄物品非法入境或出境的人。"
+        }, 
+        {
+            "abbrName": "src", 
+            "eName": "Source", 
+            "isMapped": true, 
+            "cName": "起点", 
+            "isCore": true, 
+            "def": "货物最初的所在地。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "走私货物所持续的时间。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "isMapped": true, 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "货物非法出入境的事实。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "走私事件发生的次数。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "对走私行为进行的描述、形容。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "当事人走私货物的手段。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "事件发生地点。"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "当事人想通过走私达到的目的。"
+        }, 
+        {
+            "abbrName": "exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "def_eng": "The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases.", 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Constant_location", 
+            "isMapped": true, 
+            "cName": "货物转移物", 
+            "isCore": false, 
+            "def": "The container, vehicle, or other entity that the Goods move with and remain stationary with respect to.\n\nShe 'll smuggle them in suit cases."
+        }, 
+        {
+            "abbrName": "dis", 
+            "eName": "Distance", 
+            "isMapped": true, 
+            "cName": "距离", 
+            "isCore": false, 
+            "def": "The distance travelled by the Goods."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Speed", 
+            "isMapped": true, 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "The amount of time per distance travelled by the Goods.\n\nThey smuggled the bomb swiftly through customs."
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "禁运的", 
+            "POS": "a"
+        }, 
+        {
+            "word": "走私", 
+            "POS": "n"
+        }, 
+        {
+            "word": "走私", 
+            "POS": "v"
+        }, 
+        {
+            "word": "走私者", 
+            "POS": "n"
+        }
+    ], 
+    "frameId": 285
+}

@@ -1,0 +1,268 @@
+{
+    "fdInfo": {
+        "eName": "Location_of_light", 
+        "cName": "发光", 
+        "des": "现象由于光亮在其上面闪亮而从背景处突显出来。阳光映在她的脸上。"
+    }, 
+    "frameId": 41, 
+    "lexElmt": [
+        {
+            "word": "发", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发（光）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "发亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "反照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "返照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放（光）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "放射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辐射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "光照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "辉映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "普照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "散射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪光", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪闪发光", 
+            "POS": "i"
+        }, 
+        {
+            "word": "闪射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪烁", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闪耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投", 
+            "POS": "v"
+        }, 
+        {
+            "word": "投射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "斜射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "衍射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照亮", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照临", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照明", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "照耀", 
+            "POS": "v"
+        }, 
+        {
+            "word": "折射", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烛（火光烛天）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "烛照", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "isMapped": false, 
+            "cName": "现象", 
+            "isCore": false, 
+            "def": "从某背景处感知到的事物。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "isMapped": true, 
+            "cName": "背景", 
+            "isCore": true, 
+            "def": "光亮出现之处，用处所短语或表示地点的介词短语表示。\r\n      \t\r\n"
+        }, 
+        {
+            "abbrName": "lit", 
+            "eName": "Light", 
+            "isMapped": true, 
+            "cName": "光亮", 
+            "isCore": true, 
+            "def": "发出的光亮。"
+        }, 
+        {
+            "abbrName": "Degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "Degree to which the Light is emitted, usually indicating the brightness."
+        }, 
+        {
+            "abbrName": "Dep", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "描述", 
+            "isCore": false, 
+            "def": "The state of a focal participant during the emission of Light .\nThe moonlight shone cold over the Scottish moor."
+        }, 
+        {
+            "abbrName": "Manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "Manner of Light emission.\nIn the dim light the gold and strong colours glittered and glowed intensely."
+        }, 
+        {
+            "abbrName": "Fig", 
+            "eName": "Figure", 
+            "isMapped": true, 
+            "cName": "图形", 
+            "isCore": true, 
+            "def": "The percept which is perceived at a certain Ground location.\nCandlelight sparkled on the silverware.Her face glistened with sweat."
+        }, 
+        {
+            "abbrName": "Result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "The Result of the emission of the Light .\nThe screen glowed into life."
+        }, 
+        {
+            "abbrName": "Shine", 
+            "eName": "Cause_of_shine", 
+            "isMapped": true, 
+            "cName": "发光原因", 
+            "isCore": false, 
+            "def": "This is the cause of the shininess of the phenomenon, generally introduced by 'with'.Her face glistened with sweat.His eyes gleamed with amusement."
+        }, 
+        {
+            "abbrName": "Dur", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": null, 
+            "isCore": "时长", 
+            "def": "The period for which the Figure shows up against the Ground due to Light falling on it.\n\nFor a few minutes the walls glowed in the sun"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "The spatial setting in which the Figure shows up against a Ground location.\n\nOutside something was shimmering on the shore."
+        }, 
+        {
+            "abbrName": "Time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "The Time when the Figure is observed against the Ground location due to Light shining on it.\n\nIn the morning the grass glistened with dew"
+        }
+    ]
+}

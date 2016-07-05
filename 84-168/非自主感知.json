@@ -1,0 +1,308 @@
+{
+    "fdInfo": {
+        "eName": "Perception_experience", 
+        "cName": "非自主感知", 
+        "des": "感知者通过经历某种感知活动，在大脑中形成了对现象的认识（印象）。在此期间，感知者并不是自发地有意识地控制着感知活动的发生、发展，能否获得认识或者能否获得正确的印象，也并不是感知者所能控制的，因此，我们称感知者为\"非自主感知者\"，这种感知活动也就相应地称为\"非自主感知\"。注意，[自主感知]框架和[非自主感知]框架所含词语是不同的，例如，[自主感知]包含\"看，听\"，而[非自主感知]的词语则是\"看见，听见\"；这两个框架也包含相同的词语，如\"感觉\"，\"我感觉浑身疼痛\"，属于[非自主感知]，\"就像我们的物理学家所说，人应该切身地来感觉核反应堆\"，属于[自主感知]，但\"感觉\"一词很少用来表达这种自主感知活动。"
+    }, 
+    "frameId": 9, 
+    "lexElmt": [
+        {
+            "word": "尝出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "尝到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "瞅见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "触目", 
+            "POS": "v"
+        }, 
+        {
+            "word": "传闻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "睹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "耳闻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "风闻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "感觉", 
+            "POS": "v"
+        }, 
+        {
+            "word": "见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "尽收眼底", 
+            "POS": "i"
+        }, 
+        {
+            "word": "觉察到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "觉得", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "看见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "窥见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "目睹", 
+            "POS": "v"
+        }, 
+        {
+            "word": "目击", 
+            "POS": "v"
+        }, 
+        {
+            "word": "目见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "瞥见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "瞧见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "亲见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听出", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "听说", 
+            "POS": "v"
+        }, 
+        {
+            "word": "望见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闻（耳闻）", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闻到", 
+            "POS": "v"
+        }, 
+        {
+            "word": "闻见", 
+            "POS": "v"
+        }, 
+        {
+            "word": "映入眼帘", 
+            "POS": "i"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "perc_pass", 
+            "eName": "Perceiver_passive", 
+            "isMapped": true, 
+            "cName": "非自主感知者", 
+            "isCore": true, 
+            "def": "该元素指获得某种认识的人，这个人并不能自主控制感知觉活动的发生、发展，也不能决定能否正确认识现象，通常用主语表示。"
+        }, 
+        {
+            "abbrName": "pcpt", 
+            "eName": "Percept", 
+            "isMapped": false, 
+            "cName": "印象", 
+            "isCore": false, 
+            "def": "由感知觉而得到的印象，是现象在大脑中的表征，通常用宾语表达。"
+        }, 
+        {
+            "abbrName": "bodp", 
+            "eName": "Body_part", 
+            "isMapped": true, 
+            "cName": "身体部位", 
+            "isCore": true, 
+            "def": "表示感知觉活动所借助的感觉器官，用名词性短语或介词短语表示。"
+        }, 
+        {
+            "abbrName": "phen", 
+            "eName": "Phenomenon", 
+            "isMapped": true, 
+            "cName": "现象", 
+            "isCore": true, 
+            "def": "是存在于人的认识之外的实体、事件等，作为感知觉活动的对象，刺激人的感官，使感知者获得关于该现象的印象。因此，现象和印象的差别在于，现象存在于人的意识之外，而印象是现象在人的大脑中的表征，当感知者正确地感知某现象时，会使得印象与现象相符，当感知者错误地感知现象时，所获得的印象就不符合实际存在的现象。在非自主感知活动中，突显的是印象，现象元素在表达中很少出现，一般用\"对\"引导的介词短语表示。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "描述事件有层级差别的属性，表示事件达到了什么水平。\r\n"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "该元素在句法上从属于目标词，做状语/定语/补语，但在语义上描写的却是事件的参与者，表示参与者在事件过程中所处的状态。"
+        }, 
+        {
+            "abbrName": "dir", 
+            "eName": "Direction", 
+            "isMapped": true, 
+            "cName": "方向", 
+            "isCore": false, 
+            "def": "该元素描述感知者的注意力在感知活动中朝向哪里。注意，该元素与下面的感知者位置不同，方向表示动作的方向，而感知者位置表示的是非自主感知者在感知活动中所处的位置。"
+        }, 
+        {
+            "abbrName": "ground", 
+            "eName": "Ground", 
+            "isMapped": true, 
+            "cName": "背景", 
+            "isCore": false, 
+            "def": "背景是现象所处的位置，作为感知觉活动的背景场所，用处所短语表示。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "Loc", 
+            "eName": "Location_of_protagonist",  
+            "isMapped": true, 
+            "cName": "感知者位置", 
+            "isCore": false, 
+            "def": "该框架元素表明感知者在感知过程中所处的位置，用\"从、在\"等引导的介词短语等形式表示，做状语。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "表示感知觉活动发生的地点，感知者和现象都在其中。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，在无法归入其他各类非核心框架元素的情况下，凡是描述感知活动的特征或所处状态的成分，都归入该元素。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "感知者通过某种行为或事物进行感知，这种行为或事物就是方法。\r\n\r\n"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "获得感知经验的时间。\r\n\t"
+        }, 
+        {
+            "abbrName": "State", 
+            "eName": "State", 
+            "isMapped": true, 
+            "cName": "状态", 
+            "isCore": false, 
+            "def": "State is the location, activity, or other characteristic of the Phenomenon.\n\nI saw the baker baking his special peanut butter pie.\n\nI overheard the cat in the cupboard.\n\nI heard fear in his voice."
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "状态时长", 
+            "isCore": false, 
+            "def": "Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. "
+        }, 
+        {
+            "abbrName": "con", 
+            "eName": "Contrastive_context", 
+            "isMapped": true, 
+            "cName": "对比上下文", 
+            "isCore": false, 
+            "def": "An element of the discourse that serves to contextualize the Phenomenon, with which it is directly related (i.e. filling a frame-element role of the Phenomenon or vice-versa).  It contrasts with other contextually relevant elements that potentially (but do not actually) fill the same role.\n\nSuch a difference in note-taking accuracy can also be seen for second-year pupils ."
+        }, 
+        {
+            "abbrName": "concs", 
+            "eName": "Concessive", 
+            "isMapped": true, 
+            "cName": "让步", 
+            "isCore": false, 
+            "def": "This FE signifies that the state-of-affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state-of-affairs would be expected given the state-of-affairs in the concessive clause."
+        }, 
+        {
+            "abbrName": "Cir", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境", 
+            "isCore": false, 
+            "def": "A situation which pertains during the event.  This frame element is primarily used to highlight the event denoted by the target against a (potentially partially) causal or concessive background state-of-affairs."
+        }, 
+        {
+            "abbrName": "fre", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "An expression of how often the event occurs."
+        }, 
+        {
+            "abbrName": "Obs_med", 
+            "eName": "Obscuring_medium", 
+            "isMapped": true, 
+            "cName": "介质", 
+            "isCore": false, 
+            "def": "The Obscuring_medium is the medium through which the Phenomenon makes itself perceivable to the Perceiver_passive.  This is similar to the Direction, but occurs in the opposite direction and implies a movement of the Phenomenon.\n\nMy mother heard the scream through the attic window."
+        }
+    ]
+}

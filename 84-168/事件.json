@@ -1,0 +1,80 @@
+{
+    "fdInfo": {
+        "eName": "Event", 
+        "cName": "事件", 
+        "des": "一个事件在某个空间和某个时间发生。"
+    }, 
+    "frameId": 83, 
+    "lexElmt": [
+        {
+            "word": "发生", 
+            "POS": "v"
+        }
+    ], 
+    "element": [
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": true, 
+            "def": "事件发生的地方。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": true, 
+            "def": "事件发生的时间。"
+        }, 
+        {
+            "abbrName": "evnt", 
+            "eName": "Event", 
+            "isMapped": true, 
+            "cName": "事件", 
+            "isCore": false, 
+            "def": "发生的事件。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "事件发生所持续的时间。"
+        }, 
+        {
+            "abbrName": "freq", 
+            "eName": "Frequency", 
+            "isMapped": true, 
+            "cName": "频率", 
+            "isCore": false, 
+            "def": "事件发生的频率。"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "该元素是一个杂类，它们无法归入以上各类非核心元素，笼统归入该元素。注意，修饰元素是对事件本身的描述，而不是对参与者或者话语环境的描述。包括表示主观认识的修饰语（大概，不可思议），表示容易程度的词语（容易、难以），等等。"
+        }, 
+        {
+            "abbrName": "Exp", 
+            "eName": "Explanation", 
+            "isMapped": true, 
+            "cName": "原因", 
+            "isCore": false, 
+            "def": "事件发生的原因。"
+        }, 
+        {
+            "abbrName": "timespan", 
+            "eName": "Timespan", 
+            "isMapped": true, 
+            "cName": "时间间隔", 
+            "isCore": false, 
+            "def": "The period within which an Event has occurred.\n\nIt was the largest food fight to occur since the time Jimmy's mom packed him extra Sloppy Joes.\n\nFrom 1992 to 2014, my amazing birthday celebration has happened 22 times."
+        }
+    ]
+}

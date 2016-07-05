@@ -1,0 +1,200 @@
+{
+    "fdInfo": {
+        "eName": "Cause_change_of_phase", 
+        "cName": "使状态发生变化", 
+        "des": "致动者使经历体经历状态的变化。变化的结果可以和起始状态及变化发生时的环境条件一起出现在句子中。"
+    }, 
+    "element": [
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": true, 
+            "cName": "施动者", 
+            "isCore": true, 
+            "def": "致动者使经历体改变状态。"
+        }, 
+        {
+            "abbrName": "cause", 
+            "eName": "Cause", 
+            "isMapped": true, 
+            "cName": "致因", 
+            "isCore": true, 
+            "def": "非致动者，但给经历体带来变化。"
+        }, 
+        {
+            "abbrName": "Pat", 
+            "eName": "Patient", 
+            "isMapped": true, 
+            "cName": "经历体", 
+            "isCore": true, 
+            "def": "经历体经历状态的变化，状态的变化是致动者带来的"
+        }, 
+        {
+            "abbrName": "circ", 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "状态发生变化的环境条件。"
+        }, 
+        {
+            "abbrName": "container", 
+            "eName": "Container", 
+            "isMapped": true, 
+            "cName": "容器", 
+            "isCore": false, 
+            "def": "容器装有状态正在发生变化的经历体。"
+        }, 
+        {
+            "abbrName": "degr", 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "经历体的状态改变的阶段。"
+        }, 
+        {
+            "abbrName": "depic", 
+            "eName": "Depictive", 
+            "isMapped": true, 
+            "cName": "形容", 
+            "isCore": false, 
+            "def": "对状态发生变化时的致动者或经历体的描述。"
+        }, 
+        {
+            "abbrName": "dura", 
+            "eName": "Duration", 
+            "isMapped": true, 
+            "cName": "时量", 
+            "isCore": false, 
+            "def": "致动者改变经历体状态所用的时间长度。"
+        }, 
+        {
+            "abbrName": "horc_src", 
+            "eName": "Hot_cold_source", 
+            "isMapped": true, 
+            "cName": "热/冷源", 
+            "isCore": false, 
+            "def": "冷或热的来源 "
+        }, 
+        {
+            "abbrName": "i_state", 
+            "eName": "Initial_state", 
+            "isMapped": true, 
+            "cName": "初状态", 
+            "isCore": false, 
+            "def": "经历体最初的状态"
+        }, 
+        {
+            "abbrName": "instru", 
+            "eName": "Instrument", 
+            "isMapped": true, 
+            "cName": "工具", 
+            "isCore": false, 
+            "def": "致动者有意影响经历体所用的工具"
+        }, 
+        {
+            "abbrName": "manr", 
+            "eName": "Manner", 
+            "isMapped": true, 
+            "cName": "方式", 
+            "isCore": false, 
+            "def": "致动者有意影响经历体的方式。"
+        }, 
+        {
+            "abbrName": "mns", 
+            "eName": "Means", 
+            "isMapped": true, 
+            "cName": "方法", 
+            "isCore": false, 
+            "def": "致动者有意影响经历体所采取的手段。"
+        }, 
+        {
+            "abbrName": "medium", 
+            "eName": "Medium", 
+            "isMapped": true, 
+            "cName": "媒介", 
+            "isCore": false, 
+            "def": "围绕并促进经历体发生状态改变的物质。"
+        }, 
+        {
+            "abbrName": "place", 
+            "eName": "Place", 
+            "isMapped": true, 
+            "cName": "处所", 
+            "isCore": false, 
+            "def": "状态发生变化的地方"
+        }, 
+        {
+            "abbrName": "purp", 
+            "eName": "Purpose", 
+            "isMapped": true, 
+            "cName": "目的", 
+            "isCore": false, 
+            "def": "致动者影响经历体的目的"
+        }, 
+        {
+            "abbrName": "result", 
+            "eName": "Result", 
+            "isMapped": true, 
+            "cName": "结果", 
+            "isCore": false, 
+            "def": "状态发生变化的结果。"
+        }, 
+        {
+            "abbrName": "spd", 
+            "eName": "Speed", 
+            "isMapped": true, 
+            "cName": "速度", 
+            "isCore": false, 
+            "def": "状态发生变化的速度。"
+        }, 
+        {
+            "abbrName": "subr", 
+            "eName": "Subregion", 
+            "isMapped": true, 
+            "cName": "亚区", 
+            "isCore": false, 
+            "def": "局部描写整体中受到影响的部分。"
+        }, 
+        {
+            "abbrName": "time", 
+            "eName": "Time", 
+            "isMapped": true, 
+            "cName": "时间", 
+            "isCore": false, 
+            "def": "状态发生变化的时间。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "冰冻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "固化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "解冻", 
+            "POS": "v"
+        }, 
+        {
+            "word": "溶解", 
+            "POS": "v"
+        }, 
+        {
+            "word": "融化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "液化", 
+            "POS": "v"
+        }, 
+        {
+            "word": "蒸发", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 82
+}

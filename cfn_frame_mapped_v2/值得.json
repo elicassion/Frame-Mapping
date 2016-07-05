@@ -1,0 +1,88 @@
+{
+    "fdInfo": {
+        "eName": "Deserving", 
+        "cName": "值得", 
+        "des": "某种事态的存在值得致动者采取某种行动。"
+    }, 
+    "element": [
+        {
+            "abbrName": "soa", 
+            "eName": "State_of_affairs", 
+            "isMapped": true, 
+            "cName": "事态", 
+            "isCore": true, 
+            "def": "值得采取另一行动的事件或实体。"
+        }, 
+        {
+            "abbrName": "action", 
+            "eName": "Action", 
+            "isMapped": true, 
+            "cName": "行动", 
+            "isCore": true, 
+            "def": "根据事态所应采取的行动。"
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Degree", 
+            "isMapped": true, 
+            "cName": "程度", 
+            "isCore": false, 
+            "def": "How sufficiently State_of_affairs can be considered a reason for the Action.\n\nYour son's behavior completely justifies the punishment he received."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Domain", 
+            "isMapped": true, 
+            "cName": "主要领域", 
+            "isCore": false, 
+            "def": "The general spectrum of reasoning along which the State_of_affairs is a justification.\n\nNot all bad behavior legally justifies eviction."
+        }, 
+        {
+            "abbrName": null, 
+            "eName": "Circumstances", 
+            "isMapped": true, 
+            "cName": "环境条件", 
+            "isCore": false, 
+            "def": "Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the Deserving event and any of its participants."
+        }, 
+        {
+            "abbrName": "agt", 
+            "eName": "Agent", 
+            "isMapped": false, 
+            "cName": "施动者", 
+            "isCore": false, 
+            "def": "通过分析事态来采取行动的人。"
+        }
+    ], 
+    "lexElmt": [
+        {
+            "word": "不值", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯不上", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯不着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯得上", 
+            "POS": "v"
+        }, 
+        {
+            "word": "犯得着", 
+            "POS": "v"
+        }, 
+        {
+            "word": "值当", 
+            "POS": "a"
+        }, 
+        {
+            "word": "值得", 
+            "POS": "v"
+        }
+    ], 
+    "frameId": 218
+}
